@@ -1,8 +1,0 @@
-DirBuster 1.0-RC1 - Report
-http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
-Report produced on Sat Jan 13 06:50:12 EST 2018
---------------------------------
-
-http://10.10.10.63:80
---------------------------------
---------------------------------
