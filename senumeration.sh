@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir $1
-nmap $1 -vv -Pn -sV -oN $1/$1-nmap-quick
+nmap $1 -vv -Pn -sV -A -oN $1/$1-nmap-quick
 java -jar /usr/share/dirbuster/DirBuster-1.0-RC1.jar -e php,html -u http://$1:80 -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt | tee $1/$1-dirbuster
 
 # HTTP *****************************************************************************************************
@@ -10,6 +10,7 @@ java -jar /usr/share/dirbuster/DirBuster-1.0-RC1.jar -e php,html -u http://$1:80
 # DNS *****************************************************************************************************
 # dig axfr @nameserver domain.net | tee $1/$1-dns-zone-transfer
 
+
 # SMTP *****************************************************************************************************
 # nmap $1 -vv -Pn -p25  --script=smtp-commands,smtp-enum-users,smtp-vuln-cve2010-4344,smtp-vuln-cve2011-1720,smtp-vuln-cve2011-1764 -oN $1/$1-nmap-smtp
 # smtp-user-enum -M VRFY -U /usr/share/wordlists/nmap.lst -t $1 | tee $1/$1-smtp-user-enum
@@ -17,6 +18,9 @@ java -jar /usr/share/dirbuster/DirBuster-1.0-RC1.jar -e php,html -u http://$1:80
 
 # SQL *****************************************************************************************************
 # nmap $1 -vv -Pn -p1433 --script=ms-sql-info,ms-sql-config,ms-sql-dump-hashes --script-args=mssql.instance-port=1433,smsql.username-sa,mssql.password-sa -oN $1/$1-nmap-sql
+# nmap $1 -vv -Pn -p1433 --script=ms-sql-tables --script-args=mssql.username=admin,mssql.password='pass',ms-sql-tables.maxtables='0' -oN $1/$1-nmap-sql-tables-databases
+# nmap $1 -vv -Pn -p1433 --script=ms-sql-dump-hashes --script-args=mssql.username=admin,mssql.password='pass' -oN $1/$1-nmap-sql-dumped-hashes
+# nmap $1 -vv -Pn -p1433 --script=ms-sql-config --script-args=mssql.username=admin,mssql.password='pass' -oN $1/$1-nmap-sql-config
 
 
 # KERBEROS *****************************************************************************************************
