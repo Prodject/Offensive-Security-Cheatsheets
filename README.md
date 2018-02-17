@@ -3,7 +3,7 @@ Disclaimer: I did not claim ownership of netcat and linux privilege escalation o
 
 ## Reconnaissance / Enumeration
 
-#### DNS
+##### DNS
 ```bash
 whois domain.com
 dig {a|txt|ns|mx} domain.com
