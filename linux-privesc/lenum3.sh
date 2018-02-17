@@ -1091,9 +1091,11 @@ if [ "$thorough" = "1" ]; then
   #phackt
   #displaying /etc/fstab
   fstab=`cat /etc/fstab 2>/dev/null`
+
   if [ "$fstab" ]; then
     echo -e "\e[00;31mNFS displaying partitions and filesystems - you need to check if exotic filesystems\e[00m"
     echo -e "$fstab"
+	mount
     echo -e "\n"
   fi
 fi
