@@ -3,6 +3,8 @@
 v="version 0.7"
 #@rebootuser
 
+thorough=1
+
 #help function
 usage () 
 { 
@@ -1384,3 +1386,4 @@ done
 
 call_each | tee -a $report 2> /dev/null
 #EndOfScript
+
