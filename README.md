@@ -5,6 +5,6 @@ Disclaimer: I did not claim ownership of netcat and linux privilege escalation o
 #### Test
 
 
-```shell
-ls -lah
+```bash
+for file in `ls -lah`; do echo $file; done
 ```
