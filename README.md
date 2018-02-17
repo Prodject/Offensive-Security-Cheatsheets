@@ -1,2 +1,4 @@
-# Offensive-Security-Cheatsheets
-Disclaimer: I did not write these tools and do not claim ownership!
+# Offensive Security / PenTesting Cheatsheets
+Disclaimer: I did not claim ownership of netcat and linux privilege escalation or reverse shell scripts.
+
+### Test
