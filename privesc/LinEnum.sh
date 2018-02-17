@@ -1094,7 +1094,7 @@ if [ "$thorough" = "1" ]; then
 
   if [ "$fstab" ]; then
     echo -e "\e[00;31mNFS displaying partitions and filesystems - you need to check if exotic filesystems\e[00m"
-    echo -e "$fstab"
+    echo -e "$fstab\n\n"
 	mount
     echo -e "\n"
   fi
