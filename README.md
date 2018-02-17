@@ -3,8 +3,11 @@ Disclaimer: I did not claim ownership of netcat and linux privilege escalation o
 
 ## Reconnaissance / Enumeration
 
+#### DNS
 ```bash
-for file in `ls -lah`; do echo $file; done
+whois domain.com
+dig {a|txt|ns|mx} domain.com
+dig {a|txt|ns|mx} domain.com @ns1.domain.com
 ```
 ## Gaining Access
 
