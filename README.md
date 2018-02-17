@@ -18,6 +18,19 @@ telnet $TARGET 80
 amap -bqv1 1-65535 $TARGET
 ```
 
+##### Port Scanning with NetCat
+```bash
+nc -nvv -w 1 -z host 1000-2000
+nc -nv -u -z -w 1 host 160-162
+```
+
+##### HTTP Brute-Force & Vulnerability Scanning
+```bash
+target=10.0.0.1; gobuster -u http://$target -r -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt -t 150 -l | tee /root/tools/$target/$target-gobuster
+target=10.0.0.1; nikto -h http://$target:80 | tee $target/$target-nikto
+target=10.0.0.1; wpscan --url http://$target:80 --enumerate u,t,p | tee $target/$target-wpscan-enum
+```
+
 
 
 
