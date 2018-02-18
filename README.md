@@ -37,6 +37,15 @@ target=10.0.0.1; nikto -h http://$target:80 | tee $target/$target-nikto
 target=10.0.0.1; wpscan --url http://$target:80 --enumerate u,t,p | tee $target/$target-wpscan-enum
 ```
 
+##### RPC / NetBios / SMB
+```bash
+rpcinfo -p $TARGET
+nbtscan $TARGET
+
+#list shares
+smbclient -L //$TARGET
+```
+
 
 
 
