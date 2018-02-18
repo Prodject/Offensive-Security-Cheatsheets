@@ -58,3 +58,16 @@ smbclient -L //$TARGET
 
 
 ## Local Enumeration & Privilege Escalation
+
+##### Searching files
+
+```bash
+# query the local db for a quick file find
+locate passwd 
+
+# show which directory, defined in $PATH, the file is located
+which nc wget curl php perl python netcat tftp telnet ftp
+
+# search agressively and recursively across the filesystem
+find /etc -iname *conf
+```
