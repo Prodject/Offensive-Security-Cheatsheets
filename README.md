@@ -44,6 +44,10 @@ nbtscan $TARGET
 
 #list shares
 smbclient -L //$TARGET
+
+# null session
+rpcclient -v "" $TARGET
+smbclient -L //$TARGET
 ```
 
 
