@@ -62,7 +62,7 @@ smbclient -L //$TARGET
 ##### Searching files
 
 ```bash
-# query the local db for a quick file find
+# query the local db for a quick file find. Run updatedb before executing locate.
 locate passwd 
 
 # show which directory, defined in $PATH, the file is located
