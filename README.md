@@ -43,7 +43,7 @@ rpcinfo -p $TARGET
 nbtscan $TARGET
 
 #list shares
-smbclient -L //$TARGET
+smbclient -L //$TARGET -U ""
 
 # null session
 rpcclient -v "" $TARGET
@@ -59,7 +59,7 @@ smbclient -L //$TARGET
 
 ## Local Enumeration & Privilege Escalation
 
-##### Searching files
+##### General File Search
 
 ```bash
 # query the local db for a quick file find. Run updatedb before executing locate.
@@ -71,3 +71,4 @@ which nc wget curl php perl python netcat tftp telnet ftp
 # search for *.conf (case-insensitive) files recursively starting with /etc;
 find /etc -iname *.conf
 ```
+
