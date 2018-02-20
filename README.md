@@ -11,7 +11,9 @@ The below is heavily inspired and based on https://github.com/dostoevskylabs/dos
 whois domain.com
 dig {a|txt|ns|mx} domain.com
 dig {a|txt|ns|mx} domain.com @ns1.domain.com
-host -l megacorpon.com ns1.megacorpone.com
+host -t {a|txt|ns|mx} megacorpone.com
+host -a megacorpone.com
+host -l megacorpone.com ns1.megacorpone.com
 dnsrecon -d domain.com -t axfr @ns1.domain.com
 dnsenum domain.com
 nslookup -> set type=any -> ls -d domain.com
