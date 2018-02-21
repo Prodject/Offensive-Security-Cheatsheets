@@ -86,7 +86,7 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 ```bash
 #!/bin/bash
 for lastOctet in {1..254}; do 
-    ping -c1 10.11.1.$lastOctet | grep "bytes from" | cut -d " " -f4 | cut -d ":" -f1 &
+    ping -c1 10.0.0.$lastOctet | grep "bytes from" | cut -d " " -f4 | cut -d ":" -f1 &
 done
 ```
 ##### Port Scanning with NetCat
