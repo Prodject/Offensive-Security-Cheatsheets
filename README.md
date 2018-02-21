@@ -54,7 +54,23 @@ rpcclient -v "" $TARGET
 smbclient -L //$TARGET
 ```
 
+##### SNMP
+```bash
 
+# Windows User Accounts
+snmpwalk -c public -v1 $TARGET 1.3.6.1.4.1.77.1.2.25
+
+# Windows Running Programs
+snmpwalk -c public -v1 $TARGET 1.3.6.1.2.1.25.4.2.1.2
+
+# Windows TCP Ports
+snmpwalk -c public -v1 $TARGET4 1.3.6.1.2.1.6.13.1.3
+
+# Software Name
+snmpwalk -c public -v1 $TARGET 1.3.6.1.2.1.25.6.3.1.2
+
+snmp-check $TARGET
+```
 
 
 ## Gaining Access
