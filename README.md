@@ -68,6 +68,9 @@ snmpwalk -c public -v1 $TARGET4 1.3.6.1.2.1.6.13.1.3
 # Software Name
 snmpwalk -c public -v1 $TARGET 1.3.6.1.2.1.25.6.3.1.2
 
+# brute-force community strings
+onesixtyone -i snmp-ips.txt -c community.txt
+
 snmp-check $TARGET
 ```
 
