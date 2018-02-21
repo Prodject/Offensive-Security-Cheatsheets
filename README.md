@@ -32,6 +32,10 @@ telnet $TARGET 80
 curl -vX $TARGET
 ```
 
+##### Kerberos User Enumeration
+```bash
+nmap $TARGET -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='test'
+```
 
 
 ##### HTTP Brute-Force & Vulnerability Scanning
