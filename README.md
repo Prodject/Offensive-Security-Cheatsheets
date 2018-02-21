@@ -27,11 +27,7 @@ telnet $TARGET 80
 curl -vX $TARGET
 ```
 
-##### Port Scanning with NetCat
-```bash
-nc -nvv -w 1 -z host 1000-2000
-nc -nv -u -z -w 1 host 160-162
-```
+
 
 ##### HTTP Brute-Force & Vulnerability Scanning
 ```bash
@@ -85,6 +81,19 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 
 
 ## Local Enumeration & Privilege Escalation
+
+##### Bash Ping Sweeper
+```bash
+#!/bin/bash
+for lastOctet in {1..254}; do 
+    ping -c1 10.11.1.$lastOctet | grep "bytes from" | cut -d " " -f4 | cut -d ":" -f1 &
+done
+```
+##### Port Scanning with NetCat
+```bash
+nc -nvv -w 1 -z host 1000-2000
+nc -nv -u -z -w 1 host 160-162
+```
 
 ##### General File Search
 
