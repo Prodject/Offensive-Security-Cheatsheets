@@ -68,6 +68,15 @@ snmpwalk -c public -v1 $TARGET 1.3.6.1.4.1.77.1.2.25
 # Windows Running Programs
 snmpwalk -c public -v1 $TARGET 1.3.6.1.2.1.25.4.2.1.2
 
+# Windows Hostname
+snmpwalk -c public -v1 $TARGET .1.3.6.1.2.1.1.5
+
+# Windows Share Information
+snmpwalk -c public -v1 $TARGET 1.3.6.1.4.1.77.1.2.3.1.1
+
+# Windows Share Information
+snmpwalk -c public -v1 $TARGET 1.3.6.1.4.1.77.1.2.27
+
 # Windows TCP Ports
 snmpwalk -c public -v1 $TARGET4 1.3.6.1.2.1.6.13.1.3
 
