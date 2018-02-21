@@ -72,6 +72,10 @@ snmpwalk -c public -v1 $TARGET 1.3.6.1.2.1.25.6.3.1.2
 snmp-check $TARGET
 ```
 
+##### SMTP
+```bash
+smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
+```
 
 ## Gaining Access
 
