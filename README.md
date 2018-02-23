@@ -107,6 +107,14 @@ for lastOctet in {1..254}; do
     ping -c 1 10.0.0.$lastOctet | grep "bytes from" | cut -d " " -f 4 | cut -d ":" -f 1 &
 done
 ```
+
+##### Brute-forcing XOR'ed string with 1 byte key
+```python
+encrypted = "encrypted-string-here"
+for i in range(0,255):
+    print("".join([chr(ord(e) ^ i) for e in encrypted]))
+```
+
 ##### Port Scanning with NetCat
 ```bash
 nc -nvv -w 1 -z host 1000-2000
@@ -114,7 +122,6 @@ nc -nv -u -z -w 1 host 160-162
 ```
 
 ##### General File Search
-
 ```bash
 # query the local db for a quick file find. Run updatedb before executing locate.
 locate passwd 
