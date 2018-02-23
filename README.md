@@ -119,7 +119,7 @@ for i in range(0,255):
 ##### Generating Bad Characters String
 ```python
 # Python
-'\\'.join([ "0x{:02x}".format(i) for i in range(0,256) ])
+'\\'.join([ "0x{:02x}".format(i) for i in range(1,256) ])
 ```
 
 
