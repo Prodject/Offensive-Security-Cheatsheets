@@ -110,6 +110,7 @@ done
 
 ##### Brute-forcing XOR'ed string with 1 byte key
 ```python
+# Python
 encrypted = "encrypted-string-here"
 for i in range(0,255):
     print("".join([chr(ord(e) ^ i) for e in encrypted]))
@@ -117,6 +118,7 @@ for i in range(0,255):
 
 ##### Generating Bad Characters String
 ```python
+# Python
 '\\'.join([ "0x{:02x}".format(i) for i in range(0,256) ])
 ```
 
