@@ -115,6 +115,12 @@ for i in range(0,255):
     print("".join([chr(ord(e) ^ i) for e in encrypted]))
 ```
 
+##### Generating Bad Characters String
+```python
+'\\'.join([ "0x{:02x}".format(i) for i in range(0,256) ])
+```
+
+
 ##### Port Scanning with NetCat
 ```bash
 nc -nvv -w 1 -z host 1000-2000
