@@ -100,6 +100,17 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 
 ## Local Enumeration & Privilege Escalation
 
+##### Binary Exploitation with ImmunityDebugger
+```
+# Show loaded modules. 
+# We're interested in modules without protection, Read & Execute permissions
+!mona modules
+
+# Find JMP ESP (FFE4)
+!mona find -s "\xFF\xE4" -m moduleName
+```
+
+
 ##### Bash Ping Sweeper
 ```bash
 #!/bin/bash
