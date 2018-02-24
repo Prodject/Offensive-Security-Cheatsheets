@@ -123,17 +123,15 @@ for lastOctet in {1..254}; do
 done
 ```
 
-##### Brute-forcing XOR'ed string with 1 byte key
+##### Brute-forcing XOR'ed string with 1 byte key with Python
 ```python
-# Python
 encrypted = "encrypted-string-here"
 for i in range(0,255):
     print("".join([chr(ord(e) ^ i) for e in encrypted]))
 ```
 
-##### Generating Bad Characters String
+##### Generating Bad Characters String with Python
 ```python
-# Python
 '\\'.join([ "x{:02x}".format(i) for i in range(1,256) ])
 ```
 
