@@ -130,9 +130,16 @@ for i in range(0,255):
     print("".join([chr(ord(e) ^ i) for e in encrypted]))
 ```
 
-##### Generating Bad Characters String with Python
+##### Generating Bad Characters Strings
+
 ```python
+# Python
 '\\'.join([ "x{:02x}".format(i) for i in range(1,256) ])
+```
+
+```bash
+# Bash
+for i in {1..255}; do printf "\\\x%02x" $i; done
 ```
 
 
