@@ -130,7 +130,7 @@ for i in range(0,255):
     print("".join([chr(ord(e) ^ i) for e in encrypted]))
 ```
 
-##### Generating Bad Characters Strings
+##### Generating Bad Character Strings
 
 ```python
 # Python
