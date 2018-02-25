@@ -193,7 +193,7 @@ scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
 # 1. In Linux, convert binary to hex ascii:
 wine /usr/share/windows-binaries/exe2bat.exe /root/tools/netcat/nc.exe nc.txt
 # 2. Paste nc.txt into Windows Shell.
-
+```
 
 ##### HTTP: Windows BitsAdmin
 ```bash
