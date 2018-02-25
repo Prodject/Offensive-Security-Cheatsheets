@@ -6,7 +6,7 @@ The below is heavily inspired and based on https://github.com/dostoevskylabs/dos
 
 ## Reconnaissance / Enumeration
 
-##### Extracting Live IPs from Nmap Scan
+#### Extracting Live IPs from Nmap Scan
 ```bash
 nmap 10.1.1.1 --open -oG scan-results; cat scan-results | grep "/open" | cut -d " " -f 2 > exposed-services-ips
 ```
