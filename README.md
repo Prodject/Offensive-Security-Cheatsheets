@@ -40,9 +40,9 @@ nmap $TARGET -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm=
 
 #### HTTP Brute-Force & Vulnerability Scanning
 ```bash
-target=10.0.0.1; gobuster -u http://$target -r -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt -t 150 -l | tee /root/tools/$target/$target-gobuster
-target=10.0.0.1; nikto -h http://$target:80 | tee $target/$target-nikto
-target=10.0.0.1; wpscan --url http://$target:80 --enumerate u,t,p | tee $target/$target-wpscan-enum
+target=10.0.0.1; gobuster -u http://$target -r -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt -t 150 -l | tee $target-gobuster
+target=10.0.0.1; nikto -h http://$target:80 | tee $target-nikto
+target=10.0.0.1; wpscan --url http://$target:80 --enumerate u,t,p | tee $target-wpscan-enum
 ```
 
 #### RPC / NetBios / SMB
