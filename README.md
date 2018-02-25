@@ -129,7 +129,6 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 
 
 #### Setting up Simple HTTP server
-
 ```bash
 # Linux
 python -m SimpleHTTPServer 80
@@ -223,7 +222,6 @@ for i in range(0,255):
 ```
 
 #### Generating Bad Character Strings
-
 ```python
 # Python
 '\\'.join([ "x{:02x}".format(i) for i in range(1,256) ])
@@ -239,12 +237,17 @@ for i in {1..255}; do printf "\\\x%02x" $i; done
 python pyinstaller.py --onefile convert-to-exe.py
 ```
 
-
 #### Port Scanning with NetCat
 ```bash
 nc -nvv -w 1 -z host 1000-2000
 nc -nv -u -z -w 1 host 160-162
 ```
+
+#### Finding Vulnerable Windows Services
+```
+accesschk.exe -uwcqv "user-you-have-shell-with" *
+```
+
 
 #### General File Search
 ```bash
