@@ -234,6 +234,11 @@ for i in range(0,255):
 for i in {1..255}; do printf "\\\x%02x" $i; done
 ```
 
+#### Converting Python to Windows Executable (.py -> .exe)
+```bash
+python pyinstaller.py --onefile convert-to-exe.py
+```
+
 
 #### Port Scanning with NetCat
 ```bash
