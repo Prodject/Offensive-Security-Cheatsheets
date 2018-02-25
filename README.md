@@ -1,8 +1,6 @@
 # Offensive Security / PenTesting Cheatsheets
-A collection of cheatsheets, convenience functions, reminders and other useful snippets to aid your during your pentest engagement.
-Disclaimer: I did not claim ownership of netcat and linux privilege escalation or reverse shell scripts.
-The below is heavily inspired and based on https://github.com/dostoevskylabs/dostoevsky-pentest-notes.
-
+A collection of cheatsheets, convenience functions  and other useful snippets to aid during pentest engagement.
+Disclaimer: I do not claim ownership of netcat and linux privilege escalation or reverse shell scripts.
 
 ## Reconnaissance / Enumeration
 
@@ -254,3 +252,4 @@ which nc wget curl php perl python netcat tftp telnet ftp
 find /etc -iname *.conf
 ```
 
+This is inspired and based on [Dostoevsky's Pentest Notes](https://github.com/dostoevskylabs/dostoevsky-pentest-notes).
