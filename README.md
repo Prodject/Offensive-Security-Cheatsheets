@@ -146,7 +146,7 @@ for lastOctet in {1..254}; do
 done
 ```
 
-##### Brute-forcing XOR'ed string with 1 byte key with Python
+##### Brute-forcing XOR'ed string with 1 byte key in Python
 ```python
 encrypted = "encrypted-string-here"
 for i in range(0,255):
