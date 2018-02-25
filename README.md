@@ -117,13 +117,15 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 ## Local Enumeration & Privilege Escalation
 
 ##### Binary Exploitation with ImmunityDebugger
+
+###### Get Loaded Modules
 ```
-# Show loaded modules. We're interested in modules without protection, Read & Execute permissions
+# We're interested in modules without protection, Read & Execute permissions
 !mona modules
 ```
 
+###### Finding JMP ESP Address
 ```
-# Find JMP ESP (FFE4)
 !mona find -s "\xFF\xE4" -m moduleName
 ```
 
