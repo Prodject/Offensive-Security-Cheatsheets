@@ -127,6 +127,18 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 !mona find -s "\xFF\xE4" -m moduleName
 ```
 
+
+##### Setting up Simple HTTP server
+
+```bash
+# Linux
+python -m SimpleHTTPServer 80
+python3 -m http.server
+ruby -r webrick -e "WEBrick::HTTPServer.new(:Port => 80, :DocumentRoot => Dir.pwd).start"
+php -S 0.0.0.0:80
+```
+
+
 ##### Uploading Files to Target Machine
 
 ###### TFTP
@@ -153,15 +165,6 @@ echo bye>>ftp-commands.txt
 ftp -s:ftp-commands.txt
 ```
 
-##### Setting up Simple HTTP server
-
-```bash
-# Linux
-python -m SimpleHTTPServer 80
-python3 -m http.server
-ruby -r webrick -e "WEBrick::HTTPServer.new(:Port => 80, :DocumentRoot => Dir.pwd).start"
-php -S 0.0.0.0:80
-```
 
 ###### HTTP: Poweshell
 ```PowerShell
