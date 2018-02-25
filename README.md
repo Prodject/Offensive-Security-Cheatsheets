@@ -99,7 +99,7 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 ##### Generating Payload Pattern & Calculating Offset
 ```bash
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
-/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $ADDRESS
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $EIP_VALUE
 ```
 
 ##### Generating Payload with msfvenom
