@@ -3,6 +3,8 @@
 v="version 0.7"
 #@rebootuser
 
+thorough=1
+
 #help function
 usage () 
 { 
@@ -1089,9 +1091,11 @@ if [ "$thorough" = "1" ]; then
   #phackt
   #displaying /etc/fstab
   fstab=`cat /etc/fstab 2>/dev/null`
+
   if [ "$fstab" ]; then
     echo -e "\e[00;31mNFS displaying partitions and filesystems - you need to check if exotic filesystems\e[00m"
-    echo -e "$fstab"
+    echo -e "$fstab\n\n"
+	mount
     echo -e "\n"
   fi
 fi
@@ -1384,3 +1388,4 @@ done
 
 call_each | tee -a $report 2> /dev/null
 #EndOfScript
+
