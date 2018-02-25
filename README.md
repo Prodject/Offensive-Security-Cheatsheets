@@ -245,6 +245,7 @@ nc -nv -u -z -w 1 host 160-162
 
 #### Finding Vulnerable Windows Services
 ```
+# Look for SERVICE_ALL_ACCESS in the output
 accesschk.exe -uwcqv "user-you-have-shell-with" *
 ```
 
