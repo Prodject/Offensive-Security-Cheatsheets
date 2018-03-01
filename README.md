@@ -126,7 +126,7 @@ hydra 10.10.10.52 -l username -P /usr/share/wordlists/list ftp|ssh|smb://10.0.0.
 # Bruteforce based on the pattern;
 hashcat -a3 -m0 "e99a18c428cb38d5f260853678922e03" ?l?l?l?d?d?d --force  
  
-# Generate Password candidates: wordlist + pattern 
+# Generate password candidates: wordlist + pattern;
 hashcat -a6 -m0 "e99a18c428cb38d5f260853678922e03" yourPassword|/usr/share/wordlists/rockyou.txt ?d?d?d?u?u?u --force --potfile-disable –stdout 
 ```
 
@@ -187,7 +187,7 @@ php -S 0.0.0.0:80
 
 ##### TFTP
 ```bash
-#tftp; Linux: cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
+#TFTP Linux: cat /etc/default/atftpd to find out file serving location; default in kali /srv/tftp
 service atftpd start
 
 # Windows
@@ -298,13 +298,13 @@ accesschk.exe -uwcqv "user-you-have-shell-with" *
 
 #### General File Search
 ```bash
-# query the local db for a quick file find. Run updatedb before executing locate.
+# Query the local db for a quick file find. Run updatedb before executing locate.
 locate passwd 
 
-# show which file would be executed in the current environment, depending on $PATH environment variable;
+# Show which file would be executed in the current environment, depending on $PATH environment variable;
 which nc wget curl php perl python netcat tftp telnet ftp
 
-# search for *.conf (case-insensitive) files recursively starting with /etc;
+# Search for *.conf (case-insensitive) files recursively starting with /etc;
 find /etc -iname *.conf
 ```
 
