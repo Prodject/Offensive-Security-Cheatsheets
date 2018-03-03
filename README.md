@@ -306,7 +306,7 @@ ssh -L 127.0.0.1:8080:REMOTE_HOST:PORT user@SSH_SERVER
 ```
 ##### SSH: Dynamic Port Forwarding
 ```bash
-# Listen on local port 8080 and forward incoming traffic via SSH_SERVER
+# Listen on local port 8080. Incoming traffic to 127.0.0.1:8080 forwards it to final destination via SSH_SERVER
 # Scenario: proxy your web traffic through SSH tunnel OR access hosts on internal network via a compromised DMZ box;
 ssh -D 127.0.0.1:8080 user@SSH_SERVER
 ```
