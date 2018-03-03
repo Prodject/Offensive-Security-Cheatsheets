@@ -296,6 +296,25 @@ accesschk.exe -uwcqv "user-you-have-shell-with" *
 ```
 
 
+#### Port Forwarding / SSH Tunneling
+
+##### SSH: Local Port Forwarding
+```bash
+# Listen on local port 8080 and forward incoming traffic to REMOT_HOST:PORT via SSH_SERVER
+ssh -L 127.0.0.1:8080:REMOTE_HOST:PORT user@SSH_SERVER
+```
+##### SSH: Dynamic Port Forwarding
+```bash
+# Listen on local port 8080 and forward incoming traffic via SSH_SERVER
+ssh -D 127.0.0.1:8080 user@SSH_SERVER
+```
+##### SSH: Remote Port Forwarding
+```bash
+# Open port 5555 on SSH_SERVER. Incoming traffic SSH_SERVER:5555 is tunneled to LOCALHOST:3389
+ssh -R 5555:LOCAL_HOST:3389 user@SSH_SERVER
+```
+
+
 #### General File Search
 ```bash
 # Query the local db for a quick file find. Run updatedb before executing locate.
