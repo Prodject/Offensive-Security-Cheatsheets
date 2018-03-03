@@ -316,6 +316,15 @@ ssh -D 127.0.0.1:8080 user@SSH_SERVER
 # Scenario: expose RDP on non-routable network;
 ssh -R 5555:LOCAL_HOST:3389 user@SSH_SERVER
 ```
+##### Proxy Tunnel
+```bash
+# Open a local port 127.0.0.1:5555. Incoming traffic to 5555 is proxied to DESTINATION_HOST through PROXY_HOST:3128
+# Scenario: a remote host has SSH running, but it's only bound to 127.0.0.1, but you want to reach it;
+proxytunnel -p PROXY_HOST:3128 -d DESTINATION_HOST:22 -a 5555
+ssh user@127.0.0.1 -p 5555
+```
+
+
 
 
 #### General File Search
