@@ -301,16 +301,19 @@ accesschk.exe -uwcqv "user-you-have-shell-with" *
 ##### SSH: Local Port Forwarding
 ```bash
 # Listen on local port 8080 and forward incoming traffic to REMOT_HOST:PORT via SSH_SERVER
+# Scenario: access a host that's being blocked by a firewall via SSH_SERVER;
 ssh -L 127.0.0.1:8080:REMOTE_HOST:PORT user@SSH_SERVER
 ```
 ##### SSH: Dynamic Port Forwarding
 ```bash
 # Listen on local port 8080 and forward incoming traffic via SSH_SERVER
+# Scenario: proxy your web traffic through SSH tunnel OR access hosts on internal network via a compromised DMZ box;
 ssh -D 127.0.0.1:8080 user@SSH_SERVER
 ```
 ##### SSH: Remote Port Forwarding
 ```bash
-# Open port 5555 on SSH_SERVER. Incoming traffic SSH_SERVER:5555 is tunneled to LOCALHOST:3389
+# Open port 5555 on SSH_SERVER. Incoming traffic to SSH_SERVER:5555 is tunneled to LOCALHOST:3389
+# Scenario: expose RDP on non-routable network;
 ssh -R 5555:LOCAL_HOST:3389 user@SSH_SERVER
 ```
 
