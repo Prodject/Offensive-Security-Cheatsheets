@@ -323,6 +323,18 @@ ssh -R 5555:LOCAL_HOST:3389 user@SSH_SERVER
 proxytunnel -p PROXY_HOST:3128 -d DESTINATION_HOST:22 -a 5555
 ssh user@127.0.0.1 -p 5555
 ```
+##### HTTP Tunnel
+```bash
+# Server - open port 5555. Redirect all incoming traffic to localhost:5555 to localhost:22
+hts -F localhost:22 5555
+
+# Client - open port 8080. Redirect all incoming traffic to localhost:8080 to 192.168.1.15:5555
+htc -F 8080 192.168.1.15:5555
+
+# Client - connect to localhost:8080 -> get tunneled to 192.168.1.15:5555 -> get redirected to 192.168.1.15:22
+ssh localhost -p 8080
+```
+
 
 
 
