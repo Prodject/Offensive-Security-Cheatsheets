@@ -328,10 +328,10 @@ ssh user@127.0.0.1 -p 5555
 # Server - open port 80. Redirect all incoming traffic to localhost:80 to localhost:22
 hts -F localhost:22 80
 
-# Client - open port 8080. Redirect all incoming traffic to localhost:8080 to 192.168.1.15:5555
-htc -F 8080 192.168.1.15:5555
+# Client - open port 8080. Redirect all incoming traffic to localhost:8080 to 192.168.1.15:80
+htc -F 8080 192.168.1.15:80
 
-# Client - connect to localhost:8080 -> get tunneled to 192.168.1.15:5555 -> get redirected to 192.168.1.15:22
+# Client - connect to localhost:8080 -> get tunneled to 192.168.1.15:80 -> get redirected to 192.168.1.15:22
 ssh localhost -p 8080
 ```
 
