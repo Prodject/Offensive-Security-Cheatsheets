@@ -351,4 +351,11 @@ which nc wget curl php perl python netcat tftp telnet ftp
 find /etc -iname *.conf
 ```
 
+## Maintaining Access
+#### Persisten BackDoors
+```
+# Launch evil.exe every 10 minutes
+schtasks /create /sc minute /mo 10 /tn "TaskName" /tr C:\Windows\system32\evil.exe
+```
+
 This is inspired and based on [Dostoevsky's Pentest Notes](https://github.com/dostoevskylabs/dostoevsky-pentest-notes).
