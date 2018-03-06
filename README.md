@@ -31,7 +31,7 @@ curl -vX $TARGET
 ```
 
 #### NFS Exported Shares
-List exported shared. If rw,no_root_squash is present, upload and execute [sid-shell](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c)
+List NFS exported shares. If 'rw,no_root_squash' is present, upload and execute [sid-shell](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c)
 ```bash
 showmount -e 192.168.110.102
 ```
