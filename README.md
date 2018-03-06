@@ -59,7 +59,7 @@ nbtscan $TARGET
 smbclient -L //$TARGET -U ""
 
 # null session
-rpcclient -v "" $TARGET
+rpcclient -U "" $TARGET
 smbclient -L //$TARGET
 enum4linux $TARGET
 ```
