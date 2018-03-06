@@ -1,4 +1,5 @@
 #!/bin/bash
-mkdir $1 2>/dev/null
+mkdir -p /root/tools/$1 2>/dev/null
+resultsFolder=/root/tools/$1
 
-nmap $1 -vv -p88 --script krb5-enum-users --script-args krb5-enum-users.realm=htb,userdb=/usr/share/wordlists/names.txt -vv -oN /root/tools/$1/$1-kerberos-enum
+nmap $1 -vv -p88 --script krb5-enum-users --script-args krb5-enum-users.realm=htb,userdb=/usr/share/wordlists/names.txt -vv -oN $resultsFolder/$1-kerberos-enum
