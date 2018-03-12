@@ -2,6 +2,7 @@
 mkdir -p /root/tools/$1 2>/dev/null
 resultsFolder=/root/tools/$1
 mkdir $resultsFolder/exploits
+mkdir $resultsFolder/loot
 
 nmap $1 -vv -Pn -sV -A -oN $resultsFolder/$1-nmap-quick
 
