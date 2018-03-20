@@ -841,7 +841,7 @@ if [ "$compiler" ]; then
 fi
 
 #manual check - lists out sensitive files, can we read/modify etc.
-echo -e "\e[00;31mCan we read/write sensitive files:\e[00m" ; ls -la /etc/passwd 2>/dev/null ; ls -la /etc/group 2>/dev/null ; ls -la /etc/profile 2>/dev/null; ls -la /etc/shadow 2>/dev/null ; ls -la /etc/master.passwd 2>/dev/null 
+echo -e "\e[00;31m\nCan we read/write sensitive files:\e[00m" ; ls -la /etc/passwd 2>/dev/null ; ls -la /etc/group 2>/dev/null ; ls -la /etc/profile 2>/dev/null; ls -la /etc/shadow 2>/dev/null ; ls -la /etc/master.passwd 2>/dev/null 
 echo -e "\n" 
 
 #search for suid files - this can take some time so is only 'activated' with thorough scanning switch (as are all suid scans below)
