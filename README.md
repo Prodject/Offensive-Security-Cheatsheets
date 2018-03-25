@@ -367,7 +367,7 @@ $username = 'Administrator';$password = '1234test';$securePassword = ConvertTo-S
 ##### CMD
 ```bash
 # Requires interactive console
-runas /user:userName cmd
+runas /user:userName cmd.exe
 ```
 
 ##### PsExec
