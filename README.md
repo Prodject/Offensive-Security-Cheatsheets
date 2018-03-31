@@ -482,7 +482,12 @@ which nc wget curl php perl python netcat tftp telnet ftp
 find /etc -iname *.conf
 ```
 
-## Maintaining Access
+## Post-Exploitation & Maintaining Access
+
+#### Decrypting VNC Password
+```bash
+wine vncpwdump.exe -k key
+```
 
 #### Creating User and Adding to Local Administrators
 ```bash
