@@ -261,6 +261,11 @@ mssqlclient.py -port 27900 user:password@10.1.1.1
 sqsh -S 10.1.1.1 -U user -P password
 ```
 
+#### Upgradig Non-Interactive Shell
+```bash
+python -c 'import pty; pty.spawn("/bin/sh")'
+/bin/busybox sh
+```
 
 ## Local Enumeration & Privilege Escalation
 
