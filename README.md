@@ -516,6 +516,11 @@ find /etc -iname *.conf
 
 ## Post-Exploitation & Maintaining Access
 
+#### Browsing Registry Hives
+```bash
+hivesh /registry/file
+```
+
 #### Decrypting VNC Password
 ```bash
 wine vncpwdump.exe -k key
