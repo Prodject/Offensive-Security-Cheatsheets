@@ -604,7 +604,7 @@ ssh localhost -p 8080
 
 #### PowerShell
 
-```text
+```bash
 # Requires PSRemoting
 $username = 'Administrator';$password = '1234test';$securePassword = ConvertTo-SecureString $password -AsPlainText -Force;$credential = New-Object System.Management.Automation.PSCredential $username, $securePassword;Invoke-Command -Credential $credential -ComputerName COMPUTER_NAME -Command { whoami }
 
