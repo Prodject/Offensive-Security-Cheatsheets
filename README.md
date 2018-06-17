@@ -1,5 +1,5 @@
 # Offensive Security / PenTesting Cheatsheets
-A collection of offsensive security cheatsheets, convenience functions, scripts and other useful goodies to aid during pentest engagement and CTF challenges.
+A collection of offensive security cheatsheets, convenience functions, scripts and other useful goodies to aid during pentest engagement and CTF challenges.
 
 ## Reconnaissance / Enumeration
 
