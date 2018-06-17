@@ -1,6 +1,5 @@
 # Offensive Security / PenTesting Cheatsheets
-A collection of cheatsheets, convenience functions  and other useful snippets to aid during pentest engagement.
-Disclaimer: I do not claim ownership of netcat and linux privilege escalation or reverse shell scripts.
+A collection of offsensive security cheatsheets, convenience functions, scripts and other useful goodies to aid during pentest engagement and CTF challenges.
 
 ## Reconnaissance / Enumeration
 
