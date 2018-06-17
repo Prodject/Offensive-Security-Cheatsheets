@@ -518,7 +518,7 @@ for i in range(0,255):
 
 ```bash
 # Bash
-for i in {1..255}; do printf "\\\x%02x" $i; done
+for i in {1..255}; do printf "\\\x%02x" $i; done; echo -e "\r"
 ```
 
 ### Converting Python to Windows Executable \(.py -&gt; .exe\)
