@@ -187,6 +187,16 @@ ssh bill@localhost ls -l /tmp
 nice /bin/bash
 ```
 
+### Interactive TTY Shells
+
+```bash
+/usr/bin/expect sh
+```
+
+```python
+python -c ‘import pty; pty.spawn(“/bin/sh”)’
+```
+
 ### Uploading/POSTing Files Through WWW Upload Forms
 
 ```bash
