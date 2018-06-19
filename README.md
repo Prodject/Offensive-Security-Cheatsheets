@@ -14,6 +14,12 @@ description: >-
 nmap 10.1.1.1 --open -oG scan-results; cat scan-results | grep "/open" | cut -d " " -f 2 > exposed-services-ips
 ```
 
+### Simple Port Knocking
+
+```bash
+for x in 7000 8000 9000; do nmap -Pn –host_timeout 201 –max-retries 0 -p $x 1.1.1.1; done
+```
+
 ### DNS lookups, Zone Transfers & Brute-Force
 
 ```bash
