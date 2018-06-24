@@ -275,10 +275,10 @@ hydra 10.10.10.52 -l username -P /usr/share/wordlists/list ftp|ssh|smb://10.0.0.
 
 ```bash
 # Bruteforce based on the pattern;
-hashcat -a3 -m0 "e99a18c428cb38d5f260853678922e03" ?l?l?l?d?d?d --force  
+hashcat -a3 -m0 mantas?d?d?d?u?u?u --force --potfile-disable --stdout  
 
 # Generate password candidates: wordlist + pattern;
-hashcat -a6 -m0 "e99a18c428cb38d5f260853678922e03" yourPassword|/usr/share/wordlists/rockyou.txt ?d?d?d?u?u?u --force --potfile-disable –stdout
+hashcat -a6 -m0 "e99a18c428cb38d5f260853678922e03" yourPassword|/usr/share/wordlists/rockyou.txt ?d?d?d?u?u?u --force --potfile-disable --stdout
 ```
 
 ### Generating Payload with msfvenom
