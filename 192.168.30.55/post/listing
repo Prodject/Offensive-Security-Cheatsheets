@@ -1,0 +1,2367 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 4AA5-A4A6
+
+ Directory of c:\Users
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+12/31/2014  06:52 AM    <DIR>          admin
+09/26/2015  06:00 PM    <DIR>          coraline
+04/11/2011  07:24 PM    <DIR>          Public
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\admin
+
+12/31/2014  06:52 AM    <DIR>          .
+12/31/2014  06:52 AM    <DIR>          ..
+10/30/2016  02:12 AM    <DIR>          Contacts
+06/26/2018  02:51 AM    <DIR>          Desktop
+10/30/2016  02:12 AM    <DIR>          Documents
+10/30/2016  02:12 AM    <DIR>          Downloads
+10/30/2016  02:12 AM    <DIR>          Favorites
+10/30/2016  02:12 AM    <DIR>          Links
+10/30/2016  02:12 AM    <DIR>          Music
+10/30/2016  02:12 AM    <DIR>          Pictures
+10/30/2016  02:12 AM    <DIR>          Saved Games
+10/30/2016  02:12 AM    <DIR>          Searches
+10/30/2016  02:12 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\admin\AppData
+
+03/26/2016  01:50 AM    <DIR>          Local
+12/31/2014  06:54 AM    <DIR>          LocalLow
+09/26/2015  06:11 PM    <DIR>          Roaming
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\admin\AppData\Roaming
+
+09/26/2015  06:11 PM    <DIR>          .
+09/26/2015  06:11 PM    <DIR>          ..
+09/22/2015  03:37 PM    <DIR>          Adobe
+09/26/2015  06:11 PM    <DIR>          AVG
+12/31/2014  06:51 AM    <DIR>          Identities
+04/11/2011  07:24 PM    <DIR>          Media Center Programs
+09/26/2015  06:10 PM    <DIR>          TuneUp Software
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\admin\AppData\Roaming\Microsoft
+
+09/22/2015  03:37 PM    <DIR>          Internet Explorer
+09/22/2015  11:23 PM    <DIR>          MMC
+12/31/2014  06:53 AM    <DIR>          Network
+11/16/2015  09:56 PM    <DIR>          Vault
+09/22/2015  11:08 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\admin\AppData\Roaming\Microsoft\Windows
+
+09/22/2015  11:08 PM    <DIR>          .
+09/22/2015  11:08 PM    <DIR>          ..
+10/30/2016  02:12 AM    <DIR>          Libraries
+07/13/2009  07:04 PM    <DIR>          Network Shortcuts
+07/13/2009  07:04 PM    <DIR>          Printer Shortcuts
+12/31/2014  06:50 AM    <DIR>          PrivacIE
+11/12/2016  04:47 AM    <DIR>          Recent
+12/31/2014  06:52 AM    <DIR>          SendTo
+10/30/2016  02:12 AM    <DIR>          Start Menu
+07/13/2009  07:04 PM    <DIR>          Templates
+12/31/2014  06:50 AM    <DIR>          Themes
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\admin\AppData\Roaming\Microsoft\Windows\Libraries
+
+10/30/2016  02:12 AM    <DIR>          .
+10/30/2016  02:12 AM    <DIR>          ..
+10/30/2016  02:12 AM             3,652 Documents.library-ms
+10/30/2016  02:12 AM             3,608 Music.library-ms
+10/30/2016  02:12 AM             3,644 Pictures.library-ms
+10/30/2016  02:12 AM             3,622 Videos.library-ms
+               4 File(s)         14,526 bytes
+
+ Directory of c:\Users\All Users
+
+09/28/2015  12:47 AM    <DIR>          Avg
+09/28/2015  12:47 AM    <DIR>          MFAData
+12/31/2014  06:58 AM    <DIR>          VMware
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Avg
+
+09/28/2015  12:47 AM    <DIR>          .
+09/28/2015  12:47 AM    <DIR>          ..
+09/28/2015  12:47 AM    <DIR>          Setup
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Avg\Setup
+
+09/28/2015  12:47 AM    <DIR>          .
+09/28/2015  12:47 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\MFAData
+
+09/28/2015  12:47 AM    <DIR>          .
+09/28/2015  12:47 AM    <DIR>          ..
+09/28/2015  12:47 AM             2,437 public_installation_log.xml
+09/28/2015  12:47 AM               949 setup_tp.cab
+09/28/2015  12:47 AM                 0 uninstall
+09/28/2015  12:47 AM                 2 uninstall.etag
+               4 File(s)          3,388 bytes
+
+ Directory of c:\Users\All Users\Microsoft
+
+07/13/2009  09:57 PM    <DIR>          Assistance
+10/30/2016  02:08 AM    <DIR>          Crypto
+07/13/2009  07:37 PM    <DIR>          Device Stage
+07/13/2009  07:05 PM    <DIR>          DeviceSync
+07/13/2009  07:37 PM    <DIR>          DRM
+04/11/2011  07:24 PM    <DIR>          eHome
+09/22/2015  11:24 PM    <DIR>          Event Viewer
+07/13/2009  07:37 PM    <DIR>          IdentityCRL
+12/31/2014  06:50 AM    <DIR>          IlsCache
+07/13/2009  09:54 PM    <DIR>          Media Player
+07/13/2009  09:52 PM    <DIR>          MF
+10/30/2016  01:10 AM    <DIR>          NetFramework
+07/13/2009  07:37 PM    <DIR>          Network
+07/13/2009  07:37 PM    <DIR>          RAC
+12/31/2014  06:50 AM    <DIR>          Search
+09/26/2015  06:00 PM    <DIR>          User Account Pictures
+09/25/2015  04:41 PM    <DIR>          Vault
+12/31/2014  06:38 AM    <DIR>          Windows
+02/09/2016  04:19 AM    <DIR>          Windows Defender
+07/13/2009  09:52 PM    <DIR>          Windows NT
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Assistance
+
+07/13/2009  09:57 PM    <DIR>          .
+07/13/2009  09:57 PM    <DIR>          ..
+07/13/2009  09:57 PM    <DIR>          Client
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Assistance\Client
+
+07/13/2009  09:57 PM    <DIR>          .
+07/13/2009  09:57 PM    <DIR>          ..
+04/11/2011  07:16 PM    <DIR>          1.0
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Assistance\Client\1.0
+
+04/11/2011  07:16 PM    <DIR>          .
+04/11/2011  07:16 PM    <DIR>          ..
+04/11/2011  07:25 PM    <DIR>          en-US
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Assistance\Client\1.0\en-US
+
+04/11/2011  07:25 PM    <DIR>          .
+04/11/2011  07:25 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Crypto
+
+10/30/2016  02:08 AM    <DIR>          .
+10/30/2016  02:08 AM    <DIR>          ..
+07/13/2009  07:37 PM    <DIR>          DSS
+10/30/2016  02:08 AM    <DIR>          PCPKSP
+12/31/2014  06:50 AM    <DIR>          RSA
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Crypto\DSS
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:04 PM    <DIR>          MachineKeys
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Crypto\DSS\MachineKeys
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Crypto\PCPKSP
+
+10/30/2016  02:08 AM    <DIR>          .
+10/30/2016  02:08 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Crypto\RSA
+
+12/31/2014  06:50 AM    <DIR>          .
+12/31/2014  06:50 AM    <DIR>          ..
+10/30/2016  02:07 AM    <DIR>          MachineKeys
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Crypto\RSA\MachineKeys
+
+10/30/2016  02:07 AM    <DIR>          .
+10/30/2016  02:07 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:37 PM    <DIR>          Device
+07/13/2009  07:37 PM    <DIR>          Task
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Device
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:37 PM    <DIR>          {113527a4-45d4-4b6f-b567-97838f1b04b0}
+07/13/2009  07:37 PM    <DIR>          {8702d817-5aad-4674-9ef3-4d3decd87120}
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Device\{113527a4-45d4-4b6f-b567-97838f1b04b0}
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+06/10/2009  02:40 PM           129,745 background.png
+06/10/2009  02:40 PM             2,913 behavior.xml
+06/10/2009  02:40 PM            44,488 device.png
+06/10/2009  02:40 PM            28,865 overlay.png
+06/10/2009  02:40 PM            39,379 superbar.png
+               5 File(s)        245,390 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Device\{8702d817-5aad-4674-9ef3-4d3decd87120}
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+06/10/2009  02:41 PM           129,745 background.png
+06/10/2009  02:41 PM             1,897 behavior.xml
+06/10/2009  02:41 PM            28,865 watermark.png
+               3 File(s)        160,507 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Task
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+04/11/2011  07:16 PM    <DIR>          {07deb856-fc6e-4fb9-8add-d8f2cf8722c9}
+04/11/2011  07:16 PM    <DIR>          {e35be42d-f742-4d96-a50a-1775fb1a7a42}
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}
+
+04/11/2011  07:16 PM    <DIR>          .
+04/11/2011  07:16 PM    <DIR>          ..
+04/11/2011  07:16 PM    <DIR>          en-US
+06/10/2009  02:40 PM            53,411 folder.ico
+06/10/2009  02:40 PM            29,422 netfol.ico
+06/10/2009  02:40 PM            83,560 pictures.ico
+06/10/2009  02:40 PM             1,334 resource.xml
+06/10/2009  02:40 PM            51,881 ringtones.ico
+06/10/2009  02:40 PM            67,664 settings.ico
+06/10/2009  02:40 PM            49,227 sync.ico
+06/10/2009  02:40 PM            13,427 tasks.xml
+06/10/2009  02:40 PM           113,140 wmp.ico
+               9 File(s)        463,066 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\en-US
+
+04/11/2011  07:16 PM    <DIR>          .
+04/11/2011  07:16 PM    <DIR>          ..
+04/11/2011  07:15 PM             1,334 resource.xml
+               1 File(s)          1,334 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}
+
+04/11/2011  07:16 PM    <DIR>          .
+04/11/2011  07:16 PM    <DIR>          ..
+04/11/2011  07:16 PM    <DIR>          en-US
+06/10/2009  02:40 PM            53,411 folder.ico
+06/10/2009  02:40 PM            58,312 print_pref.ico
+06/10/2009  02:40 PM            60,344 print_property.ico
+06/10/2009  02:40 PM            57,333 print_queue.ico
+06/10/2009  02:40 PM            60,533 scan_.ico
+06/10/2009  02:40 PM            67,156 scan_property.ico
+06/10/2009  02:40 PM            63,682 scan_settings.ico
+06/10/2009  02:40 PM            11,364 tasks.xml
+               8 File(s)        432,135 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\en-US
+
+04/11/2011  07:16 PM    <DIR>          .
+04/11/2011  07:16 PM    <DIR>          ..
+04/11/2011  07:15 PM             1,512 resource.xml
+               1 File(s)          1,512 bytes
+
+ Directory of c:\Users\All Users\Microsoft\DeviceSync
+
+07/13/2009  07:05 PM    <DIR>          .
+07/13/2009  07:05 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\DRM
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\eHome
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+04/11/2011  07:24 PM    <DIR>          logs
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\eHome\logs
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Event Viewer
+
+09/22/2015  11:24 PM    <DIR>          .
+09/22/2015  11:24 PM    <DIR>          ..
+09/21/2015  05:29 PM    <DIR>          Views
+09/22/2015  11:25 PM    <DIR>          Windows Logs
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Event Viewer\Views
+
+09/21/2015  05:29 PM    <DIR>          .
+09/21/2015  05:29 PM    <DIR>          ..
+09/21/2015  05:29 PM    <DIR>          ApplicationViewsRootNode
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Event Viewer\Views\ApplicationViewsRootNode
+
+09/21/2015  05:29 PM    <DIR>          .
+09/21/2015  05:29 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Event Viewer\Windows Logs
+
+09/22/2015  11:25 PM    <DIR>          .
+09/22/2015  11:25 PM    <DIR>          ..
+09/22/2015  11:23 PM             2,070 Channel_0.xml
+09/22/2015  11:25 PM             2,077 Channel_1.xml
+               2 File(s)          4,147 bytes
+
+ Directory of c:\Users\All Users\Microsoft\IdentityCRL
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+06/10/2009  02:15 PM            15,616 ppcrlconfig.dll
+06/10/2009  02:15 PM           254,216 ppcrlui.dll
+               2 File(s)        269,832 bytes
+
+ Directory of c:\Users\All Users\Microsoft\IlsCache
+
+12/31/2014  06:50 AM    <DIR>          .
+12/31/2014  06:50 AM    <DIR>          ..
+12/31/2014  06:50 AM               409 ilrcache.xml
+09/26/2015  07:18 PM             2,998 imcrcache.xml
+               2 File(s)          3,407 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Media Player
+
+07/13/2009  09:54 PM    <DIR>          .
+07/13/2009  09:54 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\MF
+
+07/13/2009  09:52 PM    <DIR>          .
+07/13/2009  09:52 PM    <DIR>          ..
+07/13/2009  09:52 PM            14,972 Active.GRL
+07/13/2009  09:52 PM            14,972 Pending.GRL
+               2 File(s)         29,944 bytes
+
+ Directory of c:\Users\All Users\Microsoft\NetFramework
+
+10/30/2016  01:10 AM    <DIR>          .
+10/30/2016  01:10 AM    <DIR>          ..
+10/30/2016  01:10 AM    <DIR>          BreadcrumbStore
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Network
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:04 PM    <DIR>          Connections
+07/13/2009  09:55 PM    <DIR>          Downloader
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Network\Connections
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\RAC
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:05 PM    <DIR>          Outbound
+10/29/2016  06:48 AM    <DIR>          PublishedData
+10/29/2016  06:50 AM    <DIR>          StateData
+06/26/2018  07:04 AM    <DIR>          Temp
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\RAC\Outbound
+
+07/13/2009  07:05 PM    <DIR>          .
+07/13/2009  07:05 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\RAC\PublishedData
+
+10/29/2016  06:48 AM    <DIR>          .
+10/29/2016  06:48 AM    <DIR>          ..
+06/26/2018  07:04 AM           413,696 RacWmiDatabase.sdf
+               1 File(s)        413,696 bytes
+
+ Directory of c:\Users\All Users\Microsoft\RAC\StateData
+
+10/29/2016  06:50 AM    <DIR>          .
+10/29/2016  06:50 AM    <DIR>          ..
+06/26/2018  07:04 AM           544,768 RacDatabase.sdf
+06/26/2018  07:04 AM                 8 RacMetaData.dat
+06/26/2018  07:04 AM            16,412 RacWmiDataBookmarks.dat
+06/26/2018  07:04 AM           213,020 RacWmiEventData.dat
+               4 File(s)        774,208 bytes
+
+ Directory of c:\Users\All Users\Microsoft\RAC\Temp
+
+06/26/2018  07:04 AM    <DIR>          .
+06/26/2018  07:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Search
+
+12/31/2014  06:50 AM    <DIR>          .
+12/31/2014  06:50 AM    <DIR>          ..
+12/31/2014  06:50 AM    <DIR>          Data
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\User Account Pictures
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+12/31/2014  06:50 AM                 0 admin.dat
+09/26/2015  06:00 PM                 0 coraline.dat
+07/13/2009  09:52 PM    <DIR>          Default Pictures
+07/13/2009  09:52 PM            49,208 guest.bmp
+07/13/2009  09:52 PM            49,208 user.bmp
+               4 File(s)         98,416 bytes
+
+ Directory of c:\Users\All Users\Microsoft\User Account Pictures\Default Pictures
+
+07/13/2009  09:52 PM    <DIR>          .
+07/13/2009  09:52 PM    <DIR>          ..
+06/10/2009  02:18 PM            49,208 usertile10.bmp
+06/10/2009  02:18 PM            49,208 usertile11.bmp
+06/10/2009  02:18 PM            49,208 usertile12.bmp
+06/10/2009  02:18 PM            48,824 usertile13.bmp
+06/10/2009  02:18 PM            49,208 usertile14.bmp
+06/10/2009  02:18 PM            49,208 usertile15.bmp
+06/10/2009  02:18 PM            49,208 usertile16.bmp
+06/10/2009  02:18 PM            49,208 usertile17.bmp
+06/10/2009  02:18 PM            49,208 usertile18.bmp
+06/10/2009  02:18 PM            49,208 usertile19.bmp
+06/10/2009  02:18 PM            49,208 usertile20.bmp
+06/10/2009  02:18 PM            49,208 usertile21.bmp
+06/10/2009  02:18 PM            49,208 usertile22.bmp
+06/10/2009  02:18 PM            49,208 usertile23.bmp
+06/10/2009  02:18 PM            49,208 usertile24.bmp
+06/10/2009  02:18 PM            49,208 usertile25.bmp
+06/10/2009  02:18 PM            49,208 usertile26.bmp
+06/10/2009  02:18 PM            49,208 usertile27.bmp
+06/10/2009  02:18 PM            49,208 usertile28.bmp
+06/10/2009  02:18 PM            49,208 usertile29.bmp
+06/10/2009  02:18 PM            49,208 usertile30.bmp
+06/10/2009  02:18 PM            49,208 usertile31.bmp
+06/10/2009  02:18 PM            49,208 usertile32.bmp
+06/10/2009  02:18 PM            49,208 usertile33.bmp
+06/10/2009  02:18 PM            49,208 usertile34.bmp
+06/10/2009  02:18 PM            49,208 usertile35.bmp
+06/10/2009  02:18 PM            49,208 usertile36.bmp
+06/10/2009  02:18 PM            49,208 usertile37.bmp
+06/10/2009  02:18 PM            49,208 usertile38.bmp
+06/10/2009  02:18 PM            49,208 usertile39.bmp
+06/10/2009  02:18 PM            49,208 usertile40.bmp
+06/10/2009  02:18 PM            49,208 usertile41.bmp
+06/10/2009  02:18 PM            49,208 usertile42.bmp
+06/10/2009  02:18 PM            49,208 usertile43.bmp
+06/10/2009  02:18 PM            49,208 usertile44.bmp
+              35 File(s)      1,721,896 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Vault
+
+09/25/2015  04:41 PM    <DIR>          .
+09/25/2015  04:41 PM    <DIR>          ..
+09/25/2015  04:41 PM    <DIR>          AC658CB4-9126-49BD-B877-31EEDAB3F204
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Vault\AC658CB4-9126-49BD-B877-31EEDAB3F204
+
+09/25/2015  04:41 PM    <DIR>          .
+09/25/2015  04:41 PM    <DIR>          ..
+09/25/2015  04:41 PM               106 2F1A6504-0641-44CF-8BB5-3612D865F2E5.vsch
+09/25/2015  04:41 PM               258 3CCD5499-87A8-4B10-A215-608888DD3B55.vsch
+12/26/2016  04:40 PM             1,496 Policy.vpol
+               3 File(s)          1,860 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows
+
+12/31/2014  06:38 AM    <DIR>          .
+12/31/2014  06:38 AM    <DIR>          ..
+09/22/2015  03:37 PM    <DIR>          Caches
+07/13/2009  07:37 PM    <DIR>          DeviceMetadataStore
+07/13/2009  07:04 PM    <DIR>          GameExplorer
+06/26/2018  03:08 AM    <DIR>          Power Efficiency Diagnostics
+07/13/2009  09:52 PM    <DIR>          Ringtones
+12/31/2014  06:41 AM    <DIR>          Sqm
+07/13/2009  09:46 PM    <DIR>          Start Menu
+07/13/2009  07:04 PM    <DIR>          Templates
+07/13/2009  07:37 PM    <DIR>          WER
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Caches
+
+09/22/2015  03:37 PM    <DIR>          .
+09/22/2015  03:37 PM    <DIR>          ..
+07/13/2009  09:41 PM            16,384 cversions.2.db
+11/20/2010  02:40 PM             2,312 {67D69890-D853-4011-A87E-AA64FA83CE5A}.2.ver0x0000000000000002.db
+11/20/2010  02:41 PM           192,648 {6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000007.db
+09/22/2015  03:37 PM           191,120 {6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000009.db
+09/22/2015  03:37 PM           192,648 {6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000b.db
+11/20/2010  02:40 PM           415,096 {DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db
+09/22/2015  03:37 PM             2,328 {F65AF717-5A77-4506-BCFA-45E60C0D5D04}.2.ver0x0000000000000001.db
+               7 File(s)      1,012,536 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\DeviceMetadataStore
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:37 PM    <DIR>          en-US
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\DeviceMetadataStore\en-US
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+06/10/2009  02:40 PM            14,134 34e548a8-3268-4dde-bedf-c40f9b6c814a.devicemetadata-ms
+06/10/2009  02:40 PM           110,457 63921eef-8415-4368-9201-f0df4af5778f.devicemetadata-ms
+               2 File(s)        124,591 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\GameExplorer
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Ringtones
+
+07/13/2009  09:52 PM    <DIR>          .
+07/13/2009  09:52 PM    <DIR>          ..
+07/13/2009  09:52 PM           201,833 Ringtone 01.wma
+07/13/2009  09:52 PM           139,199 Ringtone 02.wma
+07/13/2009  09:52 PM            94,457 Ringtone 03.wma
+07/13/2009  09:52 PM           237,625 Ringtone 04.wma
+07/13/2009  09:52 PM           112,353 Ringtone 05.wma
+07/13/2009  09:52 PM            94,457 Ringtone 06.wma
+07/13/2009  09:52 PM            94,457 Ringtone 07.wma
+07/13/2009  09:52 PM           139,197 Ringtone 08.wma
+07/13/2009  09:52 PM           112,353 Ringtone 09.wma
+07/13/2009  09:52 PM            94,457 Ringtone 10.wma
+              10 File(s)      1,320,388 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Sqm
+
+12/31/2014  06:41 AM    <DIR>          .
+12/31/2014  06:41 AM    <DIR>          ..
+12/31/2014  06:41 AM    <DIR>          Manifest
+12/31/2014  06:41 AM    <DIR>          Sessions
+12/31/2014  06:38 AM    <DIR>          Upload
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Sqm\Manifest
+
+12/31/2014  06:41 AM    <DIR>          .
+12/31/2014  06:41 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Sqm\Sessions
+
+12/31/2014  06:41 AM    <DIR>          .
+12/31/2014  06:41 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Sqm\Upload
+
+12/31/2014  06:38 AM    <DIR>          .
+12/31/2014  06:38 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu
+
+07/13/2009  09:46 PM    <DIR>          .
+07/13/2009  09:46 PM    <DIR>          ..
+07/13/2009  09:46 PM             1,282 Default Programs.lnk
+10/30/2016  02:12 AM    <DIR>          Programs
+07/13/2009  09:37 PM             1,266 Windows Update.lnk
+               2 File(s)          2,548 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs
+
+10/30/2016  02:12 AM    <DIR>          .
+10/30/2016  02:12 AM    <DIR>          ..
+09/22/2015  09:22 PM    <DIR>          Accessories
+12/31/2014  06:42 AM    <DIR>          Administrative Tools
+04/11/2011  07:24 PM    <DIR>          Games
+07/13/2009  09:42 PM    <DIR>          Maintenance
+12/31/2014  06:42 AM             1,345 Media Center.lnk
+07/13/2009  09:42 PM             1,330 Sidebar.lnk
+07/13/2009  09:41 PM    <DIR>          Startup
+03/05/2015  04:48 AM    <DIR>          VMware
+07/13/2009  09:42 PM             1,352 Windows Anytime Upgrade.lnk
+12/31/2014  06:42 AM             1,326 Windows DVD Maker.lnk
+07/13/2009  09:42 PM             1,210 Windows Fax and Scan.lnk
+10/30/2016  02:12 AM             1,515 Windows Media Player.lnk
+09/22/2015  11:15 PM    <DIR>          XAMPP
+07/13/2009  09:42 PM             1,246 XPS Viewer.lnk
+               7 File(s)          9,324 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessories
+
+09/22/2015  09:22 PM    <DIR>          .
+09/22/2015  09:22 PM    <DIR>          ..
+07/13/2009  09:42 PM    <DIR>          Accessibility
+07/13/2009  09:42 PM             1,230 Calculator.lnk
+07/13/2009  09:41 PM             1,266 displayswitch.lnk
+12/31/2014  06:42 AM             1,364 Math Input Panel.lnk
+12/31/2014  06:42 AM             1,238 Mobility Center.lnk
+12/31/2014  06:42 AM             1,242 NetworkProjection.lnk
+07/13/2009  09:42 PM             1,242 Paint.lnk
+09/22/2015  09:22 PM             1,620 Remote Desktop Connection.lnk
+12/31/2014  06:42 AM             1,272 Snipping Tool.lnk
+07/13/2009  09:42 PM             1,330 Sound Recorder.lnk
+12/31/2014  06:42 AM             1,351 Sticky Notes.lnk
+07/13/2009  09:42 PM             1,254 Sync Center.lnk
+07/13/2009  09:42 PM    <DIR>          System Tools
+10/30/2016  02:08 AM    <DIR>          Tablet PC
+07/13/2009  09:42 PM             1,579 Welcome Center.lnk
+07/13/2009  09:46 PM    <DIR>          Windows PowerShell
+07/13/2009  09:42 PM             1,322 Wordpad.lnk
+              13 File(s)         17,310 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessories\Accessibility
+
+07/13/2009  09:42 PM    <DIR>          .
+07/13/2009  09:42 PM    <DIR>          ..
+07/13/2009  09:42 PM             1,388 Speech Recognition.lnk
+               1 File(s)          1,388 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools
+
+07/13/2009  09:42 PM    <DIR>          .
+07/13/2009  09:42 PM    <DIR>          ..
+07/13/2009  09:42 PM             1,248 Character Map.lnk
+07/13/2009  09:41 PM             1,290 dfrgui.lnk
+07/13/2009  09:42 PM             1,252 Disk Cleanup.lnk
+07/13/2009  09:41 PM             1,242 Resource Monitor.lnk
+07/13/2009  09:41 PM             1,250 System Information.lnk
+07/13/2009  09:42 PM             1,246 System Restore.lnk
+07/13/2009  09:42 PM             1,268 Task Scheduler.lnk
+07/13/2009  09:42 PM             1,320 Windows Easy Transfer Reports.lnk
+07/13/2009  09:42 PM             1,316 Windows Easy Transfer.lnk
+               9 File(s)         11,432 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessories\Tablet PC
+
+10/30/2016  02:08 AM    <DIR>          .
+10/30/2016  02:08 AM    <DIR>          ..
+12/31/2014  06:42 AM             1,436 ShapeCollector.lnk
+12/31/2014  06:42 AM             1,386 TabTip.lnk
+               2 File(s)          2,822 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessories\Windows PowerShell
+
+07/13/2009  09:46 PM    <DIR>          .
+07/13/2009  09:46 PM    <DIR>          ..
+07/13/2009  09:46 PM             1,468 Windows PowerShell ISE.lnk
+07/13/2009  09:52 PM             1,899 Windows PowerShell.lnk
+               2 File(s)          3,367 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+
+12/31/2014  06:42 AM    <DIR>          .
+12/31/2014  06:42 AM    <DIR>          ..
+07/13/2009  09:46 PM             1,242 Component Services.lnk
+07/13/2009  09:41 PM             1,294 Computer Management.lnk
+07/13/2009  09:41 PM             1,270 Data Sources (ODBC).lnk
+07/13/2009  09:42 PM             1,298 Event Viewer.lnk
+07/13/2009  09:41 PM             1,274 iSCSI Initiator.lnk
+07/13/2009  09:41 PM             1,268 Memory Diagnostics Tool.lnk
+07/13/2009  09:41 PM             1,232 Performance Monitor.lnk
+12/31/2014  06:41 AM             1,262 Print Management.lnk
+12/31/2014  06:42 AM             1,248 Security Configuration Management.lnk
+07/13/2009  09:41 PM             1,288 services.lnk
+07/13/2009  09:41 PM             1,246 System Configuration.lnk
+07/13/2009  09:42 PM             1,262 Task Scheduler.lnk
+07/13/2009  09:41 PM             1,274 Windows Firewall with Advanced Security.lnk
+07/13/2009  09:52 PM             2,741 Windows PowerShell Modules.lnk
+              14 File(s)         19,199 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Games
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+07/13/2009  09:42 PM               258 GameExplorer.lnk
+               1 File(s)            258 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Maintenance
+
+07/13/2009  09:42 PM    <DIR>          .
+07/13/2009  09:42 PM    <DIR>          ..
+07/13/2009  09:42 PM             1,304 Backup and Restore Center.lnk
+07/13/2009  09:42 PM             1,248 Create Recovery Disc.lnk
+07/13/2009  09:42 PM             1,212 Remote Assistance.lnk
+               3 File(s)          3,764 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Startup
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\VMware
+
+03/05/2015  04:48 AM    <DIR>          .
+03/05/2015  04:48 AM    <DIR>          ..
+03/05/2015  04:48 AM    <DIR>          VMware Tools
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\VMware\VMware Tools
+
+03/05/2015  04:48 AM    <DIR>          .
+03/05/2015  04:48 AM    <DIR>          ..
+03/05/2015  04:48 AM               852 start VM Statistics Logging.lnk
+               1 File(s)            852 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Start Menu\Programs\XAMPP
+
+09/22/2015  11:15 PM    <DIR>          .
+09/22/2015  11:15 PM    <DIR>          ..
+09/22/2015  11:15 PM               178 Bitnami for XAMPP.url
+09/22/2015  11:15 PM               717 Uninstall XAMPP.lnk
+09/22/2015  11:15 PM               753 XAMPP Control Panel.lnk
+09/22/2015  11:15 PM               674 XAMPP htdocs folder.lnk
+               4 File(s)          2,322 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\Templates
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\WER
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:03 PM    <DIR>          ReportArchive
+12/07/2015  06:19 PM    <DIR>          ReportQueue
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\WER\ReportArchive
+
+07/13/2009  07:03 PM    <DIR>          .
+07/13/2009  07:03 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows\WER\ReportQueue
+
+12/07/2015  06:19 PM    <DIR>          .
+12/07/2015  06:19 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows NT
+
+07/13/2009  09:52 PM    <DIR>          .
+07/13/2009  09:52 PM    <DIR>          ..
+04/11/2011  07:16 PM    <DIR>          MSFax
+07/13/2009  09:52 PM    <DIR>          MSScan
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\Microsoft\Windows NT\MSScan
+
+07/13/2009  09:52 PM    <DIR>          .
+07/13/2009  09:52 PM    <DIR>          ..
+06/10/2009  02:41 PM           516,424 WelcomeScan.jpg
+               1 File(s)        516,424 bytes
+
+ Directory of c:\Users\All Users\VMware
+
+12/31/2014  06:58 AM    <DIR>          .
+12/31/2014  06:58 AM    <DIR>          ..
+03/05/2015  04:48 AM    <DIR>          VMware Tools
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\All Users\VMware\VMware Tools
+
+03/05/2015  04:48 AM    <DIR>          .
+03/05/2015  04:48 AM    <DIR>          ..
+03/05/2015  04:48 AM             3,700 manifest.txt
+03/05/2015  04:48 AM    <DIR>          Unity Filters
+               1 File(s)          3,700 bytes
+
+ Directory of c:\Users\All Users\VMware\VMware Tools\Unity Filters
+
+03/05/2015  04:48 AM    <DIR>          .
+03/05/2015  04:48 AM    <DIR>          ..
+11/28/2014  03:09 AM             1,433 adobeflashcs3.txt
+11/28/2014  03:09 AM             1,712 adobephotoshopcs3.txt
+11/28/2014  03:09 AM               588 googledesktop.txt
+11/28/2014  03:09 AM               455 microsoftoffice2003.txt
+11/28/2014  03:09 AM               907 vistasidebar.txt
+11/28/2014  03:09 AM               152 visualstudio2005.txt
+11/28/2014  03:09 AM             1,024 vmwarefilters.txt
+11/28/2014  03:09 AM               399 win7gadgets.txt
+               8 File(s)          6,670 bytes
+
+ Directory of c:\Users\coraline
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Contacts
+06/26/2018  07:39 AM    <DIR>          Desktop
+09/26/2015  06:00 PM    <DIR>          Documents
+09/26/2015  06:00 PM    <DIR>          Downloads
+09/26/2015  06:00 PM    <DIR>          Favorites
+09/26/2015  06:00 PM    <DIR>          Links
+09/26/2015  06:00 PM    <DIR>          Music
+09/26/2015  06:00 PM    <DIR>          Pictures
+09/26/2015  06:00 PM    <DIR>          Saved Games
+09/26/2015  06:00 PM    <DIR>          Searches
+09/26/2015  06:00 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData
+
+09/26/2015  06:21 PM    <DIR>          Local
+09/26/2015  06:00 PM    <DIR>          LocalLow
+09/26/2015  06:20 PM    <DIR>          Roaming
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local
+
+09/26/2015  06:21 PM    <DIR>          .
+09/26/2015  06:21 PM    <DIR>          ..
+09/26/2015  06:20 PM    <DIR>          Avg
+09/26/2015  06:00 PM    <DIR>          Microsoft
+09/26/2015  06:42 PM    <DIR>          Temp
+09/26/2015  06:00 PM    <DIR>          VirtualStore
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Avg
+
+09/26/2015  06:20 PM    <DIR>          .
+09/26/2015  06:20 PM    <DIR>          ..
+09/28/2015  12:47 AM    <DIR>          log
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Avg\log
+
+09/28/2015  12:47 AM    <DIR>          .
+09/28/2015  12:47 AM    <DIR>          ..
+09/26/2015  06:42 PM    <DIR>          fmw1
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Avg\log\fmw1
+
+09/26/2015  06:42 PM    <DIR>          .
+09/26/2015  06:42 PM    <DIR>          ..
+09/26/2015  06:42 PM             5,271 avgfmwbasedll.log
+09/26/2015  06:42 PM                 0 avgfmwbasedll.log.lock
+09/26/2015  06:37 PM            26,607 avgfmwui.log
+09/26/2015  06:22 PM                 0 avgfmwui.log.lock
+09/26/2015  06:55 PM           163,810 avgmsgdisp.log
+09/26/2015  06:22 PM                 0 avgmsgdisp.log.lock
+09/26/2015  06:37 PM               447 chromium_dbg.log
+09/26/2015  06:37 PM             3,393 commonpriv.log
+09/26/2015  06:22 PM                 0 commonpriv.log.lock
+09/26/2015  06:22 PM    <DIR>          Dictionaries
+               9 File(s)        199,528 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Avg\log\fmw1\Dictionaries
+
+09/26/2015  06:22 PM    <DIR>          .
+09/26/2015  06:22 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Feeds
+09/26/2015  06:42 PM    <DIR>          Internet Explorer
+09/26/2015  06:00 PM    <DIR>          Media Player
+09/26/2015  06:00 PM    <DIR>          PlayReady
+09/26/2015  06:00 PM    <DIR>          Vault
+09/26/2015  06:19 PM    <DIR>          Windows
+09/26/2015  06:00 PM    <DIR>          Windows Mail
+09/26/2015  06:00 PM    <DIR>          Windows Media
+09/26/2015  06:00 PM    <DIR>          Windows Sidebar
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Feeds
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Feeds for United States~
+09/26/2015  06:00 PM             6,144 FeedsStore.feedsdb-ms
+               1 File(s)          6,144 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Feeds\Feeds for United States~
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM            28,672 Popular Government Questions from USA~dgov~.feed-ms
+09/26/2015  06:00 PM            28,672 USA~dgov Updates~c News and Features~.feed-ms
+               2 File(s)         57,344 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Feeds\{5588ACFD-6436-411B-A5CE-666AE6A92D3D}~\WebSlices~
+
+09/26/2015  06:00 PM            28,672 Web Slice Gallery~.feed-ms
+               1 File(s)         28,672 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Feeds Cache\3K2KWPFT
+
+09/26/2015  06:00 PM                 0 fwlink[1]
+               1 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Feeds Cache\IR30VALK
+
+09/26/2015  06:00 PM                 0 fwlink[1]
+               1 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Feeds Cache\PDQ9PQXZ
+
+09/26/2015  06:00 PM                 0 fwlink[1]
+               1 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Internet Explorer
+
+09/26/2015  06:42 PM    <DIR>          .
+09/26/2015  06:42 PM    <DIR>          ..
+09/26/2015  06:00 PM             5,952 brndlog.txt
+09/26/2015  06:00 PM    <DIR>          IECompatData
+09/26/2015  06:42 PM            49,120 MSIMGSIZ.DAT
+09/26/2015  06:00 PM    <DIR>          TabRoaming
+09/26/2015  06:00 PM    <DIR>          Tiles
+09/26/2015  06:00 PM    <DIR>          Tracking Protection
+               2 File(s)         55,072 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Internet Explorer\IECompatData
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM           520,864 iecompatdata.xml
+               1 File(s)        520,864 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Internet Explorer\TabRoaming
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Internet Explorer\Tiles
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          pin9728060290
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Internet Explorer\Tiles\pin9728060290
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM               396 msapplication.xml
+               1 File(s)            396 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Internet Explorer\Tracking Protection
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Media Player
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:25 PM         1,331,200 CurrentDatabase_372.wmdb
+09/26/2015  06:00 PM            68,000 LocalMLS_3.wmdb
+09/26/2015  06:00 PM    <DIR>          Sync Playlists
+               2 File(s)      1,399,200 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Media Player\Sync Playlists
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          en-US
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Media Player\Sync Playlists\en-US
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          004A7234
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Media Player\Sync Playlists\en-US\004A7234
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM             1,044 01_Music_auto_rated_at_5_stars.wpl
+09/26/2015  06:00 PM             1,279 02_Music_added_in_the_last_month.wpl
+09/26/2015  06:00 PM             1,267 03_Music_rated_at_4_or_5_stars.wpl
+09/26/2015  06:00 PM             1,284 04_Music_played_in_the_last_month.wpl
+09/26/2015  06:00 PM               797 05_Pictures_taken_in_the_last_month.wpl
+09/26/2015  06:00 PM               785 06_Pictures_rated_4_or_5_stars.wpl
+09/26/2015  06:00 PM             1,040 07_TV_recorded_in_the_last_week.wpl
+09/26/2015  06:00 PM             1,020 08_Video_rated_at_4_or_5_stars.wpl
+09/26/2015  06:00 PM             1,025 09_Music_played_the_most.wpl
+09/26/2015  06:00 PM             1,063 10_All_Music.wpl
+09/26/2015  06:00 PM               585 11_All_Pictures.wpl
+09/26/2015  06:00 PM             1,079 12_All_Video.wpl
+              12 File(s)         12,268 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\PlayReady
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Vault
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          4BF4C442-9B8A-41A0-B380-DD4A704DDB28
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Vault\4BF4C442-9B8A-41A0-B380-DD4A704DDB28
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM             1,490 Policy.vpol
+               1 File(s)          1,490 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows
+
+09/26/2015  06:19 PM    <DIR>          .
+09/26/2015  06:19 PM    <DIR>          ..
+09/26/2015  06:19 PM    <DIR>          1033
+09/26/2015  06:00 PM    <DIR>          Burn
+09/26/2015  06:27 PM    <DIR>          Caches
+09/26/2015  06:00 PM    <DIR>          Explorer
+07/13/2009  07:04 PM    <DIR>          GameExplorer
+09/26/2015  06:00 PM    <DIR>          Ringtones
+09/26/2015  06:03 PM    <DIR>          WER
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\1033
+
+09/26/2015  06:19 PM    <DIR>          .
+09/26/2015  06:19 PM    <DIR>          ..
+09/26/2015  06:19 PM           297,531 StructuredQuerySchema.bin
+               1 File(s)        297,531 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\Burn
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\Caches
+
+09/26/2015  06:27 PM    <DIR>          .
+09/26/2015  06:27 PM    <DIR>          ..
+09/26/2015  06:21 PM            16,384 cversions.1.db
+09/26/2015  06:24 PM           118,608 {AFBF9F1A-8EE8-4C77-AF34-C647E37CA0D9}.1.ver0x0000000000000002.db
+09/26/2015  06:27 PM            93,160 {AFBF9F1A-8EE8-4C77-AF34-C647E37CA0D9}.1.ver0x0000000000000003.db
+               3 File(s)        228,152 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\Explorer
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:01 PM            24,576 ExplorerStartupLog.etl
+09/26/2015  06:00 PM                24 thumbcache_1024.db
+09/26/2015  06:00 PM         1,048,576 thumbcache_256.db
+09/26/2015  06:00 PM         1,048,576 thumbcache_32.db
+09/26/2015  06:19 PM         1,048,576 thumbcache_96.db
+09/26/2015  06:00 PM             3,256 thumbcache_idx.db
+09/26/2015  06:00 PM                24 thumbcache_sr.db
+               7 File(s)      3,173,608 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\GameExplorer
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\History
+
+09/26/2015  06:00 PM    <DIR>          Low
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\History\Low
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\Ringtones
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\Temporary Internet Files
+
+09/26/2015  06:00 PM               128 counters.dat
+09/26/2015  06:00 PM    <DIR>          Low
+               1 File(s)            128 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\WebCache
+
+09/26/2015  06:55 PM             8,192 V01.chk
+09/26/2015  06:55 PM           524,288 V01.log
+09/26/2015  06:42 PM           524,288 V0100002.log
+09/26/2015  06:42 PM           524,288 V0100003.log
+09/26/2015  06:42 PM           524,288 V0100004.log
+09/26/2015  06:42 PM           524,288 V0100005.log
+09/26/2015  06:42 PM           524,288 V0100006.log
+09/26/2015  06:42 PM           524,288 V0100007.log
+09/26/2015  06:42 PM           524,288 V0100008.log
+09/26/2015  06:42 PM           524,288 V0100009.log
+09/26/2015  06:00 PM           524,288 V01res00001.jrs
+09/26/2015  06:00 PM           524,288 V01res00002.jrs
+09/26/2015  06:55 PM        33,619,968 WebCacheV01.dat
+              13 File(s)     39,395,328 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\WER
+
+09/26/2015  06:03 PM    <DIR>          .
+09/26/2015  06:03 PM    <DIR>          ..
+09/26/2015  06:39 PM    <DIR>          ERC
+09/26/2015  06:03 PM    <DIR>          ReportArchive
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\WER\ERC
+
+09/26/2015  06:39 PM    <DIR>          .
+09/26/2015  06:39 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows\WER\ReportArchive
+
+09/26/2015  06:03 PM    <DIR>          .
+09/26/2015  06:03 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Mail
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM             1,736 account{4563B144-CCA2-46BB-B962-7EC10FB5BABA}.oeaccount
+09/26/2015  06:00 PM             1,508 account{6E9BCE84-C2B0-432A-86FF-1150075E9631}.oeaccount
+09/26/2015  06:00 PM               672 account{F9D40417-91EC-4182-B250-E5F248033767}.oeaccount
+09/26/2015  06:00 PM    <DIR>          Backup
+09/26/2015  06:00 PM             8,192 edb.chk
+09/26/2015  06:00 PM         2,097,152 edb.log
+09/26/2015  06:00 PM         2,097,152 edb00001.log
+09/26/2015  06:00 PM         2,097,152 edbres00001.jrs
+09/26/2015  06:00 PM         2,097,152 edbres00002.jrs
+09/26/2015  06:00 PM               260 oeold.xml
+09/26/2015  06:00 PM         2,113,536 WindowsMail.MSMessageStore
+09/26/2015  06:00 PM            16,384 WindowsMail.pat
+              11 File(s)     10,530,896 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Mail\Backup
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          new
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Mail\Backup\new
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM         2,097,152 edb00001.log
+09/26/2015  06:00 PM         2,121,728 WindowsMail.MSMessageStore
+09/26/2015  06:00 PM            16,384 WindowsMail.pat
+               3 File(s)      4,235,264 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Mail\Stationery
+
+07/13/2009  03:28 PM               255 Bears.htm
+06/10/2009  02:29 PM             1,074 Bears.jpg
+06/10/2009  02:26 PM             2,575 Blue_Gradient.jpg
+06/10/2009  02:26 PM             4,587 Cave_Drawings.gif
+06/10/2009  02:26 PM             2,319 Connectivity.gif
+06/10/2009  02:26 PM             3,792 Dotted_Lines.emf
+07/13/2009  03:28 PM               231 Garden.htm
+06/10/2009  02:29 PM            23,871 Garden.jpg
+06/10/2009  02:26 PM             5,524 Genko_1.emf
+06/10/2009  02:26 PM            10,340 Genko_2.emf
+06/10/2009  02:26 PM           116,724 Graph.emf
+07/13/2009  03:28 PM               237 Green Bubbles.htm
+06/10/2009  02:29 PM             6,406 GreenBubbles.jpg
+06/10/2009  02:26 PM             2,920 grid_(cm).wmf
+06/10/2009  02:26 PM             7,498 grid_(inch).wmf
+07/13/2009  03:28 PM               235 Hand Prints.htm
+06/10/2009  02:29 PM             4,222 HandPrints.jpg
+06/10/2009  02:26 PM           152,300 Memo.emf
+06/10/2009  02:26 PM             2,209 Monet.jpg
+06/10/2009  02:26 PM             4,192 Month_Calendar.emf
+06/10/2009  02:26 PM            26,036 Music.emf
+06/10/2009  02:26 PM             2,950 Notebook.jpg
+07/13/2009  03:28 PM               237 Orange Circles.htm
+06/10/2009  02:29 PM             6,381 OrangeCircles.jpg
+07/13/2009  03:28 PM               232 Peacock.htm
+06/10/2009  02:29 PM             5,115 Peacock.jpg
+06/10/2009  02:26 PM             3,981 Pine_Lumber.jpg
+06/10/2009  02:26 PM             5,115 Pretty_Peacock.jpg
+06/10/2009  02:26 PM            14,049 Psychedelic.jpg
+07/13/2009  03:28 PM               233 Roses.htm
+06/10/2009  02:29 PM             1,920 Roses.jpg
+06/10/2009  02:26 PM            15,776 Sand_Paper.jpg
+06/10/2009  02:26 PM            37,316 Seyes.emf
+07/13/2009  03:28 PM               237 Shades of Blue.htm
+06/10/2009  02:29 PM             4,734 ShadesOfBlue.jpg
+06/10/2009  02:26 PM            81,292 Shorthand.emf
+06/10/2009  02:26 PM             1,990 Small_News.jpg
+07/13/2009  03:28 PM               232 Soft Blue.htm
+06/10/2009  02:29 PM            10,569 SoftBlue.jpg
+07/13/2009  03:28 PM               230 Stars.htm
+06/10/2009  02:29 PM             7,505 Stars.jpg
+06/10/2009  02:26 PM             1,864 Stucco.gif
+06/10/2009  02:26 PM             3,650 Tanspecks.jpg
+06/10/2009  02:26 PM             4,638 Tiki.gif
+06/10/2009  02:26 PM            26,720 To_Do_List.emf
+06/10/2009  02:26 PM             3,168 White_Chocolate.jpg
+06/10/2009  02:26 PM            15,063 Wrinkled_Paper.gif
+              47 File(s)        632,744 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Media
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          12.0
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Media\12.0
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM               498 WMSDKNS.DTD
+09/26/2015  06:00 PM            10,191 WMSDKNS.XML
+               2 File(s)         10,689 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Sidebar
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Gadgets
+09/26/2015  06:00 PM                84 Settings.ini
+               1 File(s)             84 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Microsoft\Windows Sidebar\Gadgets
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Temp
+
+09/26/2015  06:42 PM    <DIR>          .
+09/26/2015  06:42 PM    <DIR>          ..
+09/26/2015  06:00 PM            31,832 coraline.bmp
+09/26/2015  06:01 PM                 0 FXSAPIDebugLogFile.txt
+09/26/2015  06:00 PM    <DIR>          Low
+09/26/2015  06:00 PM               516 wmsetup.log
+09/26/2015  06:37 PM    <DIR>          WPDNSE
+               3 File(s)         32,348 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Temp\Low
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\Temp\WPDNSE
+
+09/26/2015  06:37 PM    <DIR>          .
+09/26/2015  06:37 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Local\VirtualStore
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\LocalLow
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming
+
+09/26/2015  06:20 PM    <DIR>          .
+09/26/2015  06:20 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Adobe
+09/26/2015  06:20 PM    <DIR>          AVG
+09/26/2015  06:00 PM    <DIR>          Identities
+04/11/2011  07:24 PM    <DIR>          Media Center Programs
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Adobe
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Flash Player
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Adobe\Flash Player
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          NativeCache
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Adobe\Flash Player\NativeCache
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\AVG
+
+09/26/2015  06:20 PM    <DIR>          .
+09/26/2015  06:20 PM    <DIR>          ..
+09/26/2015  06:20 PM    <DIR>          AV
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\AVG\AV
+
+09/26/2015  06:20 PM    <DIR>          .
+09/26/2015  06:20 PM    <DIR>          ..
+09/26/2015  06:24 PM    <DIR>          cfgall
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\AVG\AV\cfgall
+
+09/26/2015  06:24 PM    <DIR>          .
+09/26/2015  06:24 PM    <DIR>          ..
+09/26/2015  06:24 PM                54 filevault.cfg
+09/26/2015  06:52 PM               292 userawacs.cfg
+09/26/2015  06:42 PM               174 usergui.cfg
+               3 File(s)            520 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Identities
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          {C1A5F88C-74C4-4B82-928D-8A8AC35A0FE2}
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Identities\{C1A5F88C-74C4-4B82-928D-8A8AC35A0FE2}
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Media Center Programs
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft
+
+09/26/2015  06:00 PM    <DIR>          Internet Explorer
+09/26/2015  06:00 PM    <DIR>          Network
+09/26/2015  06:00 PM    <DIR>          Vault
+09/26/2015  06:00 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Internet Explorer
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Quick Launch
+09/26/2015  06:00 PM    <DIR>          UserData
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+07/13/2009  09:37 PM               290 Shows Desktop.lnk
+07/13/2009  09:37 PM               272 Window Switcher.lnk
+               2 File(s)            562 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned
+
+09/26/2015  06:00 PM    <DIR>          ImplicitAppShortcuts
+09/26/2015  06:00 PM    <DIR>          TaskBar
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM             1,413 Internet Explorer.lnk
+07/13/2009  09:37 PM             1,228 Windows Explorer.lnk
+11/20/2010  02:41 PM             1,515 Windows Media Player.lnk
+               3 File(s)          4,156 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Internet Explorer\UserData
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Low
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Internet Explorer\UserData\Low
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Network
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Connections
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Network\Connections
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Pbk
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Network\Connections\Pbk
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          _hiddenPbk
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Network\Connections\Pbk\_hiddenPbk
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM                 0 rasphone.pbk
+               1 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Vault
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          DNTException
+09/26/2015  06:00 PM    <DIR>          Libraries
+07/13/2009  07:04 PM    <DIR>          Network Shortcuts
+07/13/2009  07:04 PM    <DIR>          Printer Shortcuts
+09/26/2015  06:00 PM    <DIR>          PrivacIE
+09/26/2015  06:01 PM    <DIR>          Recent
+09/26/2015  06:00 PM    <DIR>          SendTo
+09/26/2015  06:00 PM    <DIR>          Start Menu
+07/13/2009  07:04 PM    <DIR>          Templates
+09/26/2015  06:00 PM    <DIR>          Themes
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Cookies
+
+09/26/2015  06:00 PM    <DIR>          Low
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Cookies\Low
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\DNTException
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Libraries
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM             3,653 Documents.library-ms
+09/26/2015  06:00 PM             3,610 Music.library-ms
+09/26/2015  06:00 PM             3,645 Pictures.library-ms
+09/26/2015  06:00 PM             3,623 Videos.library-ms
+               4 File(s)         14,531 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\PrivacIE
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Recent
+
+09/26/2015  06:01 PM    <DIR>          .
+09/26/2015  06:01 PM    <DIR>          ..
+09/26/2015  06:01 PM               156 Appearance and Personalization.lnk
+09/26/2015  06:01 PM    <DIR>          AutomaticDestinations
+06/26/2018  07:26 AM    <DIR>          CustomDestinations
+               1 File(s)            156 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+
+09/26/2015  06:01 PM    <DIR>          .
+09/26/2015  06:01 PM    <DIR>          ..
+09/26/2015  06:00 PM             5,632 1b4dd67f29cb1962.automaticDestinations-ms
+09/26/2015  06:01 PM             3,072 7e4dca80246863e3.automaticDestinations-ms
+               2 File(s)          8,704 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+
+06/26/2018  07:26 AM    <DIR>          .
+06/26/2018  07:26 AM    <DIR>          ..
+09/26/2015  06:00 PM                24 1b4dd67f29cb1962.customDestinations-ms
+09/26/2015  06:00 PM            17,261 5afe4de1b92fc382.customDestinations-ms
+09/26/2015  06:00 PM                24 7e4dca80246863e3.customDestinations-ms
+06/26/2018  07:26 AM             8,016 d93f411851d7c929.customDestinations-ms
+09/26/2015  06:37 PM             8,684 dbceaae2fd1c8d04.customDestinations-ms
+               5 File(s)         34,009 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\SendTo
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+06/10/2009  02:27 PM                 3 Compressed (zipped) Folder.ZFSendToTarget
+06/10/2009  02:26 PM                 7 Desktop (create shortcut).DeskLink
+09/26/2015  06:00 PM                 0 Documents.mydocs
+07/13/2009  09:42 PM             1,238 Fax Recipient.lnk
+06/10/2009  02:26 PM                 4 Mail Recipient.MAPIMail
+               5 File(s)          1,252 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Programs
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+07/13/2009  09:42 PM    <DIR>          Accessories
+09/26/2015  06:00 PM    <DIR>          Administrative Tools
+09/26/2015  06:00 PM             1,413 Internet Explorer.lnk
+07/13/2009  09:37 PM    <DIR>          Maintenance
+09/26/2015  06:37 PM    <DIR>          Startup
+               1 File(s)          1,413 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories
+
+07/13/2009  09:42 PM    <DIR>          .
+07/13/2009  09:42 PM    <DIR>          ..
+07/13/2009  09:41 PM    <DIR>          Accessibility
+07/13/2009  09:41 PM             1,280 Command Prompt.lnk
+07/13/2009  09:42 PM             1,304 Notepad.lnk
+07/13/2009  09:37 PM               262 Run.lnk
+09/26/2015  06:00 PM    <DIR>          System Tools
+07/13/2009  09:37 PM             1,228 Windows Explorer.lnk
+               4 File(s)          4,074 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\Accessibility
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+07/13/2009  09:41 PM             1,358 Ease of Access.lnk
+07/13/2009  09:41 PM             1,258 Magnify.lnk
+07/13/2009  09:41 PM             1,262 Narrator.lnk
+07/13/2009  09:41 PM             1,250 On-Screen Keyboard.lnk
+               4 File(s)          5,128 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+07/13/2009  09:37 PM               262 computer.lnk
+07/13/2009  09:37 PM               262 Control Panel.lnk
+09/26/2015  06:00 PM             1,463 Internet Explorer (No Add-ons).lnk
+07/13/2009  09:42 PM             1,306 Private Character Editor.lnk
+               4 File(s)          3,293 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance
+
+07/13/2009  09:37 PM    <DIR>          .
+07/13/2009  09:37 PM    <DIR>          ..
+07/13/2009  09:37 PM               262 Help.lnk
+               1 File(s)            262 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+09/26/2015  06:37 PM    <DIR>          .
+09/26/2015  06:37 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Templates
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\AppData\Roaming\Microsoft\Windows\Themes
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM           642,987 TranscodedWallpaper.jpg
+               1 File(s)        642,987 bytes
+
+ Directory of c:\Users\coraline\Contacts
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM            44,599 coraline.contact
+               1 File(s)         44,599 bytes
+
+ Directory of c:\Users\coraline\Desktop
+
+06/26/2018  07:39 AM    <DIR>          .
+06/26/2018  07:39 AM    <DIR>          ..
+09/26/2015  06:24 PM               225 apache_start.bat
+06/26/2018  07:39 AM                68 ftp.txt
+06/26/2018  02:51 AM                33 local.txt
+               3 File(s)            326 bytes
+
+ Directory of c:\Users\coraline\Documents
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\Downloads
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\Favorites
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM    <DIR>          Links
+09/26/2015  06:00 PM    <DIR>          Links for United States
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\Favorites\Links
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM               226 Web Slice Gallery.url
+               1 File(s)            226 bytes
+
+ Directory of c:\Users\coraline\Favorites\Links for United States
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+04/11/2011  07:27 PM               134 GobiernoUSA.gov.url
+04/11/2011  07:27 PM               134 USA.gov.url
+               2 File(s)            268 bytes
+
+ Directory of c:\Users\coraline\Links
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+09/26/2015  06:00 PM               482 Desktop.lnk
+09/26/2015  06:00 PM               881 Downloads.lnk
+09/26/2015  06:00 PM               363 RecentPlaces.lnk
+               3 File(s)          1,726 bytes
+
+ Directory of c:\Users\coraline\Music
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\Pictures
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\Saved Games
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\Searches
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\coraline\Videos
+
+09/26/2015  06:00 PM    <DIR>          .
+09/26/2015  06:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default
+
+07/13/2009  07:04 PM    <DIR>          Desktop
+07/13/2009  09:53 PM    <DIR>          Documents
+07/13/2009  07:04 PM    <DIR>          Downloads
+07/13/2009  07:04 PM    <DIR>          Favorites
+07/13/2009  07:04 PM    <DIR>          Links
+07/13/2009  07:04 PM    <DIR>          Music
+07/13/2009  07:04 PM    <DIR>          Pictures
+07/13/2009  07:04 PM    <DIR>          Saved Games
+07/13/2009  07:04 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData
+
+07/13/2009  09:53 PM    <DIR>          Local
+04/11/2011  07:24 PM    <DIR>          Roaming
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Local
+
+07/13/2009  09:53 PM    <DIR>          .
+07/13/2009  09:53 PM    <DIR>          ..
+07/13/2009  07:37 PM    <DIR>          Microsoft
+07/13/2009  07:04 PM    <DIR>          Temp
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Local\Microsoft
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:37 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Local\Microsoft\Windows
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:04 PM    <DIR>          GameExplorer
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Local\Microsoft\Windows\GameExplorer
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Local\Temp
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+04/11/2011  07:24 PM    <DIR>          Media Center Programs
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Media Center Programs
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft
+
+07/13/2009  07:37 PM    <DIR>          Internet Explorer
+07/13/2009  07:37 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Internet Explorer
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  09:37 PM    <DIR>          Quick Launch
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
+
+07/13/2009  09:37 PM    <DIR>          .
+07/13/2009  09:37 PM    <DIR>          ..
+07/13/2009  09:37 PM               290 Shows Desktop.lnk
+07/13/2009  09:37 PM               272 Window Switcher.lnk
+               2 File(s)            562 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:04 PM    <DIR>          Cookies
+07/13/2009  07:04 PM    <DIR>          Network Shortcuts
+07/13/2009  07:04 PM    <DIR>          Printer Shortcuts
+03/05/2015  04:48 AM    <DIR>          Recent
+07/13/2009  09:42 PM    <DIR>          SendTo
+07/13/2009  07:37 PM    <DIR>          Start Menu
+07/13/2009  07:04 PM    <DIR>          Templates
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Cookies
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Recent
+
+03/05/2015  04:48 AM    <DIR>          .
+03/05/2015  04:48 AM    <DIR>          ..
+03/05/2015  04:48 AM    <DIR>          AutomaticDestinations
+03/05/2015  04:48 AM    <DIR>          CustomDestinations
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+
+03/05/2015  04:48 AM    <DIR>          .
+03/05/2015  04:48 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+
+03/05/2015  04:48 AM    <DIR>          .
+03/05/2015  04:48 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\SendTo
+
+07/13/2009  09:42 PM    <DIR>          .
+07/13/2009  09:42 PM    <DIR>          ..
+06/10/2009  02:27 PM                 3 Compressed (zipped) Folder.ZFSendToTarget
+06/10/2009  02:26 PM                 7 Desktop (create shortcut).DeskLink
+07/13/2009  09:42 PM             1,238 Fax Recipient.lnk
+06/10/2009  02:26 PM                 4 Mail Recipient.MAPIMail
+               4 File(s)          1,252 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  07:37 PM    <DIR>          Programs
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+
+07/13/2009  07:37 PM    <DIR>          .
+07/13/2009  07:37 PM    <DIR>          ..
+07/13/2009  09:42 PM    <DIR>          Accessories
+07/13/2009  09:37 PM    <DIR>          Maintenance
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories
+
+07/13/2009  09:42 PM    <DIR>          .
+07/13/2009  09:42 PM    <DIR>          ..
+07/13/2009  09:41 PM    <DIR>          Accessibility
+07/13/2009  09:41 PM             1,280 Command Prompt.lnk
+07/13/2009  09:42 PM             1,304 Notepad.lnk
+07/13/2009  09:37 PM               262 Run.lnk
+07/13/2009  09:42 PM    <DIR>          System Tools
+07/13/2009  09:37 PM             1,228 Windows Explorer.lnk
+               4 File(s)          4,074 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\Accessibility
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+07/13/2009  09:41 PM             1,358 Ease of Access.lnk
+07/13/2009  09:41 PM             1,258 Magnify.lnk
+07/13/2009  09:41 PM             1,262 Narrator.lnk
+07/13/2009  09:41 PM             1,250 On-Screen Keyboard.lnk
+               4 File(s)          5,128 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools
+
+07/13/2009  09:42 PM    <DIR>          .
+07/13/2009  09:42 PM    <DIR>          ..
+07/13/2009  09:37 PM               262 computer.lnk
+07/13/2009  09:37 PM               262 Control Panel.lnk
+07/13/2009  09:42 PM             1,306 Private Character Editor.lnk
+               3 File(s)          1,830 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance
+
+07/13/2009  09:37 PM    <DIR>          .
+07/13/2009  09:37 PM    <DIR>          ..
+07/13/2009  09:37 PM               262 Help.lnk
+               1 File(s)            262 bytes
+
+ Directory of c:\Users\Default\AppData\Roaming\Microsoft\Windows\Templates
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Desktop
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Documents
+
+07/13/2009  09:53 PM    <DIR>          .
+07/13/2009  09:53 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Downloads
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Favorites
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Links
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Music
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Pictures
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Saved Games
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Default\Videos
+
+07/13/2009  07:04 PM    <DIR>          .
+07/13/2009  07:04 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+07/13/2009  09:53 PM    <DIR>          Documents
+07/13/2009  09:41 PM    <DIR>          Downloads
+07/13/2009  09:41 PM    <DIR>          Music
+07/13/2009  09:41 PM    <DIR>          Pictures
+04/11/2011  07:24 PM    <DIR>          Recorded TV
+07/13/2009  09:41 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public\Documents
+
+07/13/2009  09:53 PM    <DIR>          .
+07/13/2009  09:53 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public\Downloads
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public\Libraries
+
+12/31/2014  06:50 AM             3,857 RecordedTV.library-ms
+               1 File(s)          3,857 bytes
+
+ Directory of c:\Users\Public\Music
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+09/26/2015  06:23 PM    <DIR>          Sample Music
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public\Music\Sample Music
+
+09/26/2015  06:23 PM    <DIR>          .
+09/26/2015  06:23 PM    <DIR>          ..
+07/13/2009  09:52 PM         8,414,449 Kalimba.mp3
+07/13/2009  09:52 PM         4,113,874 Maid with the Flaxen Hair.mp3
+07/13/2009  09:52 PM         4,842,585 Sleep Away.mp3
+               3 File(s)     17,370,908 bytes
+
+ Directory of c:\Users\Public\Pictures
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+07/13/2009  09:41 PM    <DIR>          Sample Pictures
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public\Pictures\Sample Pictures
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+07/13/2009  09:52 PM           879,394 Chrysanthemum.jpg
+07/13/2009  09:52 PM           845,941 Desert.jpg
+07/13/2009  09:52 PM           595,284 Hydrangeas.jpg
+07/13/2009  09:52 PM           775,702 Jellyfish.jpg
+07/13/2009  09:52 PM           780,831 Koala.jpg
+07/13/2009  09:52 PM           561,276 Lighthouse.jpg
+07/13/2009  09:52 PM           777,835 Penguins.jpg
+07/13/2009  09:52 PM           620,888 Tulips.jpg
+               8 File(s)      5,837,151 bytes
+
+ Directory of c:\Users\Public\Recorded TV
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+04/11/2011  07:24 PM    <DIR>          Sample Media
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public\Recorded TV\Sample Media
+
+04/11/2011  07:24 PM    <DIR>          .
+04/11/2011  07:24 PM    <DIR>          ..
+04/11/2011  07:24 PM         9,699,328 win7_scenic-demoshort_raw.wtv
+               1 File(s)      9,699,328 bytes
+
+ Directory of c:\Users\Public\Videos
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+07/13/2009  09:41 PM    <DIR>          Sample Videos
+               0 File(s)              0 bytes
+
+ Directory of c:\Users\Public\Videos\Sample Videos
+
+07/13/2009  09:41 PM    <DIR>          .
+07/13/2009  09:41 PM    <DIR>          ..
+07/13/2009  09:52 PM        26,246,026 Wildlife.wmv
+               1 File(s)     26,246,026 bytes
+
+     Total Files Listed:
+             388 File(s)    128,454,479 bytes
+             725 Dir(s)   2,245,902,336 bytes free
+
+
+
+
+c:\>driverquery
+driverquery
+
+Module Name  Display Name           Driver Type   Link Date             
+============ ====================== ============= ======================
+1394ohci     1394 OHCI Compliant Ho Kernel        11/20/2010 2:01:11 AM 
+ACPI         Microsoft ACPI Driver  Kernel        11/20/2010 12:37:52 AM
+AcpiPmi      ACPI Power Meter Drive Kernel        11/20/2010 12:47:55 AM
+adp94xx      adp94xx                Kernel        12/5/2008 3:59:55 PM  
+adpahci      adpahci                Kernel        5/1/2007 10:29:26 AM  
+adpu320      adpu320                Kernel        2/27/2007 4:03:08 PM  
+AFD          Ancillary Function Dri Kernel        10/13/2015 9:31:51 AM 
+agp440       Intel AGP Bus Filter   Kernel        7/13/2009 4:25:36 PM  
+aic78xx      aic78xx                Kernel        4/11/2006 5:20:11 PM  
+aliide       aliide                 Kernel        7/13/2009 4:11:17 PM  
+amdagp       AMD AGP Bus Filter Dri Kernel        7/13/2009 4:25:36 PM  
+amdide       amdide                 Kernel        7/13/2009 4:11:19 PM  
+AmdK8        AMD K8 Processor Drive Kernel        7/13/2009 4:11:03 PM  
+AmdPPM       AMD Processor Driver   Kernel        7/13/2009 4:11:03 PM  
+amdsata      amdsata                Kernel        3/18/2010 6:08:27 PM  
+amdsbs       amdsbs                 Kernel        3/20/2009 11:35:26 AM 
+amdxata      amdxata                Kernel        3/19/2010 9:19:01 AM  
+AppID        AppID Driver           Kernel        9/9/2016 10:42:04 AM  
+arc          arc                    Kernel        5/24/2007 2:31:06 PM  
+arcsas       arcsas                 Kernel        1/14/2009 11:26:37 AM 
+AsyncMac     RAS Asynchronous Media Kernel        7/13/2009 4:54:46 PM  
+atapi        IDE Channel            Kernel        7/13/2009 4:11:15 PM  
+b06bdrv      Broadcom NetXtreme II  Kernel        2/13/2009 2:10:59 PM  
+b57nd60x     Broadcom NetXtreme Gig Kernel        4/26/2009 4:15:34 AM  
+Beep         Beep                   Kernel        7/13/2009 4:45:00 PM  
+blbdrive     blbdrive               Kernel        7/13/2009 4:23:04 PM  
+bowser       Browser Support Driver File System   2/22/2011 8:47:32 PM  
+BrFiltLo     Brother USB Mass-Stora Kernel        8/6/2006 2:33:45 PM   
+BrFiltUp     Brother USB Mass-Stora Kernel        8/6/2006 2:33:45 PM   
+Brserid      Brother MFC Serial Por Kernel        8/6/2006 2:33:50 PM   
+BrSerWdm     Brother WDM Serial dri Kernel        8/6/2006 2:33:44 PM   
+BrUsbMdm     Brother MFC USB Fax On Kernel        8/6/2006 2:33:43 PM   
+BrUsbSer     Brother MFC USB Serial Kernel        8/9/2006 5:02:02 AM   
+BTHMODEM     Bluetooth Serial Commu Kernel        7/13/2009 4:51:34 PM  
+cdfs         CD/DVD File System Rea File System   7/13/2009 4:11:14 PM  
+cdrom        CD-ROM Driver          Kernel        11/20/2010 12:38:09 AM
+circlass     Consumer IR Devices    Kernel        7/13/2009 4:51:17 PM  
+CLFS         Common Log (CLFS)      Kernel        3/3/2015 7:00:23 PM   
+CmBatt       Microsoft AC Adapter D Kernel        7/13/2009 4:19:18 PM  
+cmdide       cmdide                 Kernel        7/13/2009 4:11:18 PM  
+CNG          CNG                    Kernel        5/11/2016 7:56:35 AM  
+Compbatt     Microsoft Composite Ba Kernel        7/13/2009 4:19:18 PM  
+CompositeBus Composite Bus Enumerat Kernel        11/20/2010 1:50:21 AM 
+crcdisk      Crcdisk Filter Driver  Kernel        7/13/2009 4:46:05 PM  
+CSC          Offline Files Driver   Kernel        11/20/2010 12:44:32 AM
+DfsC         DFS Namespace Client D File System   9/8/2016 7:49:56 AM   
+discache     System Attribute Cache Kernel        7/13/2009 4:24:04 PM  
+Disk         Disk Driver            Kernel        1/19/2016 6:05:19 PM  
+dmvsc        dmvsc                  Kernel        11/20/2010 1:14:48 AM 
+DXGKrnl      LDDM Graphics Subsyste Kernel        4/8/2016 10:40:32 PM  
+E1G60        Intel(R) PRO/1000 NDIS Kernel        5/28/2008 4:14:11 PM  
+ebdrv        Broadcom NetXtreme II  Kernel        12/31/2008 8:06:23 AM 
+elxstor      elxstor                Kernel        2/3/2009 2:09:33 PM   
+ErrDev       Microsoft Hardware Err Kernel        7/13/2009 4:19:18 PM  
+exfat        exFAT File System Driv File System   7/13/2009 4:14:01 PM  
+fastfat      FAT12/16/32 File Syste File System   7/13/2009 4:14:01 PM  
+fdc          Floppy Disk Controller Kernel        7/13/2009 4:45:45 PM  
+FileInfo     File Information FS Mi File System   7/13/2009 4:21:51 PM  
+Filetrace    Filetrace              File System   7/13/2009 4:15:29 PM  
+flpydisk     Floppy Disk Driver     Kernel        7/13/2009 4:45:45 PM  
+FltMgr       FltMgr                 File System   7/13/2009 4:11:13 PM  
+FsDepends    File System Dependency File System   7/13/2009 4:15:38 PM  
+fvevol       Bitlocker Drive Encryp Kernel        1/23/2013 6:41:37 PM  
+gagp30kx     Microsoft Generic AGPv Kernel        7/13/2009 4:25:42 PM  
+hcw85cir     Hauppauge Consumer Inf Kernel        5/11/2009 12:22:41 AM 
+HDAudBus     Microsoft UAA Bus Driv Kernel        11/20/2010 1:59:28 AM 
+HidBatt      HID UPS Battery Driver Kernel        7/13/2009 4:19:21 PM  
+HidBth       Microsoft Bluetooth HI Kernel        7/13/2009 4:51:33 PM  
+HidIr        Microsoft Infrared HID Kernel        7/13/2009 4:51:04 PM  
+HidUsb       Microsoft HID Class Dr Kernel        11/20/2010 1:59:38 AM 
+HpSAMD       HpSAMD                 Kernel        5/18/2009 4:42:46 PM  
+HTTP         HTTP                   Kernel        2/24/2015 7:03:11 PM  
+hwpolicy     Hardware Policy Driver Kernel        11/20/2010 12:37:35 AM
+i8042prt     i8042 Keyboard and PS/ Kernel        7/13/2009 4:11:23 PM  
+iaStorV      Intel RAID Controller  Kernel        6/10/2010 5:45:02 PM  
+iirsp        iirsp                  Kernel        12/13/2005 1:48:01 PM 
+intelide     intelide               Kernel        7/13/2009 4:11:19 PM  
+intelppm     Intel Processor Driver Kernel        7/13/2009 4:11:03 PM  
+IpFilterDriv IP Traffic Filter Driv Kernel        7/13/2009 4:54:28 PM  
+IPMIDRV      IPMIDRV                Kernel        11/20/2010 1:19:14 AM 
+IPNAT        IP Network Address Tra Kernel        7/13/2009 4:54:28 PM  
+IRENUM       IR Bus Enumerator      Kernel        7/13/2009 4:53:27 PM  
+isapnp       isapnp                 Kernel        7/13/2009 4:19:29 PM  
+iScsiPrt     iScsiPort Driver       Kernel        2/3/2014 5:17:29 PM   
+kbdclass     Keyboard Class Driver  Kernel        7/13/2009 4:11:15 PM  
+kbdhid       Keyboard HID Driver    Kernel        11/20/2010 1:50:10 AM 
+KSecDD       KSecDD                 Kernel        9/12/2016 1:25:27 PM  
+KSecPkg      KSecPkg                Kernel        9/12/2016 1:29:36 PM  
+lltdio       Link-Layer Topology Di Kernel        7/13/2009 4:53:18 PM  
+LSI_FC       LSI_FC                 Kernel        12/9/2008 2:28:47 PM  
+LSI_SAS      LSI_SAS                Kernel        5/18/2009 5:19:55 PM  
+LSI_SAS2     LSI_SAS2               Kernel        5/18/2009 5:31:29 PM  
+LSI_SCSI     LSI_SCSI               Kernel        4/16/2009 3:14:47 PM  
+luafv        UAC File Virtualizatio File System   7/13/2009 4:15:44 PM  
+megasas      megasas                Kernel        5/18/2009 6:09:36 PM  
+MegaSR       MegaSR                 Kernel        5/18/2009 6:25:17 PM  
+Modem        Modem                  Kernel        7/13/2009 4:55:24 PM  
+monitor      Microsoft Monitor Clas Kernel        7/13/2009 4:25:58 PM  
+mouclass     Mouse Class Driver     Kernel        7/13/2009 4:11:15 PM  
+mouhid       Mouse HID Driver       Kernel        7/13/2009 4:45:08 PM  
+mountmgr     Mount Point Manager    Kernel        6/14/2016 7:53:14 AM  
+mpio         mpio                   Kernel        11/20/2010 1:51:28 AM 
+mpsdrv       Windows Firewall Autho Kernel        7/13/2009 4:52:52 PM  
+MRxDAV       WebDav Client Redirect File System   9/8/2016 7:49:58 AM   
+mrxsmb       SMB MiniRedirector Wra File System   9/12/2016 1:25:59 PM  
+mrxsmb10     SMB 1.x MiniRedirector File System   9/12/2016 1:26:05 PM  
+mrxsmb20     SMB 2.0 MiniRedirector File System   9/12/2016 1:26:03 PM  
+msahci       msahci                 Kernel        11/20/2010 1:50:48 AM 
+msdsm        msdsm                  Kernel        11/20/2010 1:51:42 AM 
+Msfs         Msfs                   File System   7/13/2009 4:11:26 PM  
+mshidkmdf    Pass-through HID to KM Kernel        7/13/2009 4:51:07 PM  
+msisadrv     msisadrv               Kernel        7/13/2009 4:11:09 PM  
+MsRPC        MsRPC                  Kernel        7/13/2009 4:11:59 PM  
+mssmbios     Microsoft System Manag Kernel        7/13/2009 4:19:25 PM  
+MTConfig     Microsoft Input Config Kernel        7/13/2009 4:46:55 PM  
+Mup          Mup                    File System   7/13/2009 4:14:14 PM  
+NativeWifiP  NativeWiFi Filter      Kernel        7/13/2009 4:51:59 PM  
+NDIS         NDIS System Driver     Kernel        10/12/2015 8:32:54 PM 
+NdisCap      NDIS Capture LightWeig Kernel        7/13/2009 4:52:44 PM  
+NdisTapi     Remote Access NDIS TAP Kernel        7/13/2009 4:54:24 PM  
+Ndisuio      NDIS Usermode I/O Prot Kernel        11/20/2010 2:06:36 AM 
+NdisWan      Remote Access NDIS WAN Kernel        11/20/2010 2:07:48 AM 
+NDProxy      NDIS Proxy             Kernel        11/20/2010 2:07:39 AM 
+NetBIOS      NetBIOS Interface      File System   7/13/2009 4:53:54 PM  
+NetBT        NetBT                  Kernel        5/11/2016 7:52:25 AM  
+nfrd960      nfrd960                Kernel        6/6/2006 2:12:15 PM   
+Npfs         Npfs                   File System   7/13/2009 4:11:31 PM  
+nsiproxy     NSI proxy service driv Kernel        7/13/2009 4:12:08 PM  
+Ntfs         Ntfs                   File System   1/11/2016 9:37:01 AM  
+Null         Null                   Kernel        7/13/2009 4:11:12 PM  
+nvraid       nvraid                 Kernel        3/19/2010 2:00:09 PM  
+nvstor       nvstor                 Kernel        3/19/2010 1:51:52 PM  
+nv_agp       NVIDIA nForce AGP Bus  Kernel        7/13/2009 4:25:50 PM  
+ohci1394     1394 OHCI Compliant Ho Kernel        7/13/2009 4:51:29 PM  
+Parport      Parallel port driver   Kernel        7/13/2009 4:45:34 PM  
+partmgr      Partition Manager      Kernel        3/16/2012 10:03:08 PM 
+Parvdm       Parvdm                 Kernel        7/13/2009 4:45:29 PM  
+pci          PCI Bus Driver         Kernel        11/20/2010 12:37:57 AM
+pciide       pciide                 Kernel        7/13/2009 4:11:19 PM  
+pcmcia       pcmcia                 Kernel        7/13/2009 4:19:29 PM  
+pcw          Performance Counters f Kernel        7/13/2009 4:11:10 PM  
+PEAUTH       PEAUTH                 Kernel        6/14/2016 8:16:01 AM  
+PptpMiniport WAN Miniport (PPTP)    Kernel        7/13/2009 4:54:47 PM  
+Processor    Processor Driver       Kernel        7/13/2009 4:11:03 PM  
+Psched       QoS Packet Scheduler   Kernel        7/13/2009 4:53:58 PM  
+ql2300       ql2300                 Kernel        1/22/2009 3:28:52 PM  
+ql40xx       ql40xx                 Kernel        5/18/2009 6:17:31 PM  
+QWAVEdrv     QWAVE driver           Kernel        7/13/2009 4:54:12 PM  
+RasAcd       Remote Access Auto Con Kernel        7/13/2009 4:54:40 PM  
+RasAgileVpn  WAN Miniport (IKEv2)   Kernel        7/13/2009 4:55:00 PM  
+Rasl2tp      WAN Miniport (L2TP)    Kernel        7/13/2009 4:54:33 PM  
+RasPppoe     Remote Access PPPOE Dr Kernel        7/13/2009 4:54:53 PM  
+RasSstp      WAN Miniport (SSTP)    Kernel        7/13/2009 4:54:57 PM  
+rdbss        Redirected Buffering S File System   11/20/2010 12:42:44 AM
+rdpbus       Remote Desktop Device  Kernel        7/13/2009 5:02:40 PM  
+RDPCDD       RDPCDD                 Kernel        11/20/2010 2:22:19 AM 
+RDPDR        Terminal Server Device Kernel        11/20/2010 2:24:44 AM 
+RDPENCDD     RDP Encoder Mirror Dri Kernel        7/13/2009 5:01:39 PM  
+RDPREFMP     Reflector Display Driv Kernel        7/13/2009 5:01:41 PM  
+RdpVideoMini Remote Desktop Video M Kernel        8/23/2012 7:44:32 AM  
+RDPWD        RDP Winstation Driver  Kernel        7/16/2014 6:02:49 PM  
+rdyboost     ReadyBoost             Kernel        11/20/2010 1:00:07 AM 
+rspndr       Link-Layer Topology Di Kernel        7/13/2009 4:53:20 PM  
+s3cap        s3cap                  Kernel        11/20/2010 1:14:41 AM 
+sbp2port     sbp2port               Kernel        11/20/2010 12:38:08 AM
+scfilter     Smart card PnP Class F Kernel        11/20/2010 1:24:55 AM 
+secdrv       Security Driver        Kernel        9/13/2006 6:18:32 AM  
+Serenum      Serenum Filter Driver  Kernel        7/13/2009 4:45:27 PM  
+Serial       Serial port driver     Kernel        7/13/2009 4:45:33 PM  
+sermouse     Serial Mouse Driver    Kernel        7/13/2009 4:45:08 PM  
+sffdisk      SFF Storage Class Driv Kernel        7/13/2009 4:45:52 PM  
+sffp_mmc     SFF Storage Protocol D Kernel        7/13/2009 4:45:52 PM  
+sffp_sd      SFF Storage Protocol D Kernel        11/20/2010 1:50:48 AM 
+sfloppy      High-Capacity Floppy D Kernel        7/13/2009 4:45:52 PM  
+sisagp       SIS AGP Bus Filter     Kernel        7/13/2009 4:25:35 PM  
+SiSRaid2     SiSRaid2               Kernel        9/24/2008 11:19:45 AM 
+SiSRaid4     SiSRaid4               Kernel        10/1/2008 2:52:22 PM  
+Smb          Message-oriented TCP/I Kernel        7/13/2009 4:53:39 PM  
+spldr        Security Processor Loa Kernel        5/11/2009 9:13:47 AM  
+srv          Server SMB 1.xxx Drive File System   8/12/2016 9:21:10 AM  
+srv2         Server SMB 2.xxx Drive File System   8/12/2016 9:21:03 AM  
+srvnet       srvnet                 File System   8/12/2016 9:21:00 AM  
+stexstor     stexstor               Kernel        2/17/2009 3:03:21 PM  
+storflt      Disk Virtual Machine B Kernel        11/20/2010 1:14:37 AM 
+storvsc      storvsc                Kernel        11/20/2010 1:14:37 AM 
+swenum       Software Bus Driver    Kernel        7/13/2009 4:45:08 PM  
+Tcpip        TCP/IP Protocol Driver Kernel        7/7/2016 7:50:05 AM   
+TCPIP6       Microsoft IPv6 Protoco Kernel        7/7/2016 7:50:05 AM   
+tcpipreg     TCP/IP Registry Compat Kernel        7/7/2016 7:57:43 AM   
+TDPIPE       TDPIPE                 Kernel        11/20/2010 2:21:10 AM 
+TDTCP        TDTCP                  Kernel        2/16/2012 8:13:21 PM  
+tdx          NetIO Legacy TDI Suppo Kernel        10/13/2015 9:31:24 AM 
+TermDD       Terminal Device Driver Kernel        11/20/2010 2:21:10 AM 
+tssecsrv     Remote Desktop Service Kernel        8/5/2015 9:58:36 AM   
+TsUsbFlt     TsUsbFlt               Kernel        10/1/2013 5:42:31 PM  
+TsUsbGD      Remote Desktop Generic Kernel        8/23/2012 7:41:34 AM  
+tunnel       Microsoft Tunnel Minip Kernel        11/20/2010 2:06:40 AM 
+uagp35       Microsoft AGPv3.5 Filt Kernel        7/13/2009 4:25:40 PM  
+udfs         udfs                   File System   11/20/2010 12:42:27 AM
+uliagpkx     Uli AGP Bus Filter     Kernel        7/13/2009 4:25:47 PM  
+umbus        UMBus Enumerator Drive Kernel        11/20/2010 2:00:23 AM 
+UmPass       Microsoft UMPass Drive Kernel        7/13/2009 4:51:35 PM  
+usbccgp      Microsoft USB Generic  Kernel        8/16/2016 1:27:02 PM  
+usbcir       eHome Infrared Receive Kernel        7/12/2013 3:07:54 AM  
+usbehci      Microsoft USB 2.0 Enha Kernel        8/16/2016 1:26:59 PM  
+usbhub       Microsoft USB Standard Kernel        8/16/2016 1:27:19 PM  
+usbohci      Microsoft USB Open Hos Kernel        8/16/2016 1:26:58 PM  
+usbprint     Microsoft USB PRINTER  Kernel        7/13/2009 5:17:06 PM  
+USBSTOR      USB Mass Storage Drive Kernel        2/3/2016 9:59:58 AM   
+usbuhci      Microsoft USB Universa Kernel        8/16/2016 1:26:56 PM  
+vdrvroot     Microsoft Virtual Driv Kernel        7/13/2009 4:46:19 PM  
+vga          vga                    Kernel        7/13/2009 4:25:49 PM  
+VgaSave      VgaSave                Kernel        7/13/2009 4:25:50 PM  
+vhdmp        vhdmp                  Kernel        11/20/2010 1:51:49 AM 
+viaagp       VIA AGP Bus Filter     Kernel        7/13/2009 4:25:39 PM  
+ViaC7        VIA C7 Processor Drive Kernel        7/13/2009 4:11:03 PM  
+viaide       viaide                 Kernel        7/13/2009 4:11:20 PM  
+vm3dmp       vm3dmp                 Kernel        11/11/2013 9:44:47 PM 
+vmbus        vmbus                  Kernel        11/20/2010 1:14:58 AM 
+VMBusHID     VMBusHID               Kernel        11/20/2010 1:14:44 AM 
+vmci         VMware VMCI Bus Driver Kernel        4/30/2012 6:12:40 PM  
+VMMEMCTL     Memory Control Driver  Kernel        11/28/2014 1:36:55 AM 
+vmmouse      VMware Pointing Device Kernel        6/4/2012 2:15:28 AM   
+volmgr       Volume Manager Driver  Kernel        11/20/2010 12:38:06 AM
+volmgrx      Dynamic Volume Manager Kernel        7/13/2009 4:11:41 PM  
+volsnap      Storage volumes        Kernel        11/20/2010 12:38:13 AM
+vsmraid      vsmraid                Kernel        1/30/2009 5:13:29 PM  
+vsock        vSockets Driver        Kernel        8/30/2013 12:24:11 PM 
+vwifibus     Virtual WiFi Bus Drive Kernel        7/13/2009 4:52:02 PM  
+WacomPen     Wacom Serial Pen HID D Kernel        7/13/2009 4:46:53 PM  
+WANARP       Remote Access IP ARP D Kernel        11/20/2010 2:07:45 AM 
+Wanarpv6     Remote Access IPv6 ARP Kernel        11/20/2010 2:07:45 AM 
+Wd           Wd                     Kernel        7/13/2009 4:11:31 PM  
+Wdf01000     Kernel Mode Driver Fra Kernel        6/21/2013 7:29:37 PM  
+WfpLwf       WFP Lightweight Filter Kernel        7/13/2009 4:53:51 PM  
+WIMMount     WIMMount               File System   7/13/2009 4:17:57 PM  
+WmiAcpi      Microsoft Windows Mana Kernel        7/13/2009 4:19:16 PM  
+ws2ifsl      Windows Socket 2.0 Non Kernel        7/13/2009 4:55:01 PM  
+WudfPf       User Mode Driver Frame Kernel        7/25/2012 7:33:43 PM  
