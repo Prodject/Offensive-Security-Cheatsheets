@@ -837,7 +837,7 @@ interesting_files()
 echo -e "\e[00;33m### INTERESTING FILES ####################################\e[00m" 
 
 #checks to see if various files are installed
-echo -e "\e[00;31mUseful file locations:\e[00m" ; which nc 2>/dev/null ; which netcat 2>/dev/null ; which wget 2>/dev/null ; which nmap 2>/dev/null ; which gcc 2>/dev/null 
+echo -e "\e[00;31mUseful file locations:\e[00m" ; which awk php perl python ruby gcc cc vi vim nmap find netcat nc wget curl tftp ftp 2>/dev/null
 echo -e "\n" 
 
 #limited search for installed compilers

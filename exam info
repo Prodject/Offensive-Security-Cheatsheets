@@ -1,0 +1,89 @@
+exam info
+
+OSCP VPN Connectivity Pack [2]
+
+The following are your Exam VPN connection credentials:
+http://www.offensive-security.com/download.php?mdday=fb814b03e193d29492f68a253544ab3d&day=2018-07-26&purchase_id=352933&course=PWK&type=con&file=exam-connection.tar.bz2
+
+control panel
+https://10.70.70.70/oscpanel/examcpanel.php?md=89b4fd1eb606ce3f1187da48528808d7&pid=352933
+
+Username: OS-34418
+Password: dM5c8qAGPF4
+
+
+192.168.30.67
+192.168.30.53
+192.168.30.161
+192.168.30.111
+192.168.30.112
+192.168.30.55
+
+
+
+Target IP: 192.168.30.67
+--------------------------------------
+
+Points: 25
+Main Objectives:
+- Get shell access to machine and obtain local.txt file
+- Submit local.txt in control panel
+- Get root shell on machine and obtain proof.txt file
+- Submit proof.txt in control panel
+- Create at least two or four screenshots
+- Provide written step-by-step documentation of the exploits and resulting shells.
+
+Target IP: 192.168.30.161
+--------------------------------------
+
+Points: 10
+Main Objectives:
+- Get root shell on machine and obtain proof.txt file
+- Submit proof.txt in control panel
+- Create at least two screenshots
+- Provide written step-by-step documentation of the exploits and resulting shells.
+
+Target IP: 192.168.30.53
+--------------------------------------
+
+Points: 20
+Main Objectives:
+- Get shell access to machine and obtain local.txt file
+- Submit local.txt in control panel
+- Get root shell on machine and obtain proof.txt file
+- Submit proof.txt in control panel
+- Create at least two or four screenshots
+- Provide written step-by-step documentation of the exploits and resulting shells.
+
+Target IP: 192.168.30.112
+--------------------------------------
+
+Points: 25
+Main Objectives:
+- Get working exploit on the debugging machine
+- Get administrator access on the target machine and obtain proof.txt file
+- Submit proof.txt in control panel
+- Provide written detailed documentation of the exploit development process. Explain all the steps taken between reviewing the given proof of concept and finalizing your exploit code. Include your process for finding a valid return address, your discovery of bad characters, and any MSFvenom command(s) you have used to generate shellcode. Your report should contain informative screenshots of the debugger for each major step taken.
+
+Additional Information:
+You do not need to fuzz the server; a proof of concept can be found on your debugging machine desktop.
+
+Debugging Machine Information:
+We have provided a debugging machine available at 192.168.30.111. The debugging machine should only be used during the exploit development process. The debugging machine should not be any indication of the configuration of the target machine. The debugging machine and target machine are not identical. The only similarities between the two machines are the OS, Service Pack, and vulnerable application.
+
+You can log into the debugging machine using RDP. The username and password are provided below.
+Username: admin
+Password: lab
+
+Target IP: 192.168.30.55
+--------------------------------------
+
+Points: 20
+Main Objectives:
+- Get shell access to machine and obtain local.txt file
+- Submit local.txt in control panel
+- Get root shell on machine and obtain proof.txt file
+- Submit proof.txt in control panel
+- Create at least two or four screenshots
+- Provide written step-by-step documentation of the exploits and resulting shells.
+

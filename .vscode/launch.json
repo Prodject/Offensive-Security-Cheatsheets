@@ -11,6 +11,7 @@
             "stopOnEntry": true,
             "pythonPath": "${config:python.pythonPath}",
             "program": "${file}",
+            "args": [3128],
             "cwd": "${workspaceFolder}",
             "env": {},
             "envFile": "${workspaceFolder}/.env",
@@ -38,6 +39,7 @@
             "cwd": "",
             "console": "integratedTerminal",
             "env": {},
+            "args": ["3128"],
             "envFile": "${workspaceFolder}/.env",
             "debugOptions": []
         },

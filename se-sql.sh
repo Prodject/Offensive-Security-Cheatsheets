@@ -4,9 +4,11 @@ resultsFolder=/root/tools/$1
 
 username='sa'
 password='password'
-port=27900
+port=1433,3306
 
-nmap $1 -vv -Pn -p$port --script=ms-sql-info,ms-sql-config,ms-sql-dump-hashes --script-args=mssql.instance-port=$port,smsql.username-sa,mssql.password-sa -oN $resultsFolder/$1-nmap-sql
-nmap $1 -vv -Pn -p$port --script=ms-sql-tables --script-args=mssql.username=$username,mssql.password=$password,ms-sql-tables.maxtables='0' -oN $resultsFolder/$1-nmap-sql-tables-databases
-nmap $1 -vv -Pn -p$port --script=ms-sql-dump-hashes --script-args=mssql.username=$username,mssql.password=$password -oN $resultsFolder/$1-nmap-sql-dumped-hashes
-nmap $1 -vv -Pn -p$port --script=ms-sql-config --script-args=mssql.username=$username,mssql.password=$password -oN $resultsFolder/$1-nmap-sql-config
+# mssql
+nmap $1 -vv -Pn -p$port --script=ms-sql-info,ms-sql-config,ms-sql-tables,ms-sql-dump-hashes --script-args=mssql.instance-port=$port,mssql.username=$username,mssql.password=$username -oN $resultsFolder/$1-nmap-mssql
+
+# mysql
+nmap $1 -vv -Pn -p$port --script=mysql-audit,mysql-databases,mysql-dump-hashes,mysql-empty-password,mysql-enum,mysql-info,mysql-query,mysql-users,mysql-variables,mysql-vuln-cve2012-2122 --script-args=mysqluser=$username,mysqlpass=$password,mysql-audit.username=$username,mysql-audit.password=$password,username=$username,password=$password -oN $resultsFolder/$1-nmap-mysql
+

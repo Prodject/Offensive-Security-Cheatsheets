@@ -1,0 +1,90 @@
+# Nmap 7.60 scan initiated Tue Mar  6 21:53:46 2018 as: nmap -Pn -oG live-hosts --top-ports=200 10.11.1.1-254
+Host: 10.11.1.5 ()	Status: Up
+Host: 10.11.1.5 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 1025/open/tcp//NFS-or-IIS///, 3389/open/tcp//ms-wbt-server///	Ignored State: closed (195)
+Host: 10.11.1.7 ()	Status: Up
+Host: 10.11.1.7 ()	Ports: 3389/open/tcp//ms-wbt-server///	Ignored State: filtered (199)
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 25/closed/tcp//smtp///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 631/open/tcp//ipp///, 3306/open/tcp//mysql///	Ignored State: filtered (190)
+Host: 10.11.1.10 ()	Status: Up
+Host: 10.11.1.10 ()	Ports: 80/open/tcp//http///	Ignored State: filtered (199)
+Host: 10.11.1.13 ()	Status: Up
+Host: 10.11.1.13 ()	Ports: 21/open/tcp//ftp///, 80/open/tcp//http///, 3389/open/tcp//ms-wbt-server///	Ignored State: filtered (197)
+Host: 10.11.1.14 ()	Status: Up
+Host: 10.11.1.14 ()	Ports: 21/open/tcp//ftp///, 80/open/tcp//http///, 3389/open/tcp//ms-wbt-server///	Ignored State: filtered (197)
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 23/open/tcp//telnet///, 25/open/tcp//smtp///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 139/open/tcp//netbios-ssn///, 199/open/tcp//smux///, 443/open/tcp//https///, 995/open/tcp//pop3s///, 32768/open/tcp//filenet-tms///	Ignored State: closed (189)
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 110/open/tcp//pop3///, 139/open/tcp//netbios-ssn///, 143/open/tcp//imap///, 445/open/tcp//microsoft-ds///, 993/open/tcp//imaps///, 995/open/tcp//pop3s///	Ignored State: closed (192)
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 1025/open/tcp//NFS-or-IIS///, 1433/open/tcp//ms-sql-s///, 3389/open/tcp//ms-wbt-server///	Ignored State: closed (193)
+Host: 10.11.1.35 ()	Status: Up
+Host: 10.11.1.35 ()	Ports: 22/open/tcp//ssh///, 443/open/tcp//https///, 631/closed/tcp//ipp///	Ignored State: filtered (197)
+Host: 10.11.1.39 ()	Status: Up
+Host: 10.11.1.39 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 3306/open/tcp//mysql///	Ignored State: filtered (197)
+Host: 10.11.1.44 ()	Status: Up
+Host: 10.11.1.44 ()	Ports: 22/open/tcp//ssh///, 8000/open/tcp//http-alt///	Ignored State: closed (198)
+Host: 10.11.1.49 ()	Status: Up
+Host: 10.11.1.49 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 49155/open/tcp//unknown///	Ignored State: filtered (196)
+Host: 10.11.1.50 ()	Status: Up
+Host: 10.11.1.50 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 49155/open/tcp//unknown///	Ignored State: filtered (196)
+Host: 10.11.1.71 ()	Status: Up
+Host: 10.11.1.71 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (198)
+Host: 10.11.1.72 ()	Status: Up
+Host: 10.11.1.72 ()	Ports: 22/open/tcp//ssh///, 25/open/tcp//smtp///, 80/open/tcp//http///, 110/open/tcp//pop3///, 111/open/tcp//rpcbind///, 119/open/tcp//nntp///, 2049/open/tcp//nfs///	Ignored State: closed (193)
+Host: 10.11.1.73 ()	Status: Up
+Host: 10.11.1.73 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 554/open/tcp//rtsp///, 2869/open/tcp//icslap///, 3306/open/tcp//mysql///, 3389/open/tcp//ms-wbt-server///, 5357/open/tcp//wsdapi///, 5800/open/tcp//vnc-http///, 5900/open/tcp//vnc///, 8080/open/tcp//http-proxy///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///, 49157/open/tcp//unknown///	Ignored State: filtered (183)
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 25/open/tcp//smtp///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 139/open/tcp//netbios-ssn///, 143/open/tcp//imap///, 199/open/tcp//smux///, 443/open/tcp//https///, 3306/open/tcp//mysql///, 32768/open/tcp//filenet-tms///	Ignored State: closed (189)
+Host: 10.11.1.116 ()	Status: Up
+Host: 10.11.1.116 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 110/open/tcp//pop3///, 143/open/tcp//imap///, 3306/open/tcp//mysql///	Ignored State: closed (194)
+Host: 10.11.1.125 ()	Status: Up
+Host: 10.11.1.125 ()	Ports: 21/open/tcp//ftp///	Ignored State: filtered (199)
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 21/open/tcp//ftp///, 25/open/tcp//smtp///, 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 1025/open/tcp//NFS-or-IIS///, 1026/open/tcp//LSA-or-nterm///, 1029/open/tcp//ms-lsa///, 5800/open/tcp//vnc-http///, 5900/open/tcp//vnc///	Ignored State: closed (188)
+Host: 10.11.1.133 ()	Status: Up
+Host: 10.11.1.133 ()	Ports: 81/closed/tcp//hosts2-ns///, 902/closed/tcp//iss-realsecure///, 990/closed/tcp//ftps///, 1801/closed/tcp//msmq///	Ignored State: filtered (196)
+Host: 10.11.1.136 ()	Status: Up
+Host: 10.11.1.136 ()	Ports: 22/open/tcp//ssh///, 113/open/tcp//ident///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///	Ignored State: closed (196)
+Host: 10.11.1.141 ()	Status: Up
+Host: 10.11.1.141 ()	Ports: 22/open/tcp//ssh///, 111/open/tcp//rpcbind///, 10000/open/tcp//snet-sensor-mgmt///	Ignored State: closed (197)
+Host: 10.11.1.145 ()	Status: Up
+Host: 10.11.1.145 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 3389/open/tcp//ms-wbt-server///, 5357/open/tcp//wsdapi///, 8080/open/tcp//http-proxy///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///	Ignored State: filtered (192)
+Host: 10.11.1.146 ()	Status: Up
+Host: 10.11.1.146 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///	Ignored State: closed (198)
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 21/open/tcp//ftp///, 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 1030/open/tcp//iad1///, 1033/open/tcp//netinfo///, 1038/open/tcp//mtqp///, 1521/open/tcp//oracle///, 3389/open/tcp//ms-wbt-server///, 8080/open/tcp//http-proxy///	Ignored State: closed (188)
+Host: 10.11.1.209 ()	Status: Up
+Host: 10.11.1.209 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 8009/open/tcp//ajp13///, 8080/open/tcp//http-proxy///	Ignored State: closed (195)
+Host: 10.11.1.217 ()	Status: Up
+Host: 10.11.1.217 ()	Ports: 22/open/tcp//ssh///, 25/open/tcp//smtp///, 80/open/tcp//http///, 110/open/tcp//pop3///, 111/open/tcp//rpcbind///, 143/open/tcp//imap///, 443/open/tcp//https///, 993/open/tcp//imaps///, 995/open/tcp//pop3s///, 3306/open/tcp//mysql///	Ignored State: closed (190)
+Host: 10.11.1.218 ()	Status: Up
+Host: 10.11.1.218 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///	Ignored State: filtered (197)
+Host: 10.11.1.219 ()	Status: Up
+Host: 10.11.1.219 ()	Ports: 80/open/tcp//http///	Ignored State: filtered (199)
+Host: 10.11.1.220 ()	Status: Up
+Host: 10.11.1.220 ()	Ports: 21/open/tcp//ftp///, 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 593/open/tcp//http-rpc-epmap///, 636/open/tcp//ldapssl///, 3268/open/tcp//globalcatLDAP///, 3389/open/tcp//ms-wbt-server///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49157/open/tcp//unknown///	Ignored State: closed (183)
+Host: 10.11.1.221 ()	Status: Up
+Host: 10.11.1.221 ()	Ports: 53/open/tcp//domain///, 135/open/tcp//msrpc///, 3389/open/tcp//ms-wbt-server///, 5357/open/tcp//wsdapi///, 49155/open/tcp//unknown///	Ignored State: filtered (195)
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 3306/open/tcp//mysql///, 3389/open/tcp//ms-wbt-server///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///, 49157/open/tcp//unknown///	Ignored State: closed (187)
+Host: 10.11.1.226 ()	Status: Up
+Host: 10.11.1.226 ()	Ports: 21/open/tcp//ftp///, 3389/closed/tcp//ms-wbt-server///	Ignored State: filtered (198)
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 21/open/tcp//ftp///, 25/open/tcp//smtp///, 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 1025/open/tcp//NFS-or-IIS///, 1027/open/tcp//IIS///, 1028/open/tcp//unknown///, 5800/open/tcp//vnc-http///, 5900/open/tcp//vnc///	Ignored State: closed (188)
+Host: 10.11.1.229 ()	Status: Up
+Host: 10.11.1.229 ()	Ports: 21/open/tcp//ftp///, 23/closed/tcp//telnet///, 25/open/tcp//smtp///, 80/open/tcp//http///, 110/open/tcp//pop3///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 143/open/tcp//imap///, 443/closed/tcp//https///, 1025/open/tcp//NFS-or-IIS///, 2869/closed/tcp//icslap///, 3389/open/tcp//ms-wbt-server///	Ignored State: filtered (188)
+Host: 10.11.1.230 ()	Status: Up
+Host: 10.11.1.230 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 3389/open/tcp//ms-wbt-server///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///	Ignored State: closed (191)
+Host: 10.11.1.234 ()	Status: Up
+Host: 10.11.1.234 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (198)
+Host: 10.11.1.237 ()	Status: Up
+Host: 10.11.1.237 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 443/open/tcp//https///	Ignored State: closed (196)
+Host: 10.11.1.238 ()	Status: Up
+Host: 10.11.1.238 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 443/open/tcp//https///	Ignored State: closed (196)
+Host: 10.11.1.247 ()	Status: Up
+Host: 10.11.1.247 ()	Ports: 3389/open/tcp//ms-wbt-server///	Ignored State: filtered (199)
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: filtered (198)
+Host: 10.11.1.252 ()	Status: Up
+Host: 10.11.1.252 ()	Ports: 8000/open/tcp//http-alt///, 8888/open/tcp//sun-answerbook///	Ignored State: filtered (198)
+# Nmap done at Tue Mar  6 22:05:06 2018 -- 254 IP addresses (44 hosts up) scanned in 680.44 seconds
