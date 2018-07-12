@@ -1,9 +1,3 @@
----
-description: >-
-  A collection of offensive security cheatsheets, convenience functions, scripts
-  and other useful goodies to aid during pentest engagement and CTF challenges.
----
-
 # Offensive Security / PenTesting Cheatsheets
 
 ## Reconnaissance / Enumeration
