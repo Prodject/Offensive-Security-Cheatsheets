@@ -1,4 +1,6 @@
-# LNK Shortcut Code Execution
+# T1196: LNK Shortcut Code Execution
+
+{% embed data="{\"url\":\"https://attack.mitre.org/wiki/Technique/T1196\",\"type\":\"link\",\"title\":\"Control Panel Items - ATT&CK for Enterprise\"}" %}
 
 ## Execution
 
