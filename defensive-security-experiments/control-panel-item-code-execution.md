@@ -64,5 +64,5 @@ Note how rundll32 spawns a command prompt and establishes a connection back to t
 
 As always, sysmon logging can help find suspicious commandlines being executed in your environment:
 
-![](../.gitbook/assets/lnk-sysmon.png)
+![](../.gitbook/assets/lnk-sysmon%20%281%29.png)
 
