@@ -1,3 +1,9 @@
+---
+description: >-
+  Bypass application whitelisting software by utilizing tools that are built
+  into the operating system by default.
+---
+
 # regsvr32 aka squiblydoo
 
 ## Code
