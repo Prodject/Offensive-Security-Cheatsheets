@@ -27,11 +27,11 @@ listening on [any] 4444 ...
 
 We can see that the .cpl is simply a DLL with DllMain function exported:
 
-![](../../.gitbook/assets/lnk-dllmain%20%281%29.png)
+![](../.gitbook/assets/lnk-dllmain%20%281%29.png)
 
 A quick look at the dissasemble of the dll suggests rundll32 will be spawned and thread code injection may take place:
 
-![](../../.gitbook/assets/lnk-dissasm.png)
+![](../.gitbook/assets/lnk-dissasm.png)
 
 {% code-tabs %}
 {% code-tabs-item title="victim" %}
@@ -60,11 +60,11 @@ Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 
 Note how rundll32 spawns a command prompt and establishes a connection back to the attacker -  these are signs that should raise suspicion when you come across something like this in your environment:
 
-![](../../.gitbook/assets/lnk-connection.png)
+![](../.gitbook/assets/lnk-connection.png)
 
 As always, sysmon logging can help find suspicious commandlines being executed in your environment:
 
-![](../../.gitbook/assets/lnk-sysmon%20%281%29.png)
+![](../.gitbook/assets/lnk-sysmon%20%281%29.png)
 
 ## Bonus - Create Shortcut With PowerShell
 
