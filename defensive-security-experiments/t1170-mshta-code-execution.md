@@ -40,5 +40,17 @@ description: Application whitelist bypass technique
 
 ## Observations
 
+As expected, calc is spawned by mshta. Also, mhsta and cmd exit almost immediately after invoking the calc.exe.
+
 ![](../.gitbook/assets/mshta-calc.png)
+
+Look at sysmon for mshta establishing network connections:
+
+![](../.gitbook/assets/mshta-connection.png)
+
+Also, suspicious commandlines:
+
+![](../.gitbook/assets/mshta-commandline.png)
+
+
 
