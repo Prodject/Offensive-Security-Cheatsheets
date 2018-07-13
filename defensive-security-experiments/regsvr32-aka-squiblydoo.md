@@ -4,7 +4,9 @@ description: >-
   into the operating system by default.
 ---
 
-# regsvr32 aka squiblydoo
+# T1117: regsvr32 aka squiblydoo
+
+[https://attack.mitre.org/wiki/Technique/T1117](https://attack.mitre.org/wiki/Technique/T1117)
 
 ## Code
 
