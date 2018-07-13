@@ -1,4 +1,10 @@
-# T1196: LNK Shortcut Code Execution
+---
+description: >-
+  This technique allows executing arbitraty code and possibly bypass application
+  whitelisting.
+---
+
+# T1196: Control Panel Item Code Execution
 
 {% embed data="{\"url\":\"https://attack.mitre.org/wiki/Technique/T1196\",\"type\":\"link\",\"title\":\"Control Panel Items - ATT&CK for Enterprise\"}" %}
 
