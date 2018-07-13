@@ -6,7 +6,7 @@ description: >-
 
 # T1117: regsvr32 aka squiblydoo
 
-[https://attack.mitre.org/wiki/Technique/T1117](https://attack.mitre.org/wiki/Technique/T1117)
+{% embed data="{\"url\":\"https://attack.mitre.org/wiki/Technique/T1117\",\"type\":\"link\",\"title\":\"Regsvr32 - ATT&CK for Enterprise\",\"icon\":{\"type\":\"icon\",\"url\":\"https://attack.mitre.org/favicon.ico\",\"aspectRatio\":0}}" %}
 
 ## Code
 
