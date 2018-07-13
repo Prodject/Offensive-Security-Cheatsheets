@@ -52,7 +52,9 @@ Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 
 ## Observations
 
-Note how rundll32 spawns a command prompt and establishes a connection back to the attacker:
+Note how rundll32 spawns a command prompt and establishes a connection back to the attacker -  these are signs that should raise suspicion when you come across something like this in your environment:
 
 ![](../.gitbook/assets/lnk-connection.png)
+
+
 
