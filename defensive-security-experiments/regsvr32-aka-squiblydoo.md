@@ -1,12 +1,8 @@
 ---
-description: >-
-  Bypass application whitelisting software by utilizing tools that are built
-  into the operating system by default.
+description: regsvr32 (squiblydoo) code execution - bypass application whitelisting.
 ---
 
-# T1117: regsvr32 aka squiblydoo
-
-{% embed data="{\"url\":\"https://attack.mitre.org/wiki/Technique/T1117\",\"type\":\"link\",\"title\":\"Regsvr32 - ATT&CK for Enterprise\",\"icon\":{\"type\":\"icon\",\"url\":\"https://attack.mitre.org/favicon.ico\",\"aspectRatio\":0}}" %}
+# T1117: regsvr32
 
 ## Code
 
@@ -48,4 +44,6 @@ Note how regsvr32 process exits almost immediately. This means just by looking a
 Additionally, sysmon will show regsvr32 establishing a network connection:
 
 ![](../.gitbook/assets/regsvr32-network.png)
+
+{% embed data="{\"url\":\"https://attack.mitre.org/wiki/Technique/T1117\",\"type\":\"link\",\"title\":\"Regsvr32 - ATT&CK for Enterprise\",\"icon\":{\"type\":\"icon\",\"url\":\"https://attack.mitre.org/favicon.ico\",\"aspectRatio\":0}}" %}
 

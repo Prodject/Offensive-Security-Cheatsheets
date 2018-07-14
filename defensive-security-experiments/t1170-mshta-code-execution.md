@@ -1,10 +1,8 @@
 ---
-description: Application whitelist bypass technique
+description: MSHTA code execution - bypass application whitelisting.
 ---
 
-# T1170: MSHTA Code Execution
-
-{% embed data="{\"url\":\"https://attack.mitre.org/wiki/Technique/T1170\",\"type\":\"link\",\"title\":\"Mshta - ATT&CK for Enterprise\"}" %}
+# T1170: MSHTA
 
 ## Code
 
@@ -87,15 +85,5 @@ RunProgram()
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-
-
-
-
-
-
-
-
-
-
-
+{% embed data="{\"url\":\"https://attack.mitre.org/wiki/Technique/T1170\",\"type\":\"link\",\"title\":\"Mshta - ATT&CK for Enterprise\"}" %}
 

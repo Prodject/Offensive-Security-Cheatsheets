@@ -1,8 +1,8 @@
 ---
-description: Bypass application whitelisting.
+description: CSMTP code execution - bypass application whitelisting.
 ---
 
-# T1191: CSMTP Code Execution
+# T1191: CSMTP
 
 ## Code
 
